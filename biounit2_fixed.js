@@ -2867,6 +2867,40 @@ function checkBu1Q22(answer) {
         "❌ Wrong!<br><b>Correct answer: B. In fruits</b><br><b>Explanation:</b> The seeds of angiosperms are enclosed in fruits.";
     }
 }
+function checkBu1Q23(answer) {
+    if (answer === "C") {
+        document.getElementById("bu1lanswer23").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Monocotyledons have one cotyledon, or seed leaf.";
+    } else {
+        document.getElementById("bu1lanswer23").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: C. Single seed</b><br><b>Explanation:</b> Monocotyledons have one cotyledon.";
+    }
+}
+
+
+/* QUESTION 24 */
+function checkBu1Q24(answer) {
+    if (answer === "C") {
+        document.getElementById("bu1lanswer24").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Maize is an example of a monocotyledon.";
+    } else {
+        document.getElementById("bu1lanswer24").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: C. Maize</b><br><b>Explanation:</b> Maize is a monocotyledon.";
+    }
+}
+
+
+/* QUESTION 25 */
+function checkBu1Q25(answer) {
+    if (answer === "C") {
+        document.getElementById("bu1lanswer25").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Dicotyledons have two cotyledons, or seed leaves.";
+    } else {
+        document.getElementById("bu1lanswer25").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: C. Two seeds</b><br><b>Explanation:</b> Dicotyledons have two cotyledons.";
+    }
+}
+
 
 
         
