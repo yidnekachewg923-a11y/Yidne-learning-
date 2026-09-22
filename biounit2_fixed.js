@@ -2228,5 +2228,75 @@ function o25(answer) {
         "<b>Explanation:</b> Yeast helps dough rise and is also used in producing alcoholic drinks.";
     }
 }
+function bu1p4(){
+    document.body.innerHTML=`
+    <h1>Kingdom Plantae</h1>
+    <p>Plants make their own food through the process of <b>Photosynthesis</b><p>
+    <p>Plant have chloroplasts and chlorophyll pigments</p>
+    <p>Some are parasite</p>
+    <p>They do not move from one place to another</p>
+    <p>Their calls contains arigid cell wall make up of <b> cellulose</b></p>
+    <p>They reproduce asexually by vegetative propagation</p>
+    <h2>Plant</h2>
+    <ol>
+    <li>Bryophata</li>
+    <li>Pteridophyta</li>
+    <li>Spermatophyta</li>
+    </ol>
+    <h2>Spermatophyta</h2>
+    <ol>
+    <li>Gymospermae</li>
+    <li>Angiospermae</li>
+    </ol>
+    <h2>Angiospermae</h2>
+    <ol>
+    <li>Dicotyledon</li>
+    <li>Monocotyledon</li>
+    </ol>
+    <p>Most plants have<b>Waxy cuticle</b> that helps to prevent(mekelakel) drying out</p>
+    <p>Abzagnawun plant waxy cuticle mibal neger alewu yhim tikimu bizu wuha awutito endayderqu yredachewal</p>
+    <h2>Bryophyta(mosses and liverworts)</h2>
+    <p>They don't have true root system<p>
+    <p>So they can't get water under the soil</p>
+    <p>They are non-vascular(do not have xylem and phloem ) so can't transport food or water</p>
+    <p><b>Xylem</b> is dead(Yhin kal yazi) transport tissue in plants,that move <b>water and minerals</b> from soil to upper parts of the planet yhin metergom ayasfelgm</p>
+    <p><b>Phloem</b> is living (yhin kal yaz dead male yemote nw living malet be hiywot yale) transport tissue in plants that transport <b>food</b></p>
+    <p>Best example of bryophyta is <b>Mosses and liverworts</b></p>
+    <h2>Pteridophyta(Ferns)</h2>
+    <p>They have true leave, steam and root ayek ke bryophyta be min endemileyewu</p>
+    <p>They have vascular(xylem and phloem )</p>
+    <p>Yaha yelewum yhin gin guletum alewu</p>
+    <h2>Gymnospermae</h2>
+    <p>Their seed are not enclosed(meshefen) in fruits</p>
+    <p>They have Waxy cuticle</p>
+    <p>They can photosynthesis</p>
+    <p>They reproductive structure found in cone</p>
+    <p>Ye mirabut be cone wusxi balewu neger nw silez ye merabya botawu cone nw</p>
+    <h2>Angiospermae</h2>
+    <p>They have flowers as reproductive organs</p>
+    <p>Angiosperma flowers nw lemerabat mitekemewu</p>
+    <p>They have their seeds enclosed in fruit liyunetun eyayek ezih lay seedu be fruit yshefenal yha lay gn ayshefenim</p>
+    <h2>Monocotyledon</h2>
+    <ul>
+    <li><b>Single seed</b></li>
+    <li><b>leave are long and parallel</b></li>
+    <li><b>do not reach great size s</b></l>
+    <li><b>They are often wind pollinated</b></li>
+    <li><b>Examples Grass, maize (badala😂) and teff</b></li>
+    </ul>
+    <h2>Dicotyledon</h2>
+    <ul>
+    <li><b>Two seed</b></li>
+    <li><b>leave are broad(sefafi) and branching</b></li>
+    <li><b>reach great size s</b></l>
+    <li><b>They are often insect pollinated</b></li>
+    <li><b>Examples Pans, roses and beans</b></li>
+    </ul>
+    <h1>Kingdom animal Anibib dekmognal esu bicha mikeren Unitu alkoal🤗</h1>
+    <button onclick="bu1lq()">
+    quiz</button>
+    `;
+}
+
 
         
