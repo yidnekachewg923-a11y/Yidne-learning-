@@ -1,4 +1,4 @@
-function grade10(){
+function P10(){
   document.body.innerHTML=`
    <div id="biou">
           <h1>Welcome to Physics</h1>
