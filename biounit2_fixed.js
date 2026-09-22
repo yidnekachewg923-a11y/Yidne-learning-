@@ -536,7 +536,7 @@ function checkQ15(answer) {
         "<b>Explanation:</b> Classification makes the study of living things easier and more organized.";
     }
 }
-function bu1p2(){
+/*function bu1p2(){
     document.body.innerHTML=`
     <h1>ትምህርቱ እይከበደ እየሄደ ነው እና በደንብ ደጋግመክ አንብብ</h1>
     <p><b>Carolus Linnaeus(ካርሎስ ልነስ)</b> - who is also known as the father of taxonomy, introduced a taxonomic hierarchy of classification</p>
@@ -3078,4 +3078,4 @@ function checkQ4_25(answer) {
         "<b>Correct answer: C. Two seeds</b><br>" +
         "<b>Explanation:</b> Dicotyledons have two seeds and usually have broad, branching leaves.";
     }
-}
+}*/
