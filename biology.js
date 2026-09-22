@@ -3,7 +3,7 @@ function bio9(){
       <div id="biou">
           <h1>Welcome to biology</h1>
           <p>Before start learning please choose the unit</p>
-          <button onclick="Bunit1()">Unit One</button>
+          <button onclick="bunit1()">Unit One</button>
           <button onclick="Bunit2()">Unit Two</button>
           <button onclick="Bunit3()">Unit Three</button>
           <button onclick="Bunit4()">Unit Four</button>
