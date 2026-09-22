@@ -1334,8 +1334,6 @@ function i20(answer) {
         "<b>Explanation:</b> Monera contains prokaryotic organisms such as bacteria.";
     }
 }
-
-
 function i21(answer) {
     if (answer === "B") {
         document.getElementById("a21").innerHTML =
@@ -1343,4 +1341,65 @@ function i21(answer) {
         "<b>Explanation:</b> Monera includes Eubacteria and archaebacteria.";
     } else {
         document.getElementById("a21").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Eubacteria and archaebacteria</b><br>" +
+        "<b>Explanation:</b> The Monera group includes Eubacteria and archaebacteria.";
+    }
+}
+
+
+function i22(answer) {
+    if (answer === "C") {
+        document.getElementById("a22").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Cocci are bacteria with a spherical or round shape.";
+    } else {
+        document.getElementById("a22").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: C. Cocci</b><br>" +
+        "<b>Explanation:</b> Cocci are spherical-shaped bacteria.";
+    }
+}
+
+
+function i23(answer) {
+    if (answer === "B") {
+        document.getElementById("a23").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Bacilli are rod-shaped bacteria.";
+    } else {
+        document.getElementById("a23").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Bacilli</b><br>" +
+        "<b>Explanation:</b> Bacilli have a rod-like shape.";
+    }
+}
+
+
+function i24(answer) {
+    if (answer === "C") {
+        document.getElementById("a24").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Spirillum are spiral-shaped bacteria.";
+    } else {
+        document.getElementById("a24").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: C. Spirillum</b><br>" +
+        "<b>Explanation:</b> Spirillum bacteria have a spiral shape.";
+    }
+}
+
+
+function i25(answer) {
+    if (answer === "B") {
+        document.getElementById("a25").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Archaebacteria commonly live in extreme environments.";
+    } else {
+        document.getElementById("a25").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. In extreme environments</b><br>" +
+        "<b>Explanation:</b> Many archaebacteria live in extreme environments such as places with high temperature, high salt, or little oxygen.";
+    }
+}
         
