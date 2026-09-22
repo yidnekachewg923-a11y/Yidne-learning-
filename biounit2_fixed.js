@@ -1,4 +1,4 @@
-function Bunit2(){
+function bunit2(){
   document.body.innerHTML=`
       <h1>Unit Two</h1>
       <h2>Characteristics and classification of organisms</h2>
