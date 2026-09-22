@@ -1,5 +1,5 @@
 function bunit2(){
-  document.body.innerHTML=`
+  document.body.innerHTML= `
       <h1>Unit Two</h1>
       <h2>Characteristics and classification of organisms</h2>
       <h3>## Characteristics of all living things.</h3>
@@ -66,7 +66,7 @@ function bunit2(){
         </ol>
         <h1>እንዳይ በዛ እስካሁን በተማርከው ላይ quiz ልፈትንክ እና መልሱን  ስትጫን ትክክል ውይም ትክክል እንዳልሆንክ እዛው ይነግርካል እና ከመመለስህ በፈት በደንብ አሰላስል</h1>
         <button onclick="bquiz()">quiz</button>
-  `;
+`;
 }
 function bquiz(){
   document.body.innerHTML=`
