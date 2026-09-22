@@ -535,3 +535,4 @@ function checkQ15(answer) {
         "<b>Correct answer: B. To simplify their study</b><br>" +
         "<b>Explanation:</b> Classification makes the study of living things easier and more organized.";
     }
+}
