@@ -2297,6 +2297,576 @@ function bu1p4(){
     quiz</button>
     `;
 }
+function bu1lq() {
+    document.body.innerHTML = `
+
+<h2>Quiz: Kingdom Plantae</h2>
+
+<h3>1. How do plants make their own food?</h3>
+<input type="radio" name="q1" onclick="checkBu1Q1('A')">
+A. Respiration<br>
+<input type="radio" name="q1" onclick="checkBu1Q1('B')">
+B. Photosynthesis<br>
+<input type="radio" name="q1" onclick="checkBu1Q1('C')">
+C. Digestion<br>
+<input type="radio" name="q1" onclick="checkBu1Q1('D')">
+D. Fermentation<br>
+<p id="bu1lanswer1"></p>
+
+
+<h3>2. Which pigment is important for photosynthesis?</h3>
+<input type="radio" name="q2" onclick="checkBu1Q2('A')">
+A. Chlorophyll<br>
+<input type="radio" name="q2" onclick="checkBu1Q2('B')">
+B. Cellulose<br>
+<input type="radio" name="q2" onclick="checkBu1Q2('C')">
+C. Chitin<br>
+<input type="radio" name="q2" onclick="checkBu1Q2('D')">
+D. Xylem<br>
+<p id="bu1lanswer2"></p>
+
+
+<h3>3. Where does chlorophyll occur in plant cells?</h3>
+<input type="radio" name="q3" onclick="checkBu1Q3('A')">
+A. Chloroplasts<br>
+<input type="radio" name="q3" onclick="checkBu1Q3('B')">
+B. Xylem<br>
+<input type="radio" name="q3" onclick="checkBu1Q3('C')">
+C. Phloem<br>
+<input type="radio" name="q3" onclick="checkBu1Q3('D')">
+D. Cell wall<br>
+<p id="bu1lanswer3"></p>
+
+
+<h3>4. What is the main material in the rigid plant cell wall?</h3>
+<input type="radio" name="q4" onclick="checkBu1Q4('A')">
+A. Chitin<br>
+<input type="radio" name="q4" onclick="checkBu1Q4('B')">
+B. Cellulose<br>
+<input type="radio" name="q4" onclick="checkBu1Q4('C')">
+C. Protein<br>
+<input type="radio" name="q4" onclick="checkBu1Q4('D')">
+D. Chlorophyll<br>
+<p id="bu1lanswer4"></p>
+
+
+<h3>5. How do plants reproduce asexually according to the notes?</h3>
+<input type="radio" name="q5" onclick="checkBu1Q5('A')">
+A. By seeds only<br>
+<input type="radio" name="q5" onclick="checkBu1Q5('B')">
+B. By vegetative propagation<br>
+<input type="radio" name="q5" onclick="checkBu1Q5('C')">
+C. By flowers only<br>
+<input type="radio" name="q5" onclick="checkBu1Q5('D')">
+D. By cones only<br>
+<p id="bu1lanswer5"></p>
+
+
+<h3>6. Which of the following is a group of plants?</h3>
+<input type="radio" name="q6" onclick="checkBu1Q6('A')">
+A. Bryophyta<br>
+<input type="radio" name="q6" onclick="checkBu1Q6('B')">
+B. Monera<br>
+<input type="radio" name="q6" onclick="checkBu1Q6('C')">
+C. Fungi<br>
+<input type="radio" name="q6" onclick="checkBu1Q6('D')">
+D. Protozoans<br>
+<p id="bu1lanswer6"></p>
+
+
+<h3>7. Which is NOT one of the three plant groups listed in the notes?</h3>
+<input type="radio" name="q7" onclick="checkBu1Q7('A')">
+A. Bryophyta<br>
+<input type="radio" name="q7" onclick="checkBu1Q7('B')">
+B. Pteridophyta<br>
+<input type="radio" name="q7" onclick="checkBu1Q7('C')">
+C. Spermatophyta<br>
+<input type="radio" name="q7" onclick="checkBu1Q7('D')">
+D. Protozoa<br>
+<p id="bu1lanswer7"></p>
+
+
+<h3>8. Which two groups are included under Spermatophyta?</h3>
+<input type="radio" name="q8" onclick="checkBu1Q8('A')">
+A. Bryophyta and Pteridophyta<br>
+<input type="radio" name="q8" onclick="checkBu1Q8('B')">
+B. Gymnospermae and Angiospermae<br>
+<input type="radio" name="q8" onclick="checkBu1Q8('C')">
+C. Monocotyledon and Bryophyta<br>
+<input type="radio" name="q8" onclick="checkBu1Q8('D')">
+D. Ferns and mosses<br>
+<p id="bu1lanswer8"></p>
+
+
+<h3>9. Which two groups are included under Angiospermae?</h3>
+<input type="radio" name="q9" onclick="checkBu1Q9('A')">
+A. Dicotyledon and Monocotyledon<br>
+<input type="radio" name="q9" onclick="checkBu1Q9('B')">
+B. Gymnospermae and Bryophyta<br>
+<input type="radio" name="q9" onclick="checkBu1Q9('C')">
+C. Pteridophyta and Bryophyta<br>
+<input type="radio" name="q9" onclick="checkBu1Q9('D')">
+D. Mosses and liverworts<br>
+<p id="bu1lanswer9"></p>
+
+
+<h3>10. What is the function of the waxy cuticle?</h3>
+<input type="radio" name="q10" onclick="checkBu1Q10('A')">
+A. To prevent drying out<br>
+<input type="radio" name="q10" onclick="checkBu1Q10('B')">
+B. To produce seeds<br>
+<input type="radio" name="q10" onclick="checkBu1Q10('C')">
+C. To transport food<br>
+<input type="radio" name="q10" onclick="checkBu1Q10('D')">
+D. To produce flowers<br>
+<p id="bu1lanswer10"></p>
+
+
+<h3>11. Which plants are examples of Bryophyta?</h3>
+<input type="radio" name="q11" onclick="checkBu1Q11('A')">
+A. Mosses and liverworts<br>
+<input type="radio" name="q11" onclick="checkBu1Q11('B')">
+B. Maize and grass<br>
+<input type="radio" name="q11" onclick="checkBu1Q11('C')">
+C. Roses and beans<br>
+<input type="radio" name="q11" onclick="checkBu1Q11('D')">
+D. Ferns and maize<br>
+<p id="bu1lanswer11"></p>
+
+
+<h3>12. What do Bryophyta lack?</h3>
+<input type="radio" name="q12" onclick="checkBu1Q12('A')">
+A. True root system<br>
+<input type="radio" name="q12" onclick="checkBu1Q12('B')">
+B. Chlorophyll<br>
+<input type="radio" name="q12" onclick="checkBu1Q12('C')">
+C. Cell wall<br>
+<input type="radio" name="q12" onclick="checkBu1Q12('D')">
+D. Cells<br>
+<p id="bu1lanswer12"></p>
+
+
+<h3>13. Why can Bryophyta not transport water and food effectively?</h3>
+<input type="radio" name="q13" onclick="checkBu1Q13('A')">
+A. They do not have vascular tissue<br>
+<input type="radio" name="q13" onclick="checkBu1Q13('B')">
+B. They have too many roots<br>
+<input type="radio" name="q13" onclick="checkBu1Q13('C')">
+C. They have flowers<br>
+<input type="radio" name="q13" onclick="checkBu1Q13('D')">
+D. They have fruits<br>
+<p id="bu1lanswer13"></p>
+
+
+<h3>14. What does xylem transport?</h3>
+<input type="radio" name="q14" onclick="checkBu1Q14('A')">
+A. Food only<br>
+<input type="radio" name="q14" onclick="checkBu1Q14('B')">
+B. Water and minerals<br>
+<input type="radio" name="q14" onclick="checkBu1Q14('C')">
+C. Seeds<br>
+<input type="radio" name="q14" onclick="checkBu1Q14('D')">
+D. Flowers<br>
+<p id="bu1lanswer14"></p>
+
+
+<h3>15. What does phloem transport?</h3>
+<input type="radio" name="q15" onclick="checkBu1Q15('A')">
+A. Food<br>
+<input type="radio" name="q15" onclick="checkBu1Q15('B')">
+B. Water only<br>
+<input type="radio" name="q15" onclick="checkBu1Q15('C')">
+C. Minerals only<br>
+<input type="radio" name="q15" onclick="checkBu1Q15('D')">
+D. Seeds<br>
+<p id="bu1lanswer15"></p>
+
+
+<h3>16. Which plants are examples of Pteridophyta?</h3>
+<input type="radio" name="q16" onclick="checkBu1Q16('A')">
+A. Ferns<br>
+<input type="radio" name="q16" onclick="checkBu1Q16('B')">
+B. Mosses<br>
+<input type="radio" name="q16" onclick="checkBu1Q16('C')">
+C. Liverworts<br>
+<input type="radio" name="q16" onclick="checkBu1Q16('D')">
+D. Roses<br>
+<p id="bu1lanswer16"></p>
+
+
+<h3>17. What do Pteridophyta have that Bryophyta do not have?</h3>
+<input type="radio" name="q17" onclick="checkBu1Q17('A')">
+A. True roots, stems and leaves<br>
+<input type="radio" name="q17" onclick="checkBu1Q17('B')">
+B. No cells<br>
+<input type="radio" name="q17" onclick="checkBu1Q17('C')">
+C. No vascular tissue<br>
+<input type="radio" name="q17" onclick="checkBu1Q17('D')">
+D. No leaves<br>
+<p id="bu1lanswer17"></p>
+
+
+<h3>18. What type of tissue do Pteridophyta have?</h3>
+<input type="radio" name="q18" onclick="checkBu1Q18('A')">
+A. Non-vascular tissue<br>
+<input type="radio" name="q18" onclick="checkBu1Q18('B')">
+B. Vascular tissue<br>
+<input type="radio" name="q18" onclick="checkBu1Q18('C')">
+C. Muscle tissue<br>
+<input type="radio" name="q18" onclick="checkBu1Q18('D')">
+D. Nervous tissue<br>
+<p id="bu1lanswer18"></p>
+
+
+<h3>19. What is special about the seeds of Gymnospermae?</h3>
+<input type="radio" name="q19" onclick="checkBu1Q19('A')">
+A. They are enclosed in fruits<br>
+<input type="radio" name="q19" onclick="checkBu1Q19('B')">
+B. They are not enclosed in fruits<br>
+<input type="radio" name="q19" onclick="checkBu1Q19('C')">
+C. They have no seeds<br>
+<input type="radio" name="q19" onclick="checkBu1Q19('D')">
+D. They are inside flowers<br>
+<p id="bu1lanswer19"></p>
+
+
+<h3>20. Where are the reproductive structures of Gymnospermae found?</h3>
+<input type="radio" name="q20" onclick="checkBu1Q20('A')">
+A. In flowers<br>
+<input type="radio" name="q20" onclick="checkBu1Q20('B')">
+B. In cones<br>
+<input type="radio" name="q20" onclick="checkBu1Q20('C')">
+C. In roots<br>
+<input type="radio" name="q20" onclick="checkBu1Q20('D')">
+D. In fruits<br>
+<p id="bu1lanswer20"></p>
+
+
+<h3>21. What are the reproductive organs of Angiospermae?</h3>
+<input type="radio" name="q21" onclick="checkBu1Q21('A')">
+A. Flowers<br>
+<input type="radio" name="q21" onclick="checkBu1Q21('B')">
+B. Roots<br>
+<input type="radio" name="q21" onclick="checkBu1Q21('C')">
+C. Cones<br>
+<input type="radio" name="q21" onclick="checkBu1Q21('D')">
+D. Leaves<br>
+<p id="bu1lanswer21"></p>
+
+
+<h3>22. Where are the seeds of Angiospermae enclosed?</h3>
+<input type="radio" name="q22" onclick="checkBu1Q22('A')">
+A. In cones<br>
+<input type="radio" name="q22" onclick="checkBu1Q22('B')">
+B. In fruits<br>
+<input type="radio" name="q22" onclick="checkBu1Q22('C')">
+C. In roots<br>
+<input type="radio" name="q22" onclick="checkBu1Q22('D')">
+D. In stems<br>
+<p id="bu1lanswer22"></p>
+
+
+<h3>23. Which is a characteristic of Monocotyledon?</h3>
+<input type="radio" name="q23" onclick="checkBu1Q23('A')">
+A. Two seeds<br>
+<input type="radio" name="q23" onclick="checkBu1Q23('B')">
+B. Broad and branching leaves<br>
+<input type="radio" name="q23" onclick="checkBu1Q23('C')">
+C. Single seed<br>
+<input type="radio" name="q23" onclick="checkBu1Q23('D')">
+D. Often insect pollinated<br>
+<p id="bu1lanswer23"></p>
+
+
+<h3>24. Which of the following is an example of a Monocotyledon?</h3>
+<input type="radio" name="q24" onclick="checkBu1Q24('A')">
+A. Rose<br>
+<input type="radio" name="q24" onclick="checkBu1Q24('B')">
+B. Bean<br>
+<input type="radio" name="q24" onclick="checkBu1Q24('C')">
+C. Maize<br>
+<input type="radio" name="q24" onclick="checkBu1Q24('D')">
+D. Pea<br>
+<p id="bu1lanswer24"></p>
+
+
+<h3>25. Which of the following is a characteristic of Dicotyledon?</h3>
+<input type="radio" name="q25" onclick="checkBu1Q25('A')">
+A. Single seed<br>
+<input type="radio" name="q25" onclick="checkBu1Q25('B')">
+B. Long and parallel leaves<br>
+<input type="radio" name="q25" onclick="checkBu1Q25('C')">
+C. Two seeds<br>
+<input type="radio" name="q25" onclick="checkBu1Q25('D')">
+D. Often wind pollinated<br>
+<p id="bu1lanswer25"></p>
+
+`;
+}
+
+
+/* QUESTION 1 */
+function checkBu1Q1(answer) {
+    if (answer === "B") {
+        document.getElementById("bu1lanswer1").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Plants make their own food through photosynthesis.";
+    } else {
+        document.getElementById("bu1lanswer1").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: B. Photosynthesis</b><br><b>Explanation:</b> Plants make their own food through photosynthesis.";
+    }
+}
+
+
+/* QUESTION 2 */
+function checkBu1Q2(answer) {
+    if (answer === "A") {
+        document.getElementById("bu1lanswer2").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Chlorophyll is the important pigment for photosynthesis.";
+    } else {
+        document.getElementById("bu1lanswer2").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: A. Chlorophyll</b><br><b>Explanation:</b> Chlorophyll helps plants absorb light energy.";
+    }
+}
+
+
+/* QUESTION 3 */
+function checkBu1Q3(answer) {
+    if (answer === "A") {
+        document.getElementById("bu1lanswer3").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Chlorophyll is found in chloroplasts.";
+    } else {
+        document.getElementById("bu1lanswer3").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: A. Chloroplasts</b><br><b>Explanation:</b> Chloroplasts contain chlorophyll.";
+    }
+}
+
+
+/* QUESTION 4 */
+function checkBu1Q4(answer) {
+    if (answer === "B") {
+        document.getElementById("bu1lanswer4").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Cellulose is the main material of the plant cell wall.";
+    } else {
+        document.getElementById("bu1lanswer4").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: B. Cellulose</b><br><b>Explanation:</b> Plant cell walls are mainly made of cellulose.";
+    }
+}
+
+
+/* QUESTION 5 */
+function checkBu1Q5(answer) {
+    if (answer === "B") {
+        document.getElementById("bu1lanswer5").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Vegetative propagation is a form of asexual reproduction.";
+    } else {
+        document.getElementById("bu1lanswer5").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: B. By vegetative propagation</b><br><b>Explanation:</b> Plants can reproduce asexually through vegetative propagation.";
+    }
+}
+
+
+/* QUESTION 6 */
+function checkBu1Q6(answer) {
+    if (answer === "A") {
+        document.getElementById("bu1lanswer6").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Bryophyta is a group of plants.";
+    } else {
+        document.getElementById("bu1lanswer6").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: A. Bryophyta</b><br><b>Explanation:</b> Bryophyta includes mosses and liverworts.";
+    }
+}
+
+
+/* QUESTION 7 */
+function checkBu1Q7(answer) {
+    if (answer === "D") {
+        document.getElementById("bu1lanswer7").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Protozoa is not one of the three plant groups.";
+    } else {
+        document.getElementById("bu1lanswer7").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: D. Protozoa</b><br><b>Explanation:</b> The groups are Bryophyta, Pteridophyta and Spermatophyta.";
+    }
+}
+
+
+/* QUESTION 8 */
+function checkBu1Q8(answer) {
+    if (answer === "B") {
+        document.getElementById("bu1lanswer8").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Spermatophyta includes Gymnospermae and Angiospermae.";
+    } else {
+        document.getElementById("bu1lanswer8").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: B. Gymnospermae and Angiospermae</b><br><b>Explanation:</b> These are the two groups under Spermatophyta.";
+    }
+}
+
+
+/* QUESTION 9 */
+function checkBu1Q9(answer) {
+    if (answer === "A") {
+        document.getElementById("bu1lanswer9").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Angiospermae includes Dicotyledon and Monocotyledon.";
+    } else {
+        document.getElementById("bu1lanswer9").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: A. Dicotyledon and Monocotyledon</b><br><b>Explanation:</b> Angiospermae is divided into these two groups.";
+    }
+}
+
+
+/* QUESTION 10 */
+function checkBu1Q10(answer) {
+    if (answer === "A") {
+        document.getElementById("bu1lanswer10").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> The waxy cuticle helps prevent water loss.";
+    } else {
+        document.getElementById("bu1lanswer10").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: A. To prevent drying out</b><br><b>Explanation:</b> The waxy cuticle reduces water loss.";
+    }
+}
+
+
+/* QUESTION 11 */
+function checkBu1Q11(answer) {
+    if (answer === "A") {
+        document.getElementById("bu1lanswer11").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Bryophyta includes mosses and liverworts.";
+    } else {
+        document.getElementById("bu1lanswer11").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: A. Mosses and liverworts</b><br><b>Explanation:</b> Mosses and liverworts are examples of Bryophyta.";
+    }
+}
+
+
+/* QUESTION 12 */
+function checkBu1Q12(answer) {
+    if (answer === "A") {
+        document.getElementById("bu1lanswer12").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Bryophyta lack true roots.";
+    } else {
+        document.getElementById("bu1lanswer12").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: A. True root system</b><br><b>Explanation:</b> Bryophyta do not have true roots.";
+    }
+}
+
+
+/* QUESTION 13 */
+function checkBu1Q13(answer) {
+    if (answer === "A") {
+        document.getElementById("bu1lanswer13").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Bryophyta do not have vascular tissue.";
+    } else {
+        document.getElementById("bu1lanswer13").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: A. They do not have vascular tissue</b><br><b>Explanation:</b> They lack xylem and phloem.";
+    }
+}
+
+
+/* QUESTION 14 */
+function checkBu1Q14(answer) {
+    if (answer === "B") {
+        document.getElementById("bu1lanswer14").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Xylem transports water and minerals.";
+    } else {
+        document.getElementById("bu1lanswer14").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: B. Water and minerals</b><br><b>Explanation:</b> Xylem transports water and minerals through the plant.";
+    }
+}
+
+
+/* QUESTION 15 */
+function checkBu1Q15(answer) {
+    if (answer === "A") {
+        document.getElementById("bu1lanswer15").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Phloem transports food through the plant.";
+    } else {
+        document.getElementById("bu1lanswer15").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: A. Food</b><br><b>Explanation:</b> Phloem transports food.";
+    }
+}
+
+
+/* QUESTION 16 */
+function checkBu1Q16(answer) {
+    if (answer === "A") {
+        document.getElementById("bu1lanswer16").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Ferns are examples of Pteridophyta.";
+    } else {
+        document.getElementById("bu1lanswer16").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: A. Ferns</b><br><b>Explanation:</b> Ferns belong to Pteridophyta.";
+    }
+}
+
+
+/* QUESTION 17 */
+function checkBu1Q17(answer) {
+    if (answer === "A") {
+        document.getElementById("bu1lanswer17").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Pteridophyta have true roots, stems and leaves.";
+    } else {
+        document.getElementById("bu1lanswer17").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: A. True roots, stems and leaves</b><br><b>Explanation:</b> Pteridophyta have true roots, stems and leaves.";
+    }
+}
+
+
+/* QUESTION 18 */
+function checkBu1Q18(answer) {
+    if (answer === "B") {
+        document.getElementById("bu1lanswer18").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Pteridophyta have vascular tissue.";
+    } else {
+        document.getElementById("bu1lanswer18").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: B. Vascular tissue</b><br><b>Explanation:</b> Their vascular tissue contains xylem and phloem.";
+    }
+}
+
+
+/* QUESTION 19 */
+function checkBu1Q19(answer) {
+    if (answer === "B") {
+        document.getElementById("bu1lanswer19").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Gymnospermae have seeds that are not enclosed in fruits.";
+    } else {
+        document.getElementById("bu1lanswer19").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: B. They are not enclosed in fruits</b><br><b>Explanation:</b> Gymnosperm seeds are not enclosed in fruits.";
+    }
+}
+
+
+/* QUESTION 20 */
+function checkBu1Q20(answer) {
+    if (answer === "B") {
+        document.getElementById("bu1lanswer20").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Gymnospermae have reproductive structures in cones.";
+    } else {
+        document.getElementById("bu1lanswer20").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: B. In cones</b><br><b>Explanation:</b> Gymnosperm reproductive structures are found in cones.";
+    }
+}
+
+
+/* QUESTION 21 */
+function checkBu1Q21(answer) {
+    if (answer === "A") {
+        document.getElementById("bu1lanswer21").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Flowers are the reproductive organs of Angiospermae.";
+    } else {
+        document.getElementById("bu1lanswer21").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: A. Flowers</b><br><b>Explanation:</b> Angiosperms produce flowers.";
+    }
+}
+
+
+/* QUESTION 22 */
+function checkBu1Q22(answer) {
+    if (answer === "B") {
+        document.getElementById("bu1lanswer22").innerHTML =
+        "✅ Correct!<br><b>Explanation:</b> Angiosperm seeds are enclosed in fruits.";
+    } else {
+        document.getElementById("bu1lanswer22").innerHTML =
+        "❌ Wrong!<br><b>Correct answer: B. In fruits</b><br><b>Explanation:</b> The seeds of angiosperms are enclosed in fruits.";
+    }
+}
 
 
         
