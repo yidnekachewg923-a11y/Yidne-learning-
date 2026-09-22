@@ -536,3 +536,93 @@ function checkQ15(answer) {
         "<b>Explanation:</b> Classification makes the study of living things easier and more organized.";
     }
 }
+function bu1p2(){
+    document.body.innerHTML=`
+    <h1>ትምህርቱ እይከበደ እየሄደ ነው እና በደንብ ደጋግመክ አንብብ</h1>
+    <p><b>Carolus Linnaeus(ካርሎስ ልነስ)</b> - who is also known as the father of taxonomy, introduced a taxonomic hierarchy of classification</p>
+    <p><b>Carolus Linnaeus</b> mibal sewu nw lemejemerya gize yhin taxonomy mibalewun hasab yametawu leza nw ye taxonomy father woym abat mibalewu</p>
+    <p><b>Taxonomic hierarchy</b> is the process of arranging various organisms in to successive level of biological classification either in a decreasing or an increasing order</p>
+    <p> yeteleyayu organismochn ke  tilk wode tinsh woym ke tinsh wode tilik arrange woym maderajet nw</p>
+    <p>Organismoch be Taxonomic hierarchy ke tliku wode tinshu classify sideregi endez yhonal</p>
+    <p><b>Kingdom - Phylum -Class - Order -  Family - Genus  - Species</b></p>
+    <p> ☝️☝️ Kidemeteketelun bedend yaz endatresa degagimek shemidid entrance fetena lay betamir mayker nw kidimeteketelu</p>
+    <p><b>Eukaryotic cells</b> - cells with nucleus and membrane bound organelles</p>
+    <p> Eukaryotic cells ye cell aynetoch sihonu nucleus alachewu</p>
+    <p><b>Prokaryotic cells</b> - are unicellular organisms with out nucleus</p>
+    <p>Prokaryotic cells demo ye cell aynetoch sihonu neger gin nucleus yelachewum</p>
+    <p><b> Species</b> are a group of organisms that can reproduce to produce Fertile offspring</p>
+    <h1>Relevance of classification<h1>
+    <h2>Applications of classification are:(የ classifications ጥቅሞች)-</h2>
+    <ol>
+    <li>
+    <b>Identification of harmful and beneficial organism - ጠቃምና ጉጂ የሆኑ organismochn ለመለየት</b></li>
+    <li>
+    <b> Reduce energy and time to study organism - organismochn ለማጥናት ጉልበትና ግዜን ለመቀነስ</b></li>
+    <li>
+    <b>Help us understand the r/ship between organisms - በ organismoch መካከል ያለውን ዝምድና እንድንረዳ ይረዳናል</b></li>
+    </ol>
+    <h2>Carl Linnaeus system of nomenclature(የ Linnaeus የስም አሰጣጥ)</h2>
+    <p> Carl Linnaeus le organismoch sim yemisetewu be hulet negeroch nw</p>
+    <ol>
+    <li>
+    The first name represents the <b>genus</b> - የመጀመርያ ስሙ የምያመለክተው genusun ነው</li>
+    <li> The second name represents <b>Species</b> - ሁለተኛ ስሙ የምያመለክተው Species ነው</>
+    </ol>
+    <h1> ስለዝህ የ አንድ organism ስም ስንጺፊ Genus + species ነው</h1>
+    <p>In writing scientific name the first letter of the name of the genus is capitalized letter</>
+    <p> scientific name sinitsif Ye genus name ye mejemerya fidel capital mehon alebet</p>
+    <p> ye species name be small ne minjemrewum minchersewum</>
+    <p><Example</b> Ye human being scientific name <b>Homo sapiens</b> Nw</p>
+    <p><b>Homo - genus name የመጀመርያ ፊደል Capital nw</b></p>
+    <p><b>sapiens - species name ሙሉው small ነው</b></p>
+    <p>Scientific name be eji sitsaf ketach masimer alebn</p>
+    <p><b>Dichotomous keys</b> are used to identify(መለየት) unfamiliar (ማይመሳሰሉ) organisms</b></p>
+    <P><b>Poikilothermic</b> - cold blooded</p>
+    <p><b>Homeothermic</b> - warm blooded</p>
+    <h2>What is kingdom?(kingdom sound aydelem😂😂)</h2>
+    <p>Kingdom is the largest taxon astwosk ke tilku wode tinsh sinikefafil</p>
+    <h2>There are five kingdoms namely:-</h2>
+    <ol>
+    <li>
+    <b>Monera(bacteria)</b></li>
+    <li><b>Protista</b></li>
+    <li><b>Plantae</b></li>
+    <li><b>Animalia</b></li>
+    </ol>
+    <h2>Kingdom Monera(bacteria)</h2>
+    <p>Monera inclues(yakatital) Eubacteria and archaebacteria</p>
+    <p><b>Eubacteria(true bacteria)</b> have(alewu) strong (tenkara) cell walls</p>
+    <p>Some Eubacteria are heterotrophs(ይህንን ቃል ረሳክ ሀ 🫢🫢 የራሳቸውን ምግብ ማዘጋጀት ምችሉ Example Plant)</p>
+    <p>some Eubacteria make energy by chemical reaction called <b>Chemosynthesis</b></p>
+    <p>And and Eubacteria energy miyagegnut be chemosynthesis nw</p>
+    <p>Eubacteria live in most habitats,<b>Except</b> the most extreme</p>
+    <p>Eubacteria be abizagnwu bota ygegnalu ke mokat bota besiteker</p>
+    <h3>Type of bacteria and their shape</h3>
+    <ul>
+    <li><b>Cocci :- Spherical(ክብ) shape</b></li>
+    <li><b> Bacilli :- Rod(መንገድ) shape</b></li>
+    <li><b> Spirillum:- Spiral shape</b></li>
+    </ul>
+    <P><b>Archae bacteria</b> - have different cell wall than bacteria(Eubacteria)</p>
+    <p>Archea make their own food</p>
+    <p>They are chemosynthesis and photosynthesis</p>
+    <p>Archea live in extreme(በጣም ሙቀት) environment</p>
+    <p>The environment which the archea live often(ብዙ ግዜ) have no oxygen</p>
+    <p>Bizu gize archea yeminorewu oxygen belelebet bota nw</p>
+    <h2>There are two ways bacteria disease harm people</h2>
+    <p>Be hulet mengeb nw bacteria ye sewu lijin migodawu</p>
+    <p><b>1. The growth of bacteria can interface with the normal function of body tissues</b></p>
+    <p><b>2. The bacteria can release(meliqeq) a toxic(merzama) that directly attack(maxiqat) the host</b></p>
+    <p><b>Kelay yalutn hulet negeroch shemidid</b></p>
+    <h2>Chracteris(ባህር) of Monera</h2>
+    <p><b>1. They are prokaryotic unicellular organisms</b></p>
+    <p><b>2. lack(የላቸውም) nucleus or any membrane bound organelles</b></p>
+    <p><b>3. Most have arigid(በጣም ጠንካራ) cell wall</b></p>
+    <p><b>4. Autotrophs and heterotrophs</b></p>
+    <p><b>5. Known as decomposers</b></p>
+    <h1> Ke beza Endat resa Est yetemarnewun quiz</h1>
+    <button onclick="bq2()">quiz</button>
+    
+ 
+`;
+}
