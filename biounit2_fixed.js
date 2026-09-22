@@ -64,7 +64,7 @@ function Bunit2(){
         <li><b> To bring order out/remove chaos or confusion</b> - almegibabatin lemasiwoged </li>
         <li><b>To try to understand how life originated</b>- ye hiywot meneshan lemawok nw</li>
         </ol>
-        <h1>እንዳይ በዛ እስካሁን በተማርከው ላይ quiz ልፈትንክ እና መልሱን  ስትጫን ትክክል ውይም ትክክል እንዳልሆንክ እዛው ይነግርካል እና ከመመለስህ በፈት በደንብ አሰላስል</h1>
+        <h4>እንዳይ በዛ እስካሁን በተማርከው ላይ quiz ልፈትንክ እና መልሱን  ስትጫን ትክክል ውይም ትክክል እንዳልሆንክ እዛው ይነግርካል እና ከመመለስህ በፈት በደንብ አሰላስል</h4>
         <button onclick="bquiz()">quiz</button>
 `;
 }
