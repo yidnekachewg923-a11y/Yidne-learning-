@@ -68,7 +68,7 @@ function bunit2(){
         <button onclick="bquiz()">quiz</button>
 `;
 }
-/*function bquiz(){
+function bquiz(){
   document.body.innerHTML=`
   <h2>Quiz: Characteristics and Classification of Organisms</h2>
 
