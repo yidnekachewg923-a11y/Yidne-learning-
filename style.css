@@ -44,3 +44,11 @@ button:hover {
 #bio{
     font-size: 20px;
 }
+#geo{
+    width: 200px;
+    height: auto;
+}
+#per{
+    width: 200px;
+    height: auto;
+}
