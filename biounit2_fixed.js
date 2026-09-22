@@ -1452,4 +1452,741 @@ function bu1p3(){
     <button onclick="bq3()">quiz</button>
     `;
 }
+function bq3(){
+    document.body.innerHTML=`
+    <h2>Quiz: Kingdom Protista and Kingdom Fungi</h2>
+
+<h3>1. Which kingdom is described as one of the most diverse kingdoms?</h3>
+
+<input type="radio" name="q1" onclick="o1('A')">
+A. Kingdom Monera<br>
+
+<input type="radio" name="q1" onclick="o1('B')">
+B. Kingdom Protista<br>
+
+<input type="radio" name="q1" onclick="o1('C')">
+C. Kingdom Fungi<br>
+
+<input type="radio" name="q1" onclick="o1('D')">
+D. Kingdom Plantae<br>
+
+<p id="an1"></p>
+
+
+<h3>2. Are all organisms in Kingdom Protista eukaryotes?</h3>
+
+<input type="radio" name="q2" onclick="o2('A')">
+A. Yes<br>
+
+<input type="radio" name="q2" onclick="o2('B')">
+B. No<br>
+
+<input type="radio" name="q2" onclick="o2('C')">
+C. Only algae<br>
+
+<input type="radio" name="q2" onclick="o2('D')">
+D. Only protozoans<br>
+
+<p id="an2"></p>
+
+
+<h3>3. Which of the following can be found in Kingdom Protista?</h3>
+
+<input type="radio" name="q3" onclick="o3('A')">
+A. Only unicellular organisms<br>
+
+<input type="radio" name="q3" onclick="o3('B')">
+B. Only multicellular organisms<br>
+
+<input type="radio" name="q3" onclick="o3('C')">
+C. Both unicellular and multicellular organisms<br>
+
+<input type="radio" name="q3" onclick="o3('D')">
+D. Neither<br>
+
+<p id="an3"></p>
+
+
+<h3>4. Which of the following is an example of a protozoan?</h3>
+
+<input type="radio" name="q4" onclick="o4('A')">
+A. Paramecium<br>
+
+<input type="radio" name="q4" onclick="o4('B')">
+B. Mushroom<br>
+
+<input type="radio" name="q4" onclick="o4('C')">
+C. Yeast<br>
+
+<input type="radio" name="q4" onclick="o4('D')">
+D. Mould<br>
+
+<p id="an4"></p>
+
+
+<h3>5. Protozoans are similar to animals because they are generally:</h3>
+
+<input type="radio" name="q5" onclick="o5('A')">
+A. Like animals<br>
+
+<input type="radio" name="q5" onclick="o5('B')">
+B. Like plants<br>
+
+<input type="radio" name="q5" onclick="o5('C')">
+C. Like fungi<br>
+
+<input type="radio" name="q5" onclick="o5('D')">
+D. Like bacteria<br>
+
+<p id="an5"></p>
+
+
+<h3>6. Algae are similar to plants because they:</h3>
+
+<input type="radio" name="q6" onclick="o6('A')">
+A. Have roots, stems and leaves<br>
+
+<input type="radio" name="q6" onclick="o6('B')">
+B. Perform photosynthesis<br>
+
+<input type="radio" name="q6" onclick="o6('C')">
+C. Are fungi<br>
+
+<input type="radio" name="q6" onclick="o6('D')">
+D. Are parasites<br>
+
+<p id="an6"></p>
+
+
+<h3>7. Algae are:</h3>
+
+<input type="radio" name="q7" onclick="o7('A')">
+A. Heterotrophic<br>
+
+<input type="radio" name="q7" onclick="o7('B')">
+B. Autotrophic<br>
+
+<input type="radio" name="q7" onclick="o7('C')">
+C. Parasitic only<br>
+
+<input type="radio" name="q7" onclick="o7('D')">
+D. Decomposers only<br>
+
+<p id="an7"></p>
+
+
+<h3>8. Which organism uses cilia for movement?</h3>
+
+<input type="radio" name="q8" onclick="o8('A')">
+A. Amoeba<br>
+
+<input type="radio" name="q8" onclick="o8('B')">
+B. Euglena<br>
+
+<input type="radio" name="q8" onclick="o8('C')">
+C. Paramecium<br>
+
+<input type="radio" name="q8" onclick="o8('D')">
+D. Yeast<br>
+
+<p id="an8"></p>
+
+
+<h3>9. Which organism uses pseudopodia for movement?</h3>
+
+<input type="radio" name="q9" onclick="o9('A')">
+A. Paramecium<br>
+
+<input type="radio" name="q9" onclick="o9('B')">
+B. Amoeba<br>
+
+<input type="radio" name="q9" onclick="o9('C')">
+C. Euglena<br>
+
+<input type="radio" name="q9" onclick="o9('D')">
+D. Mushroom<br>
+
+<p id="an9"></p>
+
+
+<h3>10. Which organism uses a flagellum for movement?</h3>
+
+<input type="radio" name="q10" onclick="o10('A')">
+A. Amoeba<br>
+
+<input type="radio" name="q10" onclick="o10('B')">
+B. Paramecium<br>
+
+<input type="radio" name="q10" onclick="o10('C')">
+C. Euglena<br>
+
+<input type="radio" name="q10" onclick="o10('D')">
+D. Mould<br>
+
+<p id="an10"></p>
+
+
+<h3>11. Fungi are:</h3>
+
+<input type="radio" name="q11" onclick="o11('A')">
+A. Prokaryotic organisms<br>
+
+<input type="radio" name="q11" onclick="o11('B')">
+B. Eukaryotic organisms<br>
+
+<input type="radio" name="q11" onclick="o11('C')">
+C. Viruses<br>
+
+<input type="radio" name="q11" onclick="o11('D')">
+D. Bacteria<br>
+
+<p id="an11"></p>
+
+
+<h3>12. Which of the following is an example of a unicellular fungus?</h3>
+
+<input type="radio" name="q12" onclick="o12('A')">
+A. Mushroom<br>
+
+<input type="radio" name="q12" onclick="o12('B')">
+B. Mould<br>
+
+<input type="radio" name="q12" onclick="o12('C')">
+C. Yeast<br>
+
+<input type="radio" name="q12" onclick="o12('D')">
+D. Algae<br>
+
+<p id="an12"></p>
+
+
+<h3>13. Which of the following are examples of multicellular fungi?</h3>
+
+<input type="radio" name="q13" onclick="o13('A')">
+A. Yeast only<br>
+
+<input type="radio" name="q13" onclick="o13('B')">
+B. Moulds and mushrooms<br>
+
+<input type="radio" name="q13" onclick="o13('C')">
+C. Amoeba and Euglena<br>
+
+<input type="radio" name="q13" onclick="o13('D')">
+D. Paramecium and Amoeba<br>
+
+<p id="an13"></p>
+
+
+<h3>14. What is the long, slender, thread-like structure of fungi called?</h3>
+
+<input type="radio" name="q14" onclick="o14('A')">
+A. Cilia<br>
+
+<input type="radio" name="q14" onclick="o14('B')">
+B. Hyphae<br>
+
+<input type="radio" name="q14" onclick="o14('C')">
+C. Flagellum<br>
+
+<input type="radio" name="q14" onclick="o14('D')">
+D. Pseudopodia<br>
+
+<p id="an14"></p>
+
+
+<h3>15. What is an important role of hyphae?</h3>
+
+<input type="radio" name="q15" onclick="o15('A')">
+A. They help fungi obtain food<br>
+
+<input type="radio" name="q15" onclick="o15('B')">
+B. They help fungi make seeds<br>
+
+<input type="radio" name="q15" onclick="o15('C')">
+C. They make fungi animals<br>
+
+<input type="radio" name="q15" onclick="o15('D')">
+D. They give fungi roots<br>
+
+<p id="an15"></p>
+
+
+<h3>16. What is the fungal cell wall made up of?</h3>
+
+<input type="radio" name="q16" onclick="o16('A')">
+A. Cellulose only<br>
+
+<input type="radio" name="q16" onclick="o16('B')">
+B. Chitin and polysaccharide<br>
+
+<input type="radio" name="q16" onclick="o16('C')">
+C. Protein only<br>
+
+<input type="radio" name="q16" onclick="o16('D')">
+D. Lipids only<br>
+
+<p id="an16"></p>
+
+
+<h3>17. What are saprophytes?</h3>
+
+<input type="radio" name="q17" onclick="o17('A')">
+A. Organisms that get food from dead substances<br>
+
+<input type="radio" name="q17" onclick="o17('B')">
+B. Organisms that make their own food<br>
+
+<input type="radio" name="q17" onclick="o17('C')">
+C. Organisms that eat only living animals<br>
+
+<input type="radio" name="q17" onclick="o17('D')">
+D. Organisms that perform photosynthesis<br>
+
+<p id="an17"></p>
+
+
+<h3>18. Why are fungi called heterotrophs?</h3>
+
+<input type="radio" name="q18" onclick="o18('A')">
+A. Because they make their own food<br>
+
+<input type="radio" name="q18" onclick="o18('B')">
+B. Because they cannot make their own food<br>
+
+<input type="radio" name="q18" onclick="o18('C')">
+C. Because they are plants<br>
+
+<input type="radio" name="q18" onclick="o18('D')">
+D. Because they are bacteria<br>
+
+<p id="an18"></p>
+
+
+<h3>19. What process do fungi use to obtain nutrients?</h3>
+
+<input type="radio" name="q19" onclick="o19('A')">
+A. Photosynthesis<br>
+
+<input type="radio" name="q19" onclick="o19('B')">
+B. Extracellular digestion<br>
+
+<input type="radio" name="q19" onclick="o19('C')">
+C. Respiration only<br>
+
+<input type="radio" name="q19" onclick="o19('D')">
+D. Internal digestion only<br>
+
+<p id="an19"></p>
+
+
+<h3>20. What do parasite fungi absorb nutrients from?</h3>
+
+<input type="radio" name="q20" onclick="o20('A')">
+A. Dead substances only<br>
+
+<input type="radio" name="q20" onclick="o20('B')">
+B. Living hosts<br>
+
+<input type="radio" name="q20" onclick="o20('C')">
+C. Sunlight<br>
+
+<input type="radio" name="q20" onclick="o20('D')">
+D. Water only<br>
+
+<p id="an20"></p>
+
+
+<h3>21. What happens in mutualism?</h3>
+
+<input type="radio" name="q21" onclick="o21('A')">
+A. Both organisms benefit<br>
+
+<input type="radio" name="q21" onclick="o21('B')">
+B. One organism benefits and the other is harmed<br>
+
+<input type="radio" name="q21" onclick="o21('C')">
+C. Neither organism benefits<br>
+
+<input type="radio" name="q21" onclick="o21('D')">
+D. Both organisms are harmed<br>
+
+<p id="an21"></p>
+
+
+<h3>22. What is parasitism?</h3>
+
+<input type="radio" name="q22" onclick="o22('A')">
+A. Both species benefit<br>
+
+<input type="radio" name="q22" onclick="o22('B')">
+B. One organism benefits at the expense of the other<br>
+
+<input type="radio" name="q22" onclick="o22('C')">
+C. Neither organism benefits<br>
+
+<input type="radio" name="q22" onclick="o22('D')">
+D. Both organisms make their own food<br>
+
+<p id="an22"></p>
+
+
+<h3>23. What is the symbiotic relationship between fungi and green algae called?</h3>
+
+<input type="radio" name="q23" onclick="o23('A')">
+A. Mycorrhizae<br>
+
+<input type="radio" name="q23" onclick="o23('B')">
+B. Lichens<br>
+
+<input type="radio" name="q23" onclick="o23('C')">
+C. Hyphae<br>
+
+<input type="radio" name="q23" onclick="o23('D')">
+D. Saprophytes<br>
+
+<p id="an23"></p>
+
+
+<h3>24. What is the symbiotic relationship between fungi and plant roots called?</h3>
+
+<input type="radio" name="q24" onclick="o24('A')">
+A. Lichens<br>
+
+<input type="radio" name="q24" onclick="o24('B')">
+B. Mycorrhizae<br>
+
+<input type="radio" name="q24" onclick="o24('C')">
+C. Parasitism<br>
+
+<input type="radio" name="q24" onclick="o24('D')">
+D. Saprophytes<br>
+
+<p id="an24"></p>
+
+
+<h3>25. What is yeast used for?</h3>
+
+<input type="radio" name="q25" onclick="o25('A')">
+A. Making injera rise and making alcohol<br>
+
+<input type="radio" name="q25" onclick="o25('B')">
+B. Making plant roots<br>
+
+<input type="radio" name="q25" onclick="o25('C')">
+C. Making bacteria<br>
+
+<input type="radio" name="q25" onclick="o25('D')">
+D. Making sunlight<br>
+
+<p id="an25"></p>
+<button onclick="bu1p4()">Next lesson</button>
+    `;
+}
+function o1(answer) {
+    if (answer === "B") {
+        document.getElementById("an1").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Kingdom Protista is one of the most diverse kingdoms.";
+    } else {
+        document.getElementById("an1").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Kingdom Protista</b><br>" +
+        "<b>Explanation:</b> Kingdom Protista is one of the most diverse kingdoms.";
+    }
+}
+
+
+function o2(answer) {
+    if (answer === "A") {
+        document.getElementById("an2").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> All organisms in Kingdom Protista are eukaryotes.";
+    } else {
+        document.getElementById("an2").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: A. Yes</b><br>" +
+        "<b>Explanation:</b> Protists are eukaryotic organisms.";
+    }
+}
+
+
+function o3(answer) {
+    if (answer === "C") {
+        document.getElementById("an3").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Protista includes both unicellular and multicellular organisms.";
+    } else {
+        document.getElementById("an3").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: C. Both unicellular and multicellular organisms</b><br>" +
+        "<b>Explanation:</b> Protists can be single-celled or multicellular.";
+    }
+}
+
+
+function o4(answer) {
+    if (answer === "A") {
+        document.getElementById("an4").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Paramecium is an example of a protozoan.";
+    } else {
+        document.getElementById("an4").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: A. Paramecium</b><br>" +
+        "<b>Explanation:</b> Paramecium is a protozoan found in Kingdom Protista.";
+    }
+}
+
+
+function o5(answer) {
+    if (answer === "A") {
+        document.getElementById("an5").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Protozoans are animal-like protists.";
+    } else {
+        document.getElementById("an5").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: A. Like animals</b><br>" +
+        "<b>Explanation:</b> Protozoans are described as being similar to animals.";
+    }
+}
+
+
+function o6(answer) {
+    if (answer === "B") {
+        document.getElementById("an6").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Algae perform photosynthesis and are autotrophic.";
+    } else {
+        document.getElementById("an6").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Perform photosynthesis</b><br>" +
+        "<b>Explanation:</b> Algae are plant-like protists that perform photosynthesis.";
+    }
+}
+
+
+function o7(answer) {
+    if (answer === "B") {
+        document.getElementById("an7").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Algae are autotrophic because they can make their own food by photosynthesis.";
+    } else {
+        document.getElementById("an7").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Autotrophic</b><br>" +
+        "<b>Explanation:</b> Algae can make their own food through photosynthesis.";
+    }
+}
+
+
+function o8(answer) {
+    if (answer === "C") {
+        document.getElementById("an8").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Paramecium uses cilia for movement.";
+    } else {
+        document.getElementById("an8").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: C. Paramecium</b><br>" +
+        "<b>Explanation:</b> Paramecium moves using many small hair-like structures called cilia.";
+    }
+}
+
+
+function o9(answer) {
+    if (answer === "B") {
+        document.getElementById("an9").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Amoeba uses pseudopodia for movement.";
+    } else {
+        document.getElementById("an9").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Amoeba</b><br>" +
+        "<b>Explanation:</b> Amoeba moves by extending temporary structures called pseudopodia.";
+    }
+}
+
+
+function o10(answer) {
+    if (answer === "C") {
+        document.getElementById("an10").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Euglena uses a flagellum for movement.";
+    } else {
+        document.getElementById("an10").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: C. Euglena</b><br>" +
+        "<b>Explanation:</b> Euglena uses a flagellum to move.";
+    }
+}
+
+
+function o11(answer) {
+    if (answer === "B") {
+        document.getElementById("an11").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Fungi are eukaryotic organisms.";
+    } else {
+        document.getElementById("an11").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Eukaryotic organisms</b><br>" +
+        "<b>Explanation:</b> Fungi have eukaryotic cells.";
+    }
+}
+
+
+function o12(answer) {
+    if (answer === "C") {
+        document.getElementById("an12").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Yeast is an example of unicellular fungi.";
+    } else {
+        document.getElementById("an12").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: C. Yeast</b><br>" +
+        "<b>Explanation:</b> Yeast is a unicellular fungus.";
+    }
+}
+
+
+function o13(answer) {
+    if (answer === "B") {
+        document.getElementById("an13").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Moulds and mushrooms are examples of multicellular fungi.";
+    } else {
+        document.getElementById("an13").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Moulds and mushrooms</b><br>" +
+        "<b>Explanation:</b> Moulds and mushrooms are multicellular fungi.";
+    }
+}
+
+
+function o14(answer) {
+    if (answer === "B") {
+        document.getElementById("an14").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Hyphae are long, slender, thread-like structures found in fungi.";
+    } else {
+        document.getElementById("a14").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Hyphae</b><br>" +
+        "<b>Explanation:</b> The body of many fungi consists of long, slender, thread-like structures called hyphae.";
+    }
+}
+
+
+function o15(answer) {
+    if (answer === "A") {
+        document.getElementById("an15").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Hyphae play an important role in helping fungi obtain food.";
+    } else {
+        document.getElementById("an15").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: A. They help fungi obtain food</b><br>" +
+        "<b>Explanation:</b> Hyphae help fungi absorb nutrients from their surroundings.";
+    }
+}
+
+
+function o16(answer) {
+    if (answer === "B") {
+        document.getElementById("an16").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Fungal cell walls are made up of chitin and polysaccharide.";
+    } else {
+        document.getElementById("an16").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Chitin and polysaccharide</b><br>" +
+        "<b>Explanation:</b> The cell wall of fungi contains chitin and polysaccharide.";
+    }
+}
+
+
+function o17(answer) {
+    if (answer === "A") {
+        document.getElementById("an17").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Saprophytes get their food from dead substances.";
+    } else {
+        document.getElementById("an17").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: A. Organisms that get food from dead substances</b><br>" +
+        "<b>Explanation:</b> Saprophytic fungi obtain nutrients from dead organic material.";
+    }
+}
+
+
+function o18(answer) {
+    if (answer === "B") {
+        document.getElementById("an18").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Fungi cannot make their own food, so they are heterotrophs.";
+    } else {
+        document.getElementById("an18").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Because they cannot make their own food</b><br>" +
+        "<b>Explanation:</b> Fungi depend on other sources for their nutrients.";
+    }
+}
+
+
+function o19(answer) {
+    if (answer === "B") {
+        document.getElementById("an19").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Fungi use extracellular digestion to obtain nutrients.";
+    } else {
+        document.getElementById("an19").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Extracellular digestion</b><br>" +
+        "<b>Explanation:</b> Fungi digest food outside their bodies and then absorb the nutrients.";
+    }
+}
+
+
+function o20(answer) {
+    if (answer === "B") {
+        document.getElementById("an20").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Parasitic fungi absorb nutrients from living hosts.";
+    } else {
+        document.getElementById("an20").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Living hosts</b><br>" +
+        "<b>Explanation:</b> Parasitic fungi obtain nutrients from the cells of living organisms.";
+    }
+}
+
+
+function o21(answer) {
+    if (answer === "A") {
+        document.getElementById("an21").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> In mutualism, both organisms benefit from the relationship.";
+    } else {
+        document.getElementById("an21").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: A. Both organisms benefit</b><br>" +
+        "<b>Explanation:</b> Mutualism is a symbiotic relationship in which both species benefit.";
+    }
+}
+
+
+function o22(answer) {
+    if (answer === "B") {
+        document.getElementById("an22").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> In parasitism, one organism benefits at the expense of the other.";
+    } else {
+        document.getElementById("an22").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. One organism benefits at the expense of the other</b><br>" +
+        "<b>Explanation:</b> The parasite benefits while the host is harmed.";
+    }
+}
+
         
