@@ -2188,5 +2188,45 @@ function o22(answer) {
         "<b>Explanation:</b> The parasite benefits while the host is harmed.";
     }
 }
+function o23(answer) {
+    if (answer === "B") {
+        document.getElementById("an23").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> The symbiotic relationship between fungi and green algae is called lichens.";
+    } else {
+        document.getElementById("an23").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Lichens</b><br>" +
+        "<b>Explanation:</b> Lichens are formed by a symbiotic relationship involving fungi and green algae.";
+    }
+}
+
+
+function o24(answer) {
+    if (answer === "B") {
+        document.getElementById("an24").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> The symbiotic relationship between fungi and plant roots is called mycorrhizae.";
+    } else {
+        document.getElementById("an24").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Mycorrhizae</b><br>" +
+        "<b>Explanation:</b> Mycorrhizae is the symbiotic relationship between fungi and plant roots.";
+    }
+}
+
+
+function o25(answer) {
+    if (answer === "A") {
+        document.getElementById("an25").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Yeast is used to make injera rise and to make alcoholic drinks such as tej, tella, and beer.";
+    } else {
+        document.getElementById("an25").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: A. Making injera rise and making alcohol</b><br>" +
+        "<b>Explanation:</b> Yeast helps dough rise and is also used in producing alcoholic drinks.";
+    }
+}
 
         
