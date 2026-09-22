@@ -2292,7 +2292,7 @@ function bu1p4(){
     <li><b>They are often insect pollinated</b></li>
     <li><b>Examples Pans, roses and beans</b></li>
     </ul>
-    <h1>Kingdom animal Anibib dekmognal esu bicha mikeren Unitu alkoal🤗</h1>
+    <h4>Kingdom animal Anibib dekmognal esu bicha mikeren Unitu alkoal🤗</h4>
     <button onclick="bu1lq()">
     quiz</button>
     `;
