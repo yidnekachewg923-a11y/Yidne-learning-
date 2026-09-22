@@ -1402,4 +1402,54 @@ function i25(answer) {
         "<b>Explanation:</b> Many archaebacteria live in extreme environments such as places with high temperature, high salt, or little oxygen.";
     }
 }
+function bu1p3(){
+    document.body.innerHTML=`
+    <h1>Kingdom Protista<h1>
+    <p>Most diverse organism of all the kingdom</p>
+    <p>Ke hulum kingdom betam bebizat migegnut protista nachewu</p>
+    <p>There are single celled(unicellular) and multi cellular</p>
+    <p>Some can make their own food,some can not make their own food</p>
+    <p><b>They all are Eukaryotes</b></p>
+    <h2>Example</h2>
+    <h3>1.protozoans - like ende animal nw gn and cell bicha nw yalewu</h3>
+    <h3>2.Algae - like ende plant nw gn root,stems,and leaves yelewum</h3>
+    <p>Algae are photosynthesis and autotrophic</p>
+    <h1>Examples of protista</h1>
+    <ol>
+    <li><b>Paramecium - used Cilia For movement</b></li>
+    <li><b> Amoeba - used Pseudopoda for movement</b></li>
+    <li><b>Euglena - used Flagellum for movement</b></li>
+    </ol>
+    <h1>Kingdom Fungi</h1>
+    <p>Fungi are Eukaryotic organisms Examples Moulds and Mushrooms</p>
+    <p>Unicellular fungi example Yeast, Multicellular fungi Moulds and mushrooms</p>
+    <p>Their body consist of long, slender thread -like structure called <b>Hyphae</b></p>
+    <p>Hyphae play an important role in how they obtain food</p>
+    <p>Ye hyphae tikimu migib lemagignet nw</p>
+    <p>Fungi cell wall made up of <b> Chitin and Polysaccharide</b></p>
+    <p>Ye fung cell wall yetegenebawu ke chitin ena ke polysaccharide nw</p>
+    <p><b>Saprophytes</b> get get food from dead(kemotu) substance</p>
+    <p>Endatresa saprophyte ye fungi examples nw</p>
+    <p><b>Decomposer Fungi</b> get food from break down and absorb from non living organics material</p>
+    <p>Fungi can not make their own food therefore(selezh) they are Heterotrophs</p>
+    <p>Fungi uses a procces called <b> Extracellular digetion</b> to obtain nutrients</p>
+    <p>Fungi yerasachewun migib mazegajet aychlum silez migeb lemagignet extracellular digestion mibalewun hidet nw miyaregut</p>
+    <p>fungi can live with as <b>Parasites(xigegna) or mulualists(xiqimegna)</b></p>
+    <p>Parasite fungi absorb nutrients from the cell of living hosts</p>
+    <p>Parasite fungi nutrient miyagegnut beza keminorubet living things nw ahun lemisale sewu wust minor kehone ke sewu living cell nw nutrient miyagegnut</p>
+    <p><b>Mutualistic fungi</b> also absorb nutrients from host organisms,but they also benefit the host so both(huletum) are benefitial</p>
+    <p>Mutualistic fungi mibalut ahunm nutrients miyagegnut ke minorubet organism nw gn huletum oarganismum fungiwum tetekaminachewu</p>
+    <p>Gn parasite fungi lay fungi bicha nw tetekami organisimu minim tikim ayagegnem Hasabu gebtokal haa 😂😂</p>
+    <p> Fungi can also live as symbionts</p>
+    <p>Symbionts malet and lay malet</p>
+    <p><b>Fungi ena green algae and lay sihonu</b> - symbiosisu <b>Lichens</b> Mibalewu</p>
+    <p><b>Fungi ena plant root and lay sihonu</b> - symbiosisu <b>Mycorrhizae</b> Mibalewu</p>
+    <p><b>1.Mutualism</b> is the symbiotic relationship in which both(huletum) species benefit(tetekam)</p>
+    <p><b>2. Parasitism</b> is the symbiotic relationship in which one organisms benefits at expense of other</p>
+    <p>Parasitism malet andu andu aly bemedegef tetekami mihonbet menged nw andu bicha nw tetekami mihonewu</p>
+    <p><b>Symbiosis</b> is permanent(maykoarexi) close relationship between two or more organisms</p>
+    <p><b>Yeast</b> is very important fungus used to making injera rise,and allows us(legna) to make alcohol(tej,tella,beer)</p>
+    <button onclick="bq3()">quiz</button>
+    `;
+}
         
