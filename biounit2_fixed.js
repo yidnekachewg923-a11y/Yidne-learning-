@@ -626,3 +626,721 @@ function bu1p2(){
  
 `;
 }
+function bq2(){
+    document.body.innerHTML=`
+    <h2>Quiz: Characteristics and Classification of Organisms</h2>
+
+<h3>1. Who is known as the father of taxonomy?</h3>
+
+<input type="radio" name="q1" onclick="i1('A')">
+A. Charles Darwin<br>
+
+<input type="radio" name="q1" onclick="i1('B')">
+B. Carolus Linnaeus<br>
+
+<input type="radio" name="q1" onclick="i1('C')">
+C. Gregor Mendel<br>
+
+<input type="radio" name="q1" onclick="checkQ1('D')">
+D. Aristotle<br>
+
+<p id="a1"></p>
+
+
+<h3>2. What did Carolus Linnaeus introduce?</h3>
+
+<input type="radio" name="q2" onclick="i2('A')">
+A. Cell theory<br>
+
+<input type="radio" name="q2" onclick="i2('B')">
+B. Taxonomic hierarchy of classification<br>
+
+<input type="radio" name="q2" onclick="i2('C')">
+C. Theory of evolution<br>
+
+<input type="radio" name="q2" onclick="i2('D')">
+D. DNA structure<br>
+
+<p id="a2"></p>
+
+
+<h3>3. What is taxonomic hierarchy?</h3>
+
+<input type="radio" name="q3" onclick="i3('A')">
+A. Arranging organisms into successive levels of classification<br>
+
+<input type="radio" name="q3" onclick="i3('B')">
+B. Making organisms reproduce<br>
+
+<input type="radio" name="q3" onclick="i3('C')">
+C. Studying only bacteria<br>
+
+<input type="radio" name="q3" onclick="i3('D')">
+D. Changing the shape of organisms<br>
+
+<p id="a3"></p>
+
+
+<h3>4. Which is the correct taxonomic hierarchy from largest to smallest?</h3>
+
+<input type="radio" name="q4" onclick="i4('A')">
+A. Species - Genus - Family - Order - Class - Phylum - Kingdom<br>
+
+<input type="radio" name="q4" onclick="i4('B')">
+B. Kingdom - Phylum - Class - Order - Family - Genus - Species<br>
+
+<input type="radio" name="q4" onclick="i4('C')">
+C. Kingdom - Class - Phylum - Family - Genus - Order - Species<br>
+
+<input type="radio" name="q4" onclick="i4('D')">
+D. Genus - Species - Family - Order - Kingdom - Class - Phylum<br>
+
+<p id="a4"></p>
+
+
+<h3>5. What are eukaryotic cells?</h3>
+
+<input type="radio" name="q5" onclick="i5('A')">
+A. Cells without a nucleus<br>
+
+<input type="radio" name="q5" onclick="i5('B')">
+B. Cells with a nucleus and membrane-bound organelles<br>
+
+<input type="radio" name="q5" onclick="i5('C')">
+C. Only bacterial cells<br>
+
+<input type="radio" name="q5" onclick="i5('D')">
+D. Cells without DNA<br>
+
+<p id="a5"></p>
+
+
+<h3>6. What is a characteristic of prokaryotic cells?</h3>
+
+<input type="radio" name="q6" onclick="i6('A')">
+A. They have a nucleus<br>
+
+<input type="radio" name="q6" onclick="i6('B')">
+B. They have many membrane-bound organelles<br>
+
+<input type="radio" name="q6" onclick="i6('C')">
+C. They do not have a nucleus<br>
+
+<input type="radio" name="q6" onclick="i6('D')">
+D. They are always multicellular<br>
+
+<p id="a6"></p>
+
+
+<h3>7. What is a species?</h3>
+
+<input type="radio" name="q7" onclick="i7('A')">
+A. The largest taxon<br>
+
+<input type="radio" name="q7" onclick="i7('B')">
+B. A group of organisms that can reproduce and produce fertile offspring<br>
+
+<input type="radio" name="q7" onclick="i7('C')">
+C. A type of cell<br>
+
+<input type="radio" name="q7" onclick="i7('D')">
+D. A type of bacteria<br>
+
+<p id="a7"></p>
+
+
+<h3>8. Which is an application of classification?</h3>
+
+<input type="radio" name="q8" onclick="i8('A')">
+A. Identifying harmful and beneficial organisms<br>
+
+<input type="radio" name="q8" onclick="i8('B')">
+B. Increasing the size of organisms<br>
+
+<input type="radio" name="q8" onclick="i8('C')">
+C. Changing organisms into bacteria<br>
+
+<input type="radio" name="q8" onclick="i8('D')">
+D. Removing all organisms<br>
+
+<p id="a8"></p>
+
+
+<h3>9. How does classification help when studying organisms?</h3>
+
+<input type="radio" name="q9" onclick="i9('A')">
+A. It increases the time needed for study<br>
+
+<input type="radio" name="q9" onclick="i9('B')">
+B. It reduces energy and time needed to study organisms<br>
+
+<input type="radio" name="q9" onclick="i9('C')">
+C. It removes organisms<br>
+
+<input type="radio" name="q9" onclick="i9('D')">
+D. It stops organisms from reproducing<br>
+
+<p id="a9"></p>
+
+
+<h3>10. Classification helps us understand the ______ between organisms.</h3>
+
+<input type="radio" name="q10" onclick="i10('A')">
+A. Temperature<br>
+
+<input type="radio" name="q10" onclick="i10('B')">
+B. Relationship<br>
+
+<input type="radio" name="q10" onclick="i10('C')">
+C. Weight<br>
+
+<input type="radio" name="q10" onclick="i10('D')">
+D. Color<br>
+
+<p id="a10"></p>
+
+
+<h3>11. How many names are used in the scientific name of an organism?</h3>
+
+<input type="radio" name="q11" onclick="i11('A')">
+A. One<br>
+
+<input type="radio" name="q11" onclick="i11('B')">
+B. Two<br>
+
+<input type="radio" name="q11" onclick="i11('C')">
+C. Three<br>
+
+<input type="radio" name="q11" onclick="i11('D')">
+D. Four<br>
+
+<p id="a11"></p>
+
+
+<h3>12. The first name in a scientific name represents the:</h3>
+
+<input type="radio" name="q12" onclick="i12('A')">
+A. Species<br>
+
+<input type="radio" name="q12" onclick="i12('B')">
+B. Family<br>
+
+<input type="radio" name="q12" onclick="i12('C')">
+C. Genus<br>
+
+<input type="radio" name="q12" onclick="i12('D')">
+D. Kingdom<br>
+
+<p id="a12"></p>
+
+
+<h3>13. The second name in a scientific name represents the:</h3>
+
+<input type="radio" name="q13" onclick="i13('A')">
+A. Species<br>
+
+<input type="radio" name="q13" onclick="i13('B')">
+B. Genus<br>
+
+<input type="radio" name="q13" onclick="i13('C')">
+C. Family<br>
+
+<input type="radio" name="q13" onclick="i13('D')">
+D. Class<br>
+
+<p id="a13"></p>
+
+
+<h3>14. Which part of a scientific name begins with a capital letter?</h3>
+
+<input type="radio" name="q14" onclick="i14('A')">
+A. The species name<br>
+
+<input type="radio" name="q14" onclick="i14('B')">
+B. The genus name<br>
+
+<input type="radio" name="q14" onclick="i14('C')">
+C. Both names<br>
+
+<input type="radio" name="q14" onclick="i14('D')">
+D. Neither name<br>
+
+<p id="a14"></p>
+
+
+<h3>15. What is the scientific name of a human being?</h3>
+
+<input type="radio" name="q15" onclick="i15('A')">
+A. Homo sapiens<br>
+
+<input type="radio" name="q15" onclick="i15('B')">
+B. Sapiens Homo<br>
+
+<input type="radio" name="q15" onclick="i15('C')">
+C. Homo human<br>
+
+<input type="radio" name="q15" onclick="i15('D')">
+D. Animalia sapiens<br>
+
+<p id="a15"></p>
+
+
+<h3>16. What are dichotomous keys used for?</h3>
+
+<input type="radio" name="q16" onclick="i16('A')">
+A. Producing food<br>
+
+<input type="radio" name="q16" onclick="i16('B')">
+B. Identifying unfamiliar organisms<br>
+
+<input type="radio" name="q16" onclick="i16('C')">
+C. Making energy<br>
+
+<input type="radio" name="q16" onclick="i16('D')">
+D. Measuring temperature<br>
+
+<p id="a16"></p>
+
+
+<h3>17. What does Poikilothermic mean?</h3>
+
+<input type="radio" name="q17" onclick="i17('A')">
+A. Warm-blooded<br>
+
+<input type="radio" name="q17" onclick="i17('B')">
+B. Cold-blooded<br>
+
+<input type="radio" name="q17" onclick="i17('C')">
+C. Single-celled<br>
+
+<input type="radio" name="q17" onclick="i17('D')">
+D. Multicellular<br>
+
+<p id="a17"></p>
+
+
+<h3>18. What does Homeothermic mean?</h3>
+
+<input type="radio" name="q18" onclick="i18('A')">
+A. Cold-blooded<br>
+
+<input type="radio" name="q18" onclick="i18('B')">
+B. Warm-blooded<br>
+
+<input type="radio" name="q18" onclick="i18('C')">
+C. Without a nucleus<br>
+
+<input type="radio" name="q18" onclick="i18('D')">
+D. Without a cell wall<br>
+
+<p id="a18"></p>
+
+
+<h3>19. Which is the largest taxon?</h3>
+
+<input type="radio" name="q19" onclick="i19('A')">
+A. Species<br>
+
+<input type="radio" name="q19" onclick="i19('B')">
+B. Genus<br>
+
+<input type="radio" name="q19" onclick="i19('C')">
+C. Kingdom<br>
+
+<input type="radio" name="q19" onclick="i19('D')">
+D. Family<br>
+
+<p id="a19"></p>
+
+
+<h3>20. Which of the following is a kingdom?</h3>
+
+<input type="radio" name="q20" onclick="i20('A')">
+A. Cocci<br>
+
+<input type="radio" name="q20" onclick="i20('B')">
+B. Bacilli<br>
+
+<input type="radio" name="q20" onclick="i20('C')">
+C. Monera<br>
+
+<input type="radio" name="q20" onclick="i20('D')">
+D. Spirillum<br>
+
+<p id="a20"></p>
+
+
+<h3>21. What does Kingdom Monera include?</h3>
+
+<input type="radio" name="q21" onclick="i21('A')">
+A. Plants and animals<br>
+
+<input type="radio" name="q21" onclick="i21('B')">
+B. Eubacteria and archaebacteria<br>
+
+<input type="radio" name="q21" onclick="i21('C')">
+C. Fungi and plants<br>
+
+<input type="radio" name="q21" onclick="i21('D')">
+D. Only animals<br>
+
+<p id="a21"></p>
+
+
+<h3>22. Which type of bacteria has a spherical shape?</h3>
+
+<input type="radio" name="q22" onclick="i22('A')">
+A. Bacilli<br>
+
+<input type="radio" name="q22" onclick="i22('B')">
+B. Spirillum<br>
+
+<input type="radio" name="q22" onclick="i22('C')">
+C. Cocci<br>
+
+<input type="radio" name="q22" onclick="i22('D')">
+D. Archaea<br>
+
+<p id="a22"></p>
+
+
+<h3>23. Which type of bacteria has a rod shape?</h3>
+
+<input type="radio" name="q23" onclick="i23('A')">
+A. Cocci<br>
+
+<input type="radio" name="q23" onclick="i23('B')">
+B. Bacilli<br>
+
+<input type="radio" name="q23" onclick="i23('C')">
+C. Spirillum<br>
+
+<input type="radio" name="q23" onclick="i23('D')">
+D. Archaea<br>
+
+<p id="a23"></p>
+
+
+<h3>24. Which type of bacteria has a spiral shape?</h3>
+
+<input type="radio" name="q24" onclick="i24('A')">
+A. Cocci<br>
+
+<input type="radio" name="q24" onclick="i24('B')">
+B. Bacilli<br>
+
+<input type="radio" name="q24" onclick="i24('C')">
+C. Spirillum<br>
+
+<input type="radio" name="q24" onclick="i24('D')">
+D. Eubacteria<br>
+
+<p id="a24"></p>
+
+
+<h3>25. Where do archaebacteria often live?</h3>
+
+<input type="radio" name="q25" onclick="i25('A')">
+A. Only in plants<br>
+
+<input type="radio" name="q25" onclick="i25('B')">
+B. In extreme environments<br>
+
+<input type="radio" name="q25" onclick="i25('C')">
+C. Only in human blood<br>
+
+<input type="radio" name="q25" onclick="i25('D')">
+D. Only in fresh water<br>
+
+<p id="a25"></p>
+<button onclick="bu1p3()">Next lesson</>
+    `;
+}
+function i1(answer) {
+    if (answer === "B") {
+        document.getElementById("a1").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Carolus Linnaeus is known as the father of taxonomy.";
+    } else {
+        document.getElementById("a1").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Carolus Linnaeus</b><br>" +
+        "<b>Explanation:</b> Carolus Linnaeus is known as the father of taxonomy.";
+    }
+}
+
+
+function i2(answer) {
+    if (answer === "B") {
+        document.getElementById("a2").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Taxonomy is the science of naming, identifying, and classifying organisms.";
+    } else {
+        document.getElementById("a2").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Taxonomy</b><br>" +
+        "<b>Explanation:</b> Taxonomy is the science of naming, identifying, and classifying organisms.";
+    }
+}
+
+
+function i3(answer) {
+    if (answer === "C") {
+        document.getElementById("a3").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> The taxonomic hierarchy is Kingdom, Phylum, Class, Order, Family, Genus, and Species.";
+    } else {
+        document.getElementById("a3").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: C. Kingdom → Phylum → Class → Order → Family → Genus → Species</b><br>" +
+        "<b>Explanation:</b> This is the taxonomic hierarchy from the largest to the smallest major taxonomic rank.";
+    }
+}
+
+
+function i4(answer) {
+    if (answer === "B") {
+        document.getElementById("a4").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Eukaryotic cells have a nucleus and membrane-bound organelles.";
+    } else {
+        document.getElementById("a4").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. They have a nucleus and membrane-bound organelles</b><br>" +
+        "<b>Explanation:</b> Eukaryotic cells contain a nucleus and membrane-bound organelles.";
+    }
+}
+
+
+function i5(answer) {
+    if (answer === "A") {
+        document.getElementById("a5").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Prokaryotic cells do not have a true nucleus.";
+    } else {
+        document.getElementById("a5").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: A. They do not have a true nucleus</b><br>" +
+        "<b>Explanation:</b> Prokaryotic cells do not have a membrane-bound nucleus.";
+    }
+}
+
+
+function i6(answer) {
+    if (answer === "B") {
+        document.getElementById("a6").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> A species is a group of organisms that can reproduce and produce fertile offspring.";
+    } else {
+        document.getElementById("a6").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Organisms that can reproduce and produce fertile offspring</b><br>" +
+        "<b>Explanation:</b> Members of the same species can reproduce and produce fertile offspring.";
+    }
+}
+
+
+function i7(answer) {
+    if (answer === "C") {
+        document.getElementById("a7").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Classification helps us understand relationships between organisms.";
+    } else {
+        document.getElementById("a7").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: C. To understand relationships between organisms</b><br>" +
+        "<b>Explanation:</b> Classification helps scientists understand relationships among organisms.";
+    }
+}
+
+
+function i8(answer) {
+    if (answer === "A") {
+        document.getElementById("a8").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Classification makes it easier to identify harmful and beneficial organisms.";
+    } else {
+        document.getElementById("a8").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: A. Identify harmful and beneficial organisms</b><br>" +
+        "<b>Explanation:</b> Classification helps us identify organisms and understand their importance.";
+    }
+}
+
+
+function i9(answer) {
+    if (answer === "B") {
+        document.getElementById("a9").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> In binomial nomenclature, the first name represents the genus.";
+    } else {
+        document.getElementById("a9").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Genus</b><br>" +
+        "<b>Explanation:</b> The first name in a scientific name is the genus name.";
+    }
+}
+
+
+function i10(answer) {
+    if (answer === "C") {
+        document.getElementById("a10").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> In Homo sapiens, Homo is the genus and sapiens is the species name.";
+    } else {
+        document.getElementById("a10").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: C. Homo sapiens</b><br>" +
+        "<b>Explanation:</b> Homo is the genus and sapiens is the species name.";
+    }
+}
+
+
+function i11(answer) {
+    if (answer === "B") {
+        document.getElementById("a11").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> The genus name begins with a capital letter and the species name begins with a lowercase letter.";
+    } else {
+        document.getElementById("a11").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Genus starts with a capital letter</b><br>" +
+        "<b>Explanation:</b> In scientific names, the genus starts with a capital letter and the species starts with a lowercase letter.";
+    }
+}
+
+
+function i12(answer) {
+    if (answer === "A") {
+        document.getElementById("a12").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> The second name in a scientific name represents the species name.";
+    } else {
+        document.getElementById("a12").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: A. Species</b><br>" +
+        "<b>Explanation:</b> The second part of a scientific name is the species name.";
+    }
+}
+
+
+function i13(answer) {
+    if (answer === "C") {
+        document.getElementById("a13").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Scientific names help scientists around the world use the same name for an organism.";
+    } else {
+        document.getElementById("a13").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: C. To give organisms a universal scientific name</b><br>" +
+        "<b>Explanation:</b> Scientific naming provides a common system for identifying organisms worldwide.";
+    }
+}
+
+
+function i14(answer) {
+    if (answer === "B") {
+        document.getElementById("a14").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Classification reduces the time and energy needed to study and identify organisms.";
+    } else {
+        document.getElementById("a14").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. It reduces time and energy</b><br>" +
+        "<b>Explanation:</b> Classification organizes organisms, making them easier to study and identify.";
+    }
+}
+
+
+function i15(answer) {
+    if (answer === "A") {
+        document.getElementById("a15").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Classification helps us understand the relationships among different organisms.";
+    } else {
+        document.getElementById("a15").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: A. Understand relationships between organisms</b><br>" +
+        "<b>Explanation:</b> Classification shows how organisms are related to one another.";
+    }
+}
+
+
+function i16(answer) {
+    if (answer === "B") {
+        document.getElementById("a16").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Dichotomous keys are used to identify unfamiliar organisms.";
+    } else {
+        document.getElementById("a16").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Identifying unfamiliar organisms</b><br>" +
+        "<b>Explanation:</b> Dichotomous keys help us identify organisms by using a series of choices.";
+    }
+}
+
+
+function i17(answer) {
+    if (answer === "B") {
+        document.getElementById("a17").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Poikilothermic animals are commonly called cold-blooded animals.";
+    } else {
+        document.getElementById("a17").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Cold-blooded</b><br>" +
+        "<b>Explanation:</b> Poikilothermic animals cannot maintain a constant body temperature internally.";
+    }
+}
+
+
+function i18(answer) {
+    if (answer === "B") {
+        document.getElementById("a18").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Homeothermic animals are commonly called warm-blooded animals.";
+    } else {
+        document.getElementById("a18").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: B. Warm-blooded</b><br>" +
+        "<b>Explanation:</b> Homeothermic animals maintain a relatively constant body temperature.";
+    }
+}
+
+
+function i19(answer) {
+    if (answer === "C") {
+        document.getElementById("a19").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Kingdom is the largest taxonomic rank in the hierarchy listed here.";
+    } else {
+        document.getElementById("a19").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: C. Kingdom</b><br>" +
+        "<b>Explanation:</b> Kingdom contains many organisms and is the largest taxon in this hierarchy.";
+    }
+}
+
+
+function i20(answer) {
+    if (answer === "C") {
+        document.getElementById("a20").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Monera is a kingdom that contains prokaryotic organisms.";
+    } else {
+        document.getElementById("a20").innerHTML =
+        "❌ Wrong!<br>" +
+        "<b>Correct answer: C. Monera</b><br>" +
+        "<b>Explanation:</b> Monera contains prokaryotic organisms such as bacteria.";
+    }
+}
+
+
+function i21(answer) {
+    if (answer === "B") {
+        document.getElementById("a21").innerHTML =
+        "✅ Correct!<br>" +
+        "<b>Explanation:</b> Monera includes Eubacteria and archaebacteria.";
+    } else {
+        document.getElementById("a21").innerHTML =
+        
