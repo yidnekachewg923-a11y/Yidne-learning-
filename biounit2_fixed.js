@@ -2901,6 +2901,9 @@ function checkBu1Q25(answer) {
         "❌ Wrong!<br><b>Correct answer: C. Two seeds</b><br><b>Explanation:</b> Dicotyledons have two cotyledons.";
     }
 }
+function backHome(){
+    start();
+}
 
 
 
