@@ -13,3 +13,6 @@ function P10(){
       </div>
   `;
 }
+function backHome(){
+    start();
+}
