@@ -1,6 +1,6 @@
 function grade10(){
   document.body.innerHTML=`
-   <div id="biou">
+   <div id="sub10">
           <h1>Grade 10</h1>
           <p>Before start learning choose the The subject</p>
           <button onclick="P10()">Physics</button>
