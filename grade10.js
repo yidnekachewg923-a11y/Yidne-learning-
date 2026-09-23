@@ -1,5 +1,6 @@
 function P10(){
   document.body.innerHTML=`
+  <button onclick="backHome()">Back</button>
    <div id="Pu">
           <h1>Welcome to Physics</h1>
           <p>choose the unit</p>
