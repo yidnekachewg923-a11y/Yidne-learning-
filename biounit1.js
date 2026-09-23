@@ -72,7 +72,7 @@ function Bunit1(){
         naked eye.
     </p>
 
-    <img src="hand lens.jpg" alt="Hand lens">
+    <img id="hl" src="hand lens.jpg" alt="Hand lens">
 
     <p>
         ☝️ This is a <b>hand lens</b>.
@@ -106,10 +106,10 @@ function Bunit1(){
     </ol>
     <p><b>Simple light microscope</b> is a types of microscope which consist of a single lens(eyepiece ).</p>
     <p>simple light microscope ማለት የ light microscope አይነት ስሆን እና ባለ አንድ lens ውይም ባለ አንድ eyepiece ነው.</p>
-    <img src="slm.jpg" alt="hand_lens">
+    <img id="slm" src="slm.jpg" alt="hand_lens">
     <p><b>Compound light microscope</b> is a types of light microscope it has(አለው) two lens or two eyepiece.</p>
     <p>compound light microscope ማለት የ light microscope አይነት ሲሆን እና ባለ ሁለት lens ውይም ባለ ሁለት eyepiece ነው.</p>
-    <img src="clm.jpg">
+    <img id="clm" src="clm.jpg">
     <p><b>Compound light microscope</b> has higher magnification than <b>Simple light microscope</b></p>
     <p>Compound light microscope ከ light simple microscope የበለጠ አጉልቶ የማሳየት ሀቅም አለው</p>
     <p>Compound light microscope with single eyepiece is called <b>Monocular</b>.</p>
