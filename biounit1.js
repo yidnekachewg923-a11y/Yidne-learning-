@@ -666,3 +666,6 @@ function submitTest() {
         "Your Score: " + score + " / " + total +
         " (" + percentage + "%)";
 }
+function backHome(){
+    start();
+}
