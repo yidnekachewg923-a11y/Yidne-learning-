@@ -1,5 +1,6 @@
 function C10(){
   document.body.innerHTML=`
+  <button onclick="backHome()">Back</button>
   <div id="Cu">
           <h1>Welcome to Chemistry</h1>
           <p>choose the unit</p>
