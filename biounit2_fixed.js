@@ -58,7 +58,7 @@ function Bunit2(){
           <li><b>By considering the genetic(ዘር) make up of organisms</b><br>
           Lelawu demo yezer haregachewin bemayet nw</li>
           </ul>
-        <h2>Why do biologists classify living things- lemnd nw biologistoch hiywot yalachewun negeroch classify miyaregut</h2>
+        <h4>Why do biologists classify living things- lemnd nw biologistoch hiywot yalachewun negeroch classify miyaregut</h4>
         <ol>
         <li><b>To simplify(ማቃለል) their study</b>-Ye atenani zeden lemaqaleli</li>
         <li><b> To bring order out/remove chaos or confusion</b> - almegibabatin lemasiwoged </li>
