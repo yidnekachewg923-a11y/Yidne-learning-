@@ -1,8 +1,8 @@
 function P10(){
   document.body.innerHTML=`
-   <div id="biou">
+   <div id="Pu">
           <h1>Welcome to Physics</h1>
-          <p>Before start learning please choose the unit</p>
+          <p>choose the unit</p>
           <button onclick="Punit1()">Unit One</button>
           <button onclick="Punit2()">Unit Two</button>
           <button onclick="Punit3()">Unit Three</button>
