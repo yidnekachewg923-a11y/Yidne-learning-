@@ -1,5 +1,6 @@
 function bio9(){
   document.body.innerHTML=`
+  <button onclick="backHome()">Back</button>
       <div id="Bu">
           <h1>Welcome to biology</h1>
           <p> choose the unit</p>
