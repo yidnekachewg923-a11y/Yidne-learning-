@@ -135,6 +135,7 @@ function Bunit1(){
   }
 function bunit1(){
     document.body.innerHTML=`
+    <button onclick="backHome()">Back</button>
         <h1>Unit 1 test</h1>
         <p>1. What is biology?</p>
         <input type="radio" name="q1" value="a" onclick="checkAnswer(this)">
