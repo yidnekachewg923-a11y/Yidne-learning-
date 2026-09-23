@@ -2,7 +2,7 @@ function grade10(){
   document.body.innerHTML=`
    <div id="sub10">
           <h1>Grade 10</h1>
-          <p>Before start learning choose the The subject</p>
+          <p>Choose a subjecte to start learning </p>
           <button onclick="P10()">Physics</button>
           <button onclick="B10()">Biology</button>
           <button onclick="C10()">Chemistry</button>
