@@ -1,6 +1,6 @@
 function bio9(){
   document.body.innerHTML=`
-      <div id="biou">
+      <div id="Bu">
           <h1>Welcome to biology</h1>
           <p>Before start learning please choose the unit</p>
           <button onclick="Bunit1()">Unit One</button>
