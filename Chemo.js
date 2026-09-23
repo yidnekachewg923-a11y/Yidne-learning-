@@ -280,3 +280,6 @@ function pt(){
   
   `;
 }
+function backHome(){
+    start();
+}
