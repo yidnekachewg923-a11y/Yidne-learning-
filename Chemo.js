@@ -9,7 +9,7 @@ function C10(){
           <button onclick="Cunit4()">Unit Four</button>
           <button onclick="Cunit5()">Unit Five</button>
           <button onclick="Cunit6()">Unit Six</button>
-          </di>
+          </div>
   `;
 }
 function Cunit1(){
