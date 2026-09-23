@@ -115,3 +115,6 @@ function Punit1(){
   
   `;
 }
+function backHome(){
+    start();
+}
