@@ -13,3 +13,6 @@ function bio9(){
       </div>
   `;
 }
+function backHome(){
+    start();
+}
