@@ -108,6 +108,29 @@ function Punit1(){
   <p>Endez sihon ketiliku vector tinishun kenisen ye tlikun direction enwosdalen</p>
   <h3>When two vectors are perpendicular</p>
   <img id="per" src="phyta.jpg">
+    <h2><b>C<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup></b></h2>
+  <p>Huletum gar square sinket ye C square ytefal silez</p>
+  <p id="formula" style="font-size: 35px;">C= 
+  √<span id="root" style="border-top: 2px solid black; padding: 2px 10px;">
+    a² + c²
+  </span>
+</p>
+<p><b>Example: A man move 4 m/s East then move to North with 3 m/s</b></p>
+<h3>What is resultant vector?</h3>
+<p>Andu wode north lelawu demo wode East nw silez perpendicular nachew silez phytagores formula enitekemalen</p>
+<h3>R<sup>2</sup> = (4m/s)<sup>2</sup> + (3m/s)<sup>2</sup></h3>
+<h3>R<sup>2</sup> = 16m<sup>2</sup>/s<sup>2</sup> + 9m<sup>2</sup>/s<sup>2</sup></h3>
+<h3>R<sup>2</sup> = 25m<sup>2</sup>/s<sup>2</sup></h3>
+<p>Keza huletunim radical wust Kasgeban</p>
+<h3>R=5m/s</h3>
+<h3>How find direction</h3>
+<h3>tan&theta; = app/adj</h3>
+<p>Kelay yalewun image eyayek</p>
+<h3>tan&theta; = B/A</h3>
+<p>Silez &theta; nw minfelgewu</p>
+<p>&theta; = tan<sup>-1</sup>(A/B)</p>
+<h3>Silez Direction &theta; = tan<sup>-1</sup>(A/B)</h3>
+
 
   
   
