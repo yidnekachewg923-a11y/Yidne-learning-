@@ -1,13 +1,15 @@
 function C10(){
   document.body.innerHTML=`
+  <div id="Cu">
           <h1>Welcome to Chemistry</h1>
-          <p>Before start learning choose the unit</p>
+          <p>choose the unit</p>
           <button onclick="Cunit1()">Unit One</button>
           <button onclick="Cunit2()">Unit Two</button>
           <button onclick="Cunit3()">Unit Three</button>
           <button onclick="Cunit4()">Unit Four</button>
           <button onclick="Cunit5()">Unit Five</button>
           <button onclick="Cunit6()">Unit Six</button>
+          </di>
   `;
 }
 function Cunit1(){
