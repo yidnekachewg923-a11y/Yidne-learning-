@@ -107,7 +107,7 @@ function Punit1(){
   <p>Answer: Sum=4m/s north-3m/s south=1m/s north</p>
   <p>Endez sihon ketiliku vector tinishun kenisen ye tlikun direction enwosdalen</p>
   <h3>When two vectors are perpendicular</p>
-  <img id="per" src="phyta.jpg">
+  <img id="per" src="pe.png">
     <h2><b>C<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup></b></h2>
   <p>Huletum gar square sinket ye C square ytefal silez</p>
   <p id="formula" style="font-size: 35px;">C= 
