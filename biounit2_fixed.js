@@ -538,7 +538,7 @@ function checkQ15(answer) {
 }
 function bu1p2(){
     document.body.innerHTML=`
-    <h1>ትምህርቱ እይከበደ እየሄደ ነው እና በደንብ ደጋግመክ አንብብ</h1>
+    <h4>ትምህርቱ እይከበደ እየሄደ ነው እና በደንብ ደጋግመክ አንብብ</h4>
     <p><b>Carolus Linnaeus(ካርሎስ ልነስ)</b> - who is also known as the father of taxonomy, introduced a taxonomic hierarchy of classification</p>
     <p><b>Carolus Linnaeus</b> mibal sewu nw lemejemerya gize yhin taxonomy mibalewun hasab yametawu leza nw ye taxonomy father woym abat mibalewu</p>
     <p><b>Taxonomic hierarchy</b> is the process of arranging various organisms in to successive level of biological classification either in a decreasing or an increasing order</p>
@@ -551,8 +551,8 @@ function bu1p2(){
     <p><b>Prokaryotic cells</b> - are unicellular organisms with out nucleus</p>
     <p>Prokaryotic cells demo ye cell aynetoch sihonu neger gin nucleus yelachewum</p>
     <p><b> Species</b> are a group of organisms that can reproduce to produce Fertile offspring</p>
-    <h1>Relevance of classification<h1>
-    <h2>Applications of classification are:(የ classifications ጥቅሞች)-</h2>
+    <h3>Relevance of classification</h3>
+    <h3>Applications of classification are:(የ classifications ጥቅሞች)-</h3>
     <ol>
     <li>
     <b>Identification of harmful and beneficial organism - ጠቃምና ጉጂ የሆኑ organismochn ለመለየት</b></li>
@@ -561,14 +561,14 @@ function bu1p2(){
     <li>
     <b>Help us understand the r/ship between organisms - በ organismoch መካከል ያለውን ዝምድና እንድንረዳ ይረዳናል</b></li>
     </ol>
-    <h2>Carl Linnaeus system of nomenclature(የ Linnaeus የስም አሰጣጥ)</h2>
+    <h3>Carl Linnaeus system of nomenclature(የ Linnaeus የስም አሰጣጥ)</h3>
     <p> Carl Linnaeus le organismoch sim yemisetewu be hulet negeroch nw</p>
     <ol>
     <li>
     The first name represents the <b>genus</b> - የመጀመርያ ስሙ የምያመለክተው genusun ነው</li>
     <li> The second name represents <b>Species</b> - ሁለተኛ ስሙ የምያመለክተው Species ነው</>
     </ol>
-    <h1> ስለዝህ የ አንድ organism ስም ስንጺፊ Genus + species ነው</h1>
+    <h3> ስለዝህ የ አንድ organism ስም ስንጺፊ Genus + species ነው</h3>
     <p>In writing scientific name the first letter of the name of the genus is capitalized letter</>
     <p> scientific name sinitsif Ye genus name ye mejemerya fidel capital mehon alebet</p>
     <p> ye species name be small ne minjemrewum minchersewum</>
@@ -579,9 +579,9 @@ function bu1p2(){
     <p><b>Dichotomous keys</b> are used to identify(መለየት) unfamiliar (ማይመሳሰሉ) organisms</b></p>
     <P><b>Poikilothermic</b> - cold blooded</p>
     <p><b>Homeothermic</b> - warm blooded</p>
-    <h2>What is kingdom?(kingdom sound aydelem😂😂)</h2>
+    <h3>What is kingdom?(kingdom sound aydelem😂😂)</h3>
     <p>Kingdom is the largest taxon astwosk ke tilku wode tinsh sinikefafil</p>
-    <h2>There are five kingdoms namely:-</h2>
+    <h3>There are five kingdoms namely:-</h3>
     <ol>
     <li>
     <b>Monera(bacteria)</b></li>
@@ -620,7 +620,7 @@ function bu1p2(){
     <p><b>3. Most have arigid(በጣም ጠንካራ) cell wall</b></p>
     <p><b>4. Autotrophs and heterotrophs</b></p>
     <p><b>5. Known as decomposers</b></p>
-    <h1> Ke beza Endat resa Est yetemarnewun quiz</h1>
+    <h4> Ke beza Endat resa Est yetemarnewun quiz</h4>
     <button onclick="bq2()">quiz</button>
     
  
