@@ -108,9 +108,9 @@ function Punit1(){
   <p>Endez sihon ketiliku vector tinishun kenisen ye tlikun direction enwosdalen</p>
   <h3>When two vectors are perpendicular</p>
   <img id="per" src="pe.png">
-    <h2><b>C<sup>2</sup> = A<sup>2</sup> + B<sup>2</sup></b></h2>
-  <p>Huletum gar square sinket ye C square ytefal silez</p>
-  <p id="formula" style="font-size: 35px;">C= 
+    <h2><b>R<sup>2</sup> = A<sup>2</sup> + B<sup>2</sup></b></h2>
+  <p>Huletum gar square sinket ye R square ytefal silez</p>
+  <p id="formula" style="font-size: 35px;">R= 
   √<span id="root" style="border-top: 2px solid black; padding: 2px 10px;">
     A² + B²
   </span>
