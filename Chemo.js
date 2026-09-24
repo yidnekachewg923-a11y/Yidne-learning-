@@ -15,7 +15,7 @@ function C10(){
 }
 function Cunit1(){
   document.body.innerHTML=`
-    <button onclick="backHome()">Back</button>
+    <button onclick="C10()">Back</button>
   <h1>Unit One</h1>
   <h2>Chemical reaction and Stoichiometry</h2>
   <p><b>Physical change</b> is a change that does not involve the formation of a new substance with new chemical composition</p>
@@ -94,7 +94,7 @@ function hydro(){
 }
 function pt(){
   document.body.innerHTML=`
-    <button onclick="backHome()">Back</button>
+    <button onclick="Cunit1()">Back</button>
   <img id="pt" src="pt.png">
   <h2>## Balancing Chemical Equations</h2>
   <h3>Be hulet menged nw Chemical Equation balance Minaregewu</h3>
@@ -282,6 +282,4 @@ function pt(){
   
   `;
 }
-function backHome(){
-    start();
-}
+
