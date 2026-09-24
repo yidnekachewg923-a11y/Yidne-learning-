@@ -115,6 +115,7 @@ function Punit1(){
     A² + B²
   </span>
 </p>
+<img id="per" src="PTest.jpg">
 <p><b>Example: A man move 4 m/s East then move to North with 3 m/s</b></p>
 <h3>What is resultant vector?</h3>
 <p>Andu wode north lelawu demo wode East nw silez perpendicular nachew silez phytagores formula enitekemalen</p>
