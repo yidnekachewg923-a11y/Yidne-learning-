@@ -124,7 +124,7 @@ function Punit1(){
 <p>Keza huletunim radical wust Kasgeban</p>
 <h3>R=5m/s</h3>
 <h3>How find direction</h3>
-<h3>tan&theta; = app/adj</h3>
+<h3>tan&theta; = Opp/Adj</h3>
 <p>Kelay yalewun image eyayek</p>
 <h3>tan&theta; = B/A</h3>
 <p>Silez &theta; nw minfelgewu</p>
