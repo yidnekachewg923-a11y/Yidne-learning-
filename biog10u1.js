@@ -693,10 +693,46 @@ function bg10u1p2(){
   document.body.innerHTML=`
   <img id="per" src="Bwo.png">
   <h3>Kelay yalewun table bedenb anibib Biology ke lelawu Field ga yalewu relationship nw</h3>
-  
-  
-  
-  
-  
+   <h3>Pure and applied fields of biology</h3>
+  <p>Pure biology is the study of how life function in nature</p>
+  <p>Pure Biology (ንጹህ ባዮሎጂ) ማለት ሕይወት በተፈጥሮ ውስጥ እንዴት እንደሚሠራና እንደሚከናወን የሚያጠና የባዮሎጂ ዘርፍ ነው።</p>
+  <p>Applied biology refers to using what you have learned in biology</p>
+  <p>Applied Biology (ተግባራዊ ባዮሎጂ) ማለት በባዮሎጂ የተማርነውን እውቀት በተግባር ላይ ማዋል ማለት ነው።</p>
+  <p>ለምሳሌ፦ በባዮሎጂ የተማርነውን እውቀት በግብርና፣ በሕክምና ወይም በአካባቢ ጥበቃ ላይ መጠቀም Applied Biology ነው።</p>
+  <h3>Biotechnology</h3>
+  <p>Biotechnology is the use of living organisms, cells, or biological processes to develop useful products and technologies.</p>
+  <p>Biotechnology (ባዮቴክኖሎጂ) ማለት ሕያዋን ነገሮችን፣ ሕዋሳትን ወይም የሕይወት ሂደቶችን በመጠቀም ጠቃሚ ምርቶችን ወይም ቴክኖሎጂዎችን ማዘጋጀት ነው።</p>
+  <p>ለምሳሌ፦ ባክቴሪያን በመጠቀም እርጎ (yogurt) ማምረት ወይም በባዮሎጂ ዕውቀት መድኃኒት ማዘጋጀት Biotechnology ሊሆን ይችላል።</p>
+  <h3>Bioinformatics</h3>
+<p>Bioinformatics is the use of computer science, mathematics, and statistics to store, analyze, and interpret biological data</p>
+<p>Bioinformatics (ባዮኢንፎርማቲክስ) ማለት ኮምፒውተር፣ ሂሳብ እና ስታቲስቲክስን በመጠቀም የባዮሎጂ መረጃዎችን ማከማቸት፣ መተንተን እና መረዳት ነው።</p>
+<p>👉 በቀላል አማርኛ፦ የDNA፣ RNA እና protein መረጃዎችን በኮምፒውተር በመጠቀም ማጥናት ነው።</p>
+<h3>Genetic engineering</h3>
+</p>Genetic engineering is the direct modification of an organism’s DNA to change its characteristics or produce a desired trait.
+<p>Genetic Engineering (የጄኔቲክ ምህንድስና) ማለት የአንድ ሕያው ነገር DNA በቀጥታ በመቀየር የተፈለገ ባህሪ እንዲኖረው ማድረግ ነው።</p>
+<p>DNA → የዘር መረጃን የሚይዝ ሞለኪውል</p>
+<p>👉 በቀላል አማርኛ፦ የሕያው ነገርን DNA በመቀየር የተፈለገ ባህሪ ማምጣት ነው።</p>
+<p>ለምሳሌ፦ አንድ ተክል ለበሽታ የበለጠ እንዲቋቋም የጄኔቲክ ባህሪውን መቀየር።</p>
+<h3>Biomedical engineering</h3>
+<p>Biomedical engineering is the application of engineering principles and technology to biology and medicine to improve human health.</p>
+<p>Biomedical Engineering (ባዮሜዲካል ምህንድስና) ማለት የምህንድስና ዕውቀትን እና ቴክኖሎጂን በባዮሎጂና በሕክምና ላይ በመጠቀም የሰውን ጤና ለማሻሻል መስራት ነው።</p>
+<p>👉 ለምሳሌ፦ ሰው የጠፋውን የእግር ወይም የእጅ ክፍል ለመተካት artificial limb (prosthetic) መስራት የBiomedical Engineering አንዱ ምሳሌ ነው።</p>
+<h3>Forensic science</h3>
+<p>Forensic science is the application of scientific methods to investigate crimes and examine evidence.</p>
+<p>Forensic Science (ፎረንሲክ ሳይንስ) ማለት ወንጀሎችን ለመመርመር እና የተገኘ ማስረጃን ለመመርመር የሳይንስ ዘዴዎችን መጠቀም ነው።</p>
+<p>Forensic → ከወንጀል ምርመራና ሕግ ጋር የተያያዘ</p>
+<p>👉 ለምሳሌ፦ ከወንጀል ቦታ የተገኘ DNA፣ የጣት አሻራ ወይም የደም ናሙና በሳይንሳዊ ዘዴ መመርመር Forensic Science ነው።</p>
+<h3>Ethiopian Biologist and their Contribution</h3>
+<h3>Professor yalemtsehay mekonnen</h3>
+<p>Professor Yalemtsehay Mekonnen is an Ethiopian biologist and Professor of Cell and Human Physiology at Addis Ababa University. Her research focuses on physiology, medicinal plants, and related health topics,</p>
+<p>ፕሮፌሰር ያለምፀሐይ መኮንን የኢትዮጵያ ባዮሎጂስት እና በአዲስ አበባ ዩኒቨርሲቲ የሴልና የሰው ፊዚዮሎጂ ፕሮፌሰር ናቸው። ምርምራቸው በተለይ በፊዚዮሎጂ እና መድኃኒትነት ያላቸው ተክሎች ላይ ያተኩራል።</p>
+<h3>Dr Aklilu lemma</p>
+<p>Dr. Aklilu Lemma was a famous Ethiopian pathologist and scientist. In 1964, he discovered that the Ethiopian plant Endod could be used to control the snails that spread schistosomiasis (bilharzia)</p>
+<p>ዶ/ር አክሊሉ ለማ ታዋቂ የኢትዮጵያ ፓቶሎጂስትና ሳይንቲስት ነበሩ። በ1964 የኢትዮጵያን እንዶድ (Endod) ተክል በመጠቀም የቢልሃርዚያ/ስኪስቶሶሚያ በሽታን የሚያስተላልፉ አረማሞችን (snails) መቆጣጠር እንደሚቻል አገኙ። </p>
+<h3>Professor Gebissa Ejeta</h3>
+<p>Professor Gebisa Ejeta is an Ethiopian-American plant geneticist and agricultural scientist. He developed improved sorghum varieties that are resistant to drought and the parasitic weed Striga. He received the 2009 World Food Prize for his work.</p>
+<p>ፕሮፌሰር ገቢሳ እጀታ ኢትዮጵያዊ-አሜሪካዊ የእፅዋት ጄኔቲክስ ሳይንቲስት እና የግብርና ተመራማሪ ናቸው። ድርቅንና Striga የተባለ ጥገኛ አረምን የሚቋቋም የማሽላ ዝርያዎችን በማሻሻል ይታወቃሉ። በ2009 የWorld Food Prize አሸናፊ ሆነዋል።</p>
+<h3>The End Unit One Yetezelele Neger ale Ke metsafi Eyayek 🤗🤗</h3>
+<button onclick="bg10u1q()">quiz</button>
   `;
 }
