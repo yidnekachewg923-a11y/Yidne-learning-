@@ -691,7 +691,7 @@ function check30(a) {
 }
 function bg10u1p2(){
   document.body.innerHTML=`
-  <img src="Bwo.png">
+  <img id="per" src="Bwo.png">
   <h3>Kelay yalewun table bedenb anibib Biology ke lelawu Field ga yalewu relationship nw</h3>
   
   
