@@ -734,6 +734,7 @@ function bg10u1p2(){
 <p>ፕሮፌሰር ገቢሳ እጀታ ኢትዮጵያዊ-አሜሪካዊ የእፅዋት ጄኔቲክስ ሳይንቲስት እና የግብርና ተመራማሪ ናቸው። ድርቅንና Striga የተባለ ጥገኛ አረምን የሚቋቋም የማሽላ ዝርያዎችን በማሻሻል ይታወቃሉ። በ2009 የWorld Food Prize አሸናፊ ሆነዋል።</p>
 <h3>The End Unit One Yetezelele Neger ale Ke metsafi Eyayek 🤗🤗</h3>
 <button onclick="bg10u1q()">quiz</button>
+<button onclick="fb()">Back</button>
   `;
 }
 function bg10u1q() {
