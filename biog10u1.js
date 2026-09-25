@@ -736,3 +736,744 @@ function bg10u1p2(){
 <button onclick="bg10u1q()">quiz</button>
   `;
 }
+function bg10u1q() {
+
+document.body.innerHTML = `
+
+<h1>Grade 10 Biology</h1>
+<h2>Unit One Quiz</h2>
+
+<p>Choose the correct answer.</p>
+
+<!-- Question 1 -->
+<h3>1. What is Pure Biology mainly concerned with?</h3>
+
+<input type="radio" name="q1" onclick="b10(1,'A')">
+A. Studying how life functions in nature<br>
+
+<input type="radio" name="q1" onclick="b10(1,'B')">
+B. Selling biological products<br>
+
+<input type="radio" name="q1" onclick="b10(1,'C')">
+C. Designing buildings<br>
+
+<input type="radio" name="q1" onclick="b10(1,'D')">
+D. Studying only computers
+
+<p id="e1"></p>
+
+
+<!-- Question 2 -->
+<h3>2. Which field uses biological knowledge to solve practical problems?</h3>
+
+<input type="radio" name="q2" onclick="b10(2,'A')">
+A. Applied Biology<br>
+
+<input type="radio" name="q2" onclick="b10(2,'B')">
+B. Pure Biology<br>
+
+<input type="radio" name="q2" onclick="b10(2,'C')">
+C. Mathematics<br>
+
+<input type="radio" name="q2" onclick="b10(2,'D')">
+D. Astronomy
+
+<p id="e2"></p>
+
+
+<!-- Question 3 -->
+<h3>3. Which of the following is an example of Applied Biology?</h3>
+
+<input type="radio" name="q3" onclick="b10(3,'A')">
+A. Using biological knowledge to improve agriculture<br>
+
+<input type="radio" name="q3" onclick="b10(3,'B')">
+B. Studying stars<br>
+
+<input type="radio" name="q3" onclick="b10(3,'C')">
+C. Studying planets<br>
+
+<input type="radio" name="q3" onclick="b10(3,'D')">
+D. Building roads
+
+<p id="e3"></p>
+
+
+<!-- Question 4 -->
+<h3>4. What is biotechnology?</h3>
+
+<input type="radio" name="q4" onclick="b10(4,'A')">
+A. The use of living organisms, cells, or biological processes to make useful products<br>
+
+<input type="radio" name="q4" onclick="b10(4,'B')">
+B. The study of stars<br>
+
+<input type="radio" name="q4" onclick="b10(4,'C')">
+C. The study of rocks<br>
+
+<input type="radio" name="q4" onclick="b10(4,'D')">
+D. The study of weather
+
+<p id="e4"></p>
+
+
+<!-- Question 5 -->
+<h3>5. Which is an example of biotechnology?</h3>
+
+<input type="radio" name="q5" onclick="b10(5,'A')">
+A. Using microorganisms to produce useful products<br>
+
+<input type="radio" name="q5" onclick="b10(5,'B')">
+B. Measuring the temperature of a room<br>
+
+<input type="radio" name="q5" onclick="b10(5,'C')">
+C. Measuring the length of a table<br>
+
+<input type="radio" name="q5" onclick="b10(5,'D')">
+D. Drawing a map
+
+<p id="e5"></p>
+
+
+<!-- Question 6 -->
+<h3>6. What does bioinformatics mainly involve?</h3>
+
+<input type="radio" name="q6" onclick="b10(6,'A')">
+A. Using computers and biological data to study biological information<br>
+
+<input type="radio" name="q6" onclick="b10(6,'B')">
+B. Building houses<br>
+
+<input type="radio" name="q6" onclick="b10(6,'C')">
+C. Studying planets<br>
+
+<input type="radio" name="q6" onclick="b10(6,'D')">
+D. Studying rocks
+
+<p id="e6"></p>
+
+
+<!-- Question 7 -->
+<h3>7. Which technology is especially important for analyzing DNA sequences using computers?</h3>
+
+<input type="radio" name="q7" onclick="b10(7,'A')">
+A. Bioinformatics<br>
+
+<input type="radio" name="q7" onclick="b10(7,'B')">
+B. Forensic science<br>
+
+<input type="radio" name="q7" onclick="b10(7,'C')">
+C. Civil engineering<br>
+
+<input type="radio" name="q7" onclick="b10(7,'D')">
+D. Astronomy
+
+<p id="e7"></p>
+
+
+<!-- Question 8 -->
+<h3>8. What is genetic engineering?</h3>
+
+<input type="radio" name="q8" onclick="b10(8,'A')">
+A. Directly modifying an organism's genetic material<br>
+
+<input type="radio" name="q8" onclick="b10(8,'B')">
+B. Studying weather<br>
+
+<input type="radio" name="q8" onclick="b10(8,'C')">
+C. Measuring body temperature<br>
+
+<input type="radio" name="q8" onclick="b10(8,'D')">
+D. Studying rocks
+
+<p id="e8"></p>
+
+
+<!-- Question 9 -->
+<h3>9. What molecule is commonly modified in genetic engineering?</h3>
+
+<input type="radio" name="q9" onclick="b10(9,'A')">
+A. DNA<br>
+
+<input type="radio" name="q9" onclick="b10(9,'B')">
+B. Water<br>
+
+<input type="radio" name="q9" onclick="b10(9,'C')">
+C. Oxygen<br>
+
+<input type="radio" name="q9" onclick="b10(9,'D')">
+D. Salt
+
+<p id="e9"></p>
+
+
+<!-- Question 10 -->
+<h3>10. Which is a possible purpose of genetic engineering?</h3>
+
+<input type="radio" name="q10" onclick="b10(10,'A')">
+A. Producing organisms with useful characteristics<br>
+
+<input type="radio" name="q10" onclick="b10(10,'B')">
+B. Measuring rainfall<br>
+
+<input type="radio" name="q10" onclick="b10(10,'C')">
+C. Finding stars<br>
+
+<input type="radio" name="q10" onclick="b10(10,'D')">
+D. Measuring earthquakes
+
+<p id="e10"></p>
+
+
+<!-- Question 11 -->
+<h3>11. What does biomedical engineering combine?</h3>
+
+<input type="radio" name="q11" onclick="b10(11,'A')">
+A. Biology, medicine, and engineering<br>
+
+<input type="radio" name="q11" onclick="b10(11,'B')">
+B. History and geography<br>
+
+<input type="radio" name="q11" onclick="b10(11,'C')">
+C. Astronomy and geology<br>
+
+<input type="radio" name="q11" onclick="b10(11,'D')">
+D. Literature and music
+
+<p id="e11"></p>
+
+
+<!-- Question 12 -->
+<h3>12. Which of the following is related to biomedical engineering?</h3>
+
+<input type="radio" name="q12" onclick="b10(12,'A')">
+A. Designing prosthetic limbs<br>
+
+<input type="radio" name="q12" onclick="b10(12,'B')">
+B. Designing roads<br>
+
+<input type="radio" name="q12" onclick="b10(12,'C')">
+C. Studying volcanoes<br>
+
+<input type="radio" name="q12" onclick="b10(12,'D')">
+D. Studying planets
+
+<p id="e12"></p>
+
+
+<!-- Question 13 -->
+<h3>13. What is forensic science?</h3>
+
+<input type="radio" name="q13" onclick="b10(13,'A')">
+A. The application of scientific methods to investigate crimes<br>
+
+<input type="radio" name="q13" onclick="b10(13,'B')">
+B. The study of stars<br>
+
+<input type="radio" name="q13" onclick="b10(13,'C')">
+C. The study of weather<br>
+
+<input type="radio" name="q13" onclick="b10(13,'D')">
+D. The study of oceans only
+
+<p id="e13"></p>
+
+
+<!-- Question 14 -->
+<h3>14. Which biological evidence can be useful in forensic science?</h3>
+
+<input type="radio" name="q14" onclick="b10(14,'A')">
+A. Blood<br>
+
+<input type="radio" name="q14" onclick="b10(14,'B')">
+B. Fingerprints only<br>
+
+<input type="radio" name="q14" onclick="b10(14,'C')">
+C. Rocks only<br>
+
+<input type="radio" name="q14" onclick="b10(14,'D')">
+D. Clouds
+
+<p id="e14"></p>
+
+
+<!-- Question 15 -->
+<h3>15. Which Ethiopian scientist is known for research on Endod and schistosomiasis?</h3>
+
+<input type="radio" name="q15" onclick="b10(15,'A')">
+A. Dr. Aklilu Lemma<br>
+
+<input type="radio" name="q15" onclick="b10(15,'B')">
+B. Professor Gebisa Ejeta<br>
+
+<input type="radio" name="q15" onclick="b10(15,'C')">
+C. Professor Yalemtsehay Mekonnen<br>
+
+<input type="radio" name="q15" onclick="b10(15,'D')">
+D. Albert Einstein
+
+<p id="e15"></p>
+
+
+<!-- Question 16 -->
+<h3>16. What did Dr. Aklilu Lemma discover about Endod?</h3>
+
+<input type="radio" name="q16" onclick="b10(16,'A')">
+A. It could help control snails that spread schistosomiasis<br>
+
+<input type="radio" name="q16" onclick="b10(16,'B')">
+B. It could produce electricity<br>
+
+<input type="radio" name="q16" onclick="b10(16,'C')">
+C. It could produce computers<br>
+
+<input type="radio" name="q16" onclick="b10(16,'D')">
+D. It could increase rainfall
+
+<p id="e16"></p>
+
+
+<!-- Question 17 -->
+<h3>17. Which of the following can be used as forensic evidence?</h3>
+
+<input type="radio" name="q17" onclick="b10(17,'A')">
+A. DNA<br>
+
+<input type="radio" name="q17" onclick="b10(17,'B')">
+B. Blood<br>
+
+<input type="radio" name="q17" onclick="b10(17,'C')">
+C. Fingerprints<br>
+
+<input type="radio" name="q17" onclick="b10(17,'D')">
+D. All of the above
+
+<p id="e17"></p>
+
+
+<!-- Question 18 -->
+<h3>18. Professor Gebisa Ejeta is especially known for research involving which crop?</h3>
+
+<input type="radio" name="q18" onclick="b10(18,'A')">
+A. Sorghum<br>
+
+<input type="radio" name="q18" onclick="b10(18,'B')">
+B. Coffee<br>
+
+<input type="radio" name="q18" onclick="b10(18,'C')">
+C. Banana<br>
+
+<input type="radio" name="q18" onclick="b10(18,'D')">
+D. Wheat only
+
+<p id="e18"></p>
+
+
+<!-- Question 19 -->
+<h3>19. What major agricultural problem did Gebisa Ejeta work to address?</h3>
+
+<input type="radio" name="q19" onclick="b10(19,'A')">
+A. Drought and Striga in sorghum production<br>
+
+<input type="radio" name="q19" onclick="b10(19,'B')">
+B. Ocean pollution<br>
+
+<input type="radio" name="q19" onclick="b10(19,'C')">
+C. Air traffic<br>
+
+<input type="radio" name="q19" onclick="b10(19,'D')">
+D. Earthquakes
+
+<p id="e19"></p>
+
+
+<!-- Question 20 -->
+<h3>20. Professor Gebisa Ejeta received the World Food Prize in which year?</h3>
+
+<input type="radio" name="q20" onclick="b10(20,'A')">
+A. 2009<br>
+
+<input type="radio" name="q20" onclick="b10(20,'B')">
+B. 1999<br>
+
+<input type="radio" name="q20" onclick="b10(20,'C')">
+C. 2019<br>
+
+<input type="radio" name="q20" onclick="b10(20,'D')">
+D. 1989
+
+<p id="e20"></p>
+
+
+<!-- Question 21 -->
+<h3>21. Professor Yalemtsehay Mekonnen is associated with which area?</h3>
+
+<input type="radio" name="q21" onclick="b10(21,'A')">
+A. Cell and human physiology<br>
+
+<input type="radio" name="q21" onclick="b10(21,'B')">
+B. Astronomy<br>
+
+<input type="radio" name="q21" onclick="b10(21,'C')">
+C. Civil engineering<br>
+
+<input type="radio" name="q21" onclick="b10(21,'D')">
+D. Geology
+
+<p id="e21"></p>
+
+
+<!-- Question 22 -->
+<h3>22. Which field can use computer programs to analyze biological data?</h3>
+
+<input type="radio" name="q22" onclick="b10(22,'A')">
+A. Bioinformatics<br>
+
+<input type="radio" name="q22" onclick="b10(22,'B')">
+B. Forensic science only<br>
+
+<input type="radio" name="q22" onclick="b10(22,'C')">
+C. Architecture<br>
+
+<input type="radio" name="q22" onclick="b10(22,'D')">
+D. Astronomy
+
+<p id="e22"></p>
+
+
+<!-- Question 23 -->
+<h3>23. Which field can help scientists study large amounts of DNA information?</h3>
+
+<input type="radio" name="q23" onclick="b10(23,'A')">
+A. Bioinformatics<br>
+
+<input type="radio" name="q23" onclick="b10(23,'B')">
+B. Civil engineering<br>
+
+<input type="radio" name="q23" onclick="b10(23,'C')">
+C. Geography<br>
+
+<input type="radio" name="q23" onclick="b10(23,'D')">
+D. Literature
+
+<p id="e23"></p>
+
+
+<!-- Question 24 -->
+<h3>24. A scientist changes the DNA of a crop to make it resistant to disease. Which field is being used?</h3>
+
+<input type="radio" name="q24" onclick="b10(24,'A')">
+A. Genetic engineering<br>
+
+<input type="radio" name="q24" onclick="b10(24,'B')">
+B. Forensic science<br>
+
+<input type="radio" name="q24" onclick="b10(24,'C')">
+C. Astronomy<br>
+
+<input type="radio" name="q24" onclick="b10(24,'D')">
+D. Geology
+
+<p id="e24"></p>
+
+
+<!-- Question 25 -->
+<h3>25. A doctor uses a specially designed artificial limb for a patient. Which field is most closely related?</h3>
+
+<input type="radio" name="q25" onclick="b10(25,'A')">
+A. Biomedical engineering<br>
+
+<input type="radio" name="q25" onclick="b10(25,'B')">
+B. Bioinformatics<br>
+
+<input type="radio" name="q25" onclick="b10(25,'C')">
+C. Pure Biology<br>
+
+<input type="radio" name="q25" onclick="b10(25,'D')">
+D. Astronomy
+
+<p id="e25"></p>
+
+
+<!-- Question 26 -->
+<h3>26. Which statement best describes Pure Biology?</h3>
+
+<input type="radio" name="q26" onclick="b10(26,'A')">
+A. It focuses on understanding life and biological processes<br>
+
+<input type="radio" name="q26" onclick="b10(26,'B')">
+B. It focuses only on selling medicines<br>
+
+<input type="radio" name="q26" onclick="b10(26,'C')">
+C. It focuses only on building machines<br>
+
+<input type="radio" name="q26" onclick="b10(26,'D')">
+D. It focuses only on computer programming
+
+<p id="e26"></p>
+
+
+<!-- Question 27 -->
+<h3>27. Which statement best describes Applied Biology?</h3>
+
+<input type="radio" name="q27" onclick="b10(27,'A')">
+A. It applies biological knowledge to practical problems<br>
+
+<input type="radio" name="q27" onclick="b10(27,'B')">
+B. It studies only planets<br>
+
+<input type="radio" name="q27" onclick="b10(27,'C')">
+C. It studies only rocks<br>
+
+<input type="radio" name="q27" onclick="b10(27,'D')">
+D. It studies only mathematics
+
+<p id="e27"></p>
+
+
+<!-- Question 28 -->
+<h3>28. Which field is most directly connected with investigating biological evidence from a crime scene?</h3>
+
+<input type="radio" name="q28" onclick="b10(28,'A')">
+A. Forensic science<br>
+
+<input type="radio" name="q28" onclick="b10(28,'B')">
+B. Astronomy<br>
+
+<input type="radio" name="q28" onclick="b10(28,'C')">
+C. Architecture<br>
+
+<input type="radio" name="q28" onclick="b10(28,'D')">
+D. Geology
+
+<p id="e28"></p>
+
+
+<!-- Question 29 -->
+<h3>29. Which combination is correctly matched?</h3>
+
+<input type="radio" name="q29" onclick="b10(29,'A')">
+A. Bioinformatics — computer analysis of biological data<br>
+
+<input type="radio" name="q29" onclick="b10(29,'B')">
+B. Forensic science — study of planets<br>
+
+<input type="radio" name="q29" onclick="b10(29,'C')">
+C. Genetic engineering — study of rocks<br>
+
+<input type="radio" name="q29" onclick="b10(29,'D')">
+D. Biomedical engineering — study of stars
+
+<p id="e29"></p>
+
+
+<!-- Question 30 -->
+<h3>30. Which person is correctly matched with their contribution?</h3>
+
+<input type="radio" name="q30" onclick="b10(30,'A')">
+A. Aklilu Lemma — research on Endod and schistosomiasis<br>
+
+<input type="radio" name="q30" onclick="b10(30,'B')">
+B. Gebisa Ejeta — discovery of electricity<br>
+
+<input type="radio" name="q30" onclick="b10(30,'C')">
+C. Yalemtsehay Mekonnen — discovery of gravity<br>
+
+<input type="radio" name="q30" onclick="b10(30,'D')">
+D. Aklilu Lemma — invention of the computer
+
+<p id="e30"></p>
+
+
+<!-- HARD QUESTIONS -->
+
+<h2>🔥 HARD QUESTIONS</h2>
+
+
+<!-- Question 31 -->
+<h3>31. A hospital needs a computer system to analyze thousands of patient DNA sequences. Which field would be most directly useful?</h3>
+
+<input type="radio" name="q31" onclick="b10(31,'A')">
+A. Biomedical engineering<br>
+
+<input type="radio" name="q31" onclick="b10(31,'B')">
+B. Bioinformatics<br>
+
+<input type="radio" name="q31" onclick="b10(31,'C')">
+C. Forensic science<br>
+
+<input type="radio" name="q31" onclick="b10(31,'D')">
+D. Pure Biology
+
+<p id="e31"></p>
+
+
+<!-- Question 32 -->
+<h3>32. A scientist changes a gene in a plant so that the plant can resist a particular disease. What process is this?</h3>
+
+<input type="radio" name="q32" onclick="b10(32,'A')">
+A. Bioinformatics<br>
+
+<input type="radio" name="q32" onclick="b10(32,'B')">
+B. Genetic engineering<br>
+
+<input type="radio" name="q32" onclick="b10(32,'C')">
+C. Forensic science<br>
+
+<input type="radio" name="q32" onclick="b10(32,'D')">
+D. Pure Biology
+
+<p id="e32"></p>
+
+
+<!-- Question 33 -->
+<h3>33. Which situation best demonstrates the difference between Pure Biology and Applied Biology?</h3>
+
+<input type="radio" name="q33" onclick="b10(33,'A')">
+A. Studying how a disease-causing organism functions and then using that knowledge to develop a treatment<br>
+
+<input type="radio" name="q33" onclick="b10(33,'B')">
+B. Studying two planets<br>
+
+<input type="radio" name="q33" onclick="b10(33,'C')">
+C. Measuring the length of a table<br>
+
+<input type="radio" name="q33" onclick="b10(33,'D')">
+D. Drawing a picture
+
+<p id="e33"></p>
+
+
+<!-- Question 34 -->
+<h3>34. Which pair correctly connects an Ethiopian scientist with a biological contribution?</h3>
+
+<input type="radio" name="q34" onclick="b10(34,'A')">
+A. Gebisa Ejeta — developed sorghum varieties addressing drought and Striga<br>
+
+<input type="radio" name="q34" onclick="b10(34,'B')">
+B. Aklilu Lemma — invented the computer<br>
+
+<input type="radio" name="q34" onclick="b10(34,'C')">
+C. Yalemtsehay Mekonnen — discovered electricity<br>
+
+<input type="radio" name="q34" onclick="b10(34,'D')">
+D. Gebisa Ejeta — discovered Endod
+
+<p id="e34"></p>
+
+
+<!-- Question 35 -->
+<h3>35. A researcher first studies how a biological process works without an immediate practical goal. Later, another scientist uses that knowledge to solve a health problem. Which statement is most accurate?</h3>
+
+<input type="radio" name="q35" onclick="b10(35,'A')">
+A. The first work is Pure Biology, while the later use is Applied Biology<br>
+
+<input type="radio" name="q35" onclick="b10(35,'B')">
+B. Both are astronomy<br>
+
+<input type="radio" name="q35" onclick="b10(35,'C')">
+C. The first work is forensic science only<br>
+
+<input type="radio" name="q35" onclick="b10(35,'D')">
+D. Both are geology
+
+<p id="e35"></p>
+<button onclick="bg10u1p2()">Back</button>
+
+`;
+}
+function b10(question, answer) {
+
+    let correct = {
+        1: "A",
+        2: "A",
+        3: "A",
+        4: "A",
+        5: "A",
+        6: "A",
+        7: "A",
+        8: "A",
+        9: "A",
+        10: "A",
+        11: "A",
+        12: "A",
+        13: "A",
+        14: "A",
+        15: "A",
+        16: "A",
+        17: "D",
+        18: "A",
+        19: "A",
+        20: "A",
+        21: "A",
+        22: "A",
+        23: "A",
+        24: "A",
+        25: "A",
+        26: "A",
+        27: "A",
+        28: "A",
+        29: "A",
+        30: "A",
+        31: "B",
+        32: "B",
+        33: "A",
+        34: "A",
+        35: "A"
+    };
+
+    let explanation = {
+
+        1: "Pure Biology studies how life functions and works in nature.",
+        2: "Applied Biology uses biological knowledge to solve practical problems.",
+        3: "Using biology to improve agriculture is an application of biology.",
+        4: "Biotechnology uses organisms, cells, or biological processes to produce useful products.",
+        5: "Microorganisms can be used to produce useful products, making this biotechnology.",
+        6: "Bioinformatics uses computers and biological data to study biological information.",
+        7: "Bioinformatics is especially useful for analyzing large DNA sequence data.",
+        8: "Genetic engineering involves deliberately modifying genetic material.",
+        9: "DNA contains genetic information and is commonly modified in genetic engineering.",
+        10: "Genetic engineering can be used to give organisms useful characteristics.",
+        11: "Biomedical engineering combines biology, medicine, and engineering.",
+        12: "Prosthetic limbs are an example of technology related to biomedical engineering.",
+        13: "Forensic science applies scientific methods to investigate crimes.",
+        14: "Blood can contain biological information that may be useful in forensic investigations.",
+        15: "Dr. Aklilu Lemma is known for his work on Endod and schistosomiasis.",
+        16: "Dr. Aklilu Lemma found that Endod could help control snails that spread schistosomiasis.",
+        17: "DNA, blood, and fingerprints can all provide forensic evidence.",
+        18: "Professor Gebisa Ejeta is well known for his work with sorghum.",
+        19: "His research addressed drought and Striga problems affecting sorghum production.",
+        20: "Professor Gebisa Ejeta received the World Food Prize in 2009.",
+        21: "Professor Yalemtsehay Mekonnen is associated with cell and human physiology.",
+        22: "Bioinformatics uses computational methods to analyze biological data.",
+        23: "Large amounts of DNA information can be analyzed using bioinformatics.",
+        24: "Changing crop DNA to produce a desired characteristic is genetic engineering.",
+        25: "Designing artificial limbs is an application of biomedical engineering.",
+        26: "Pure Biology focuses on understanding biological processes and life.",
+        27: "Applied Biology uses biological knowledge to solve practical problems.",
+        28: "Forensic science investigates evidence, including biological evidence, from crimes.",
+        29: "Bioinformatics involves computer analysis of biological data.",
+        30: "Aklilu Lemma is associated with research on Endod and schistosomiasis.",
+        31: "Bioinformatics is useful for computer-based analysis of large DNA datasets.",
+        32: "Changing a gene to give a plant a desired characteristic is genetic engineering.",
+        33: "Pure Biology can provide basic understanding, while Applied Biology uses that knowledge for practical purposes.",
+        34: "Gebisa Ejeta developed sorghum varieties addressing drought and Striga.",
+        35: "Studying biological processes for understanding is Pure Biology; using that knowledge to solve practical problems is Applied Biology."
+    };
+
+    let result = document.getElementById("e" + question);
+
+    if (answer === correct[question]) {
+
+        result.innerHTML =
+        "✅ <b>Correct!</b><br>" +
+        explanation[question];
+
+    } else {
+
+        result.innerHTML =
+        "❌ <b>Incorrect!</b><br>" +
+        explanation[question];
+
+    }
+  }
