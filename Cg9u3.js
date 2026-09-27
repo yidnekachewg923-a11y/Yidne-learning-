@@ -101,7 +101,7 @@ Year = 1897</p>
 <p>Ena Thomson yihinin discharge tube yemibalewun experiment sitekem and and ye cathode property(bahir) agignitoal</p>
 <h3>1.How cathode ray travel(megoaz) in discharge tube</p>
 <p>Ena mejemerya yatenawu endet cathode ray be discharged tube endemigoaz nw</h3>
-<img src="dt.png" style="width:500px; height=: auto;">
+<img id="per" src="dt.png">
 <h3>☝️☝️ Discharge tube Yhin ymesilali</h3>
 <p>image lay endemitayewu ye cathode ray straight eyetegoaz eyale obstacle(mesenakl) siyareg yesun ye obstacle shadow(tila) ke jerba siyasay Aye j.j Thomson</p>
 <p>Keza Cathode ray ቀጥታ nw migoazewu ale</p>
@@ -1073,7 +1073,7 @@ Atom = mostly empty space + small, dense, positively charged nucleus + electrons
 👉 በቀላሉ ለማስታወስ:
 Gain energy → Electron goes up ⬆️
 Lose energy → Electron goes down ⬇️</p>
-<img src="Bmodel.png">
+<img id="per" src="Bmodel.png">
 <p>Ayek shell Mibalutn K-Shell,L-Shell,M-Shell,N-Shell,O.....Eyale yketilal</p>
 <p>Enez shell mitekimun Electron lemasikemet nw</p>
 <p>First nucleus ale keza K,L,M,N,...yeketilal</p>
