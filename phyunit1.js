@@ -799,4 +799,183 @@ function vq21() {
         "❌ Incorrect. The resultant is 1 m/s north.";
     }
 }
+function vq22() {
+    let a = document.getElementsByName("q22");
 
+    if (a[1].checked) {
+        document.getElementById("a22").innerHTML =
+        "✅ Correct! Opposite vectors are subtracted.";
+    } else {
+        document.getElementById("a22").innerHTML =
+        "❌ Incorrect. Their magnitudes are subtracted.";
+    }
+}
+
+
+function vq23() {
+    let a = document.getElementsByName("q23");
+
+    if (a[1].checked) {
+        document.getElementById("a23").innerHTML =
+        "✅ Correct! R = √(3² + 4²) = √25 = 5 N.";
+    } else {
+        document.getElementById("a23").innerHTML =
+        "❌ Incorrect. The resultant is 5 N.";
+    }
+}
+
+
+function vq24() {
+    let a = document.getElementsByName("q24");
+
+    if (a[2].checked) {
+        document.getElementById("a24").innerHTML =
+        "✅ Correct! R² = A² + B² for perpendicular vectors.";
+    } else {
+        document.getElementById("a24").innerHTML =
+        "❌ Incorrect. The correct formula is R² = A² + B².";
+    }
+}
+
+
+function vq25() {
+    let a = document.getElementsByName("q25");
+
+    if (a[1].checked) {
+        document.getElementById("a25").innerHTML =
+        "✅ Correct! R = √(6² + 8²) = √100 = 10 m/s.";
+    } else {
+        document.getElementById("a25").innerHTML =
+        "❌ Incorrect. The resultant is 10 m/s.";
+    }
+}
+
+
+function vq26() {
+    let a = document.getElementsByName("q26");
+
+    if (a[1].checked) {
+        document.getElementById("a26").innerHTML =
+        "✅ Correct! tan θ = opposite / adjacent.";
+    } else {
+        document.getElementById("a26").innerHTML =
+        "❌ Incorrect. tan θ = opposite / adjacent.";
+    }
+}
+
+
+function vq27() {
+    let a = document.getElementsByName("q27");
+
+    if (a[1].checked) {
+        document.getElementById("a27").innerHTML =
+        "✅ Correct! tan θ = 3/4.";
+    } else {
+        document.getElementById("a27").innerHTML =
+        "❌ Incorrect. 3 ÷ 4 = 3/4.";
+    }
+}
+
+
+function vq28() {
+    let a = document.getElementsByName("q28");
+
+    if (a[1].checked) {
+        document.getElementById("a28").innerHTML =
+        "✅ Correct! θ = tan⁻¹(opposite/adjacent).";
+    } else {
+        document.getElementById("a28").innerHTML =
+        "❌ Incorrect. Use θ = tan⁻¹(opposite/adjacent).";
+    }
+}
+
+
+function vq29() {
+    let a = document.getElementsByName("q29");
+
+    if (a[2].checked) {
+        document.getElementById("a29").innerHTML =
+        "✅ Correct! The side opposite 90° is the hypotenuse.";
+    } else {
+        document.getElementById("a29").innerHTML =
+        "❌ Incorrect. The answer is Hypotenuse.";
+    }
+}
+
+
+function vq30() {
+    let a = document.getElementsByName("q30");
+
+    if (a[0].checked) {
+        document.getElementById("a30").innerHTML =
+        "✅ Correct! sin θ = opposite / hypotenuse.";
+    } else {
+        document.getElementById("a30").innerHTML =
+        "❌ Incorrect. sin θ = opposite / hypotenuse.";
+    }
+}
+
+
+function vq31() {
+    let a = document.getElementsByName("q31");
+
+    if (a[1].checked) {
+        document.getElementById("a31").innerHTML =
+        "✅ Correct! cos θ = adjacent / hypotenuse.";
+    } else {
+        document.getElementById("a31").innerHTML =
+        "❌ Incorrect. cos θ = adjacent / hypotenuse.";
+    }
+}
+
+
+function vq32() {
+    let a = document.getElementsByName("q32");
+
+    if (a[1].checked) {
+        document.getElementById("a32").innerHTML =
+        "✅ Correct! R = √(5² + 12²) = √169 = 13 m/s.";
+    } else {
+        document.getElementById("a32").innerHTML =
+        "❌ Incorrect. The resultant is 13 m/s.";
+    }
+}
+
+
+function vq33() {
+    let a = document.getElementsByName("q33");
+
+    if (a[1].checked) {
+        document.getElementById("a33").innerHTML =
+        "✅ Correct! Same direction: 6 + 3 = 9 units.";
+    } else {
+        document.getElementById("a33").innerHTML =
+        "❌ Incorrect. 6 + 3 = 9 units.";
+    }
+}
+
+
+function vq34() {
+    let a = document.getElementsByName("q34");
+
+    if (a[2].checked) {
+        document.getElementById("a34").innerHTML =
+        "✅ Correct! Opposite directions: 6 − 3 = 3 units.";
+    } else {
+        document.getElementById("a34").innerHTML =
+        "❌ Incorrect. 6 − 3 = 3 units.";
+    }
+}
+
+
+function vq35() {
+    let a = document.getElementsByName("q35");
+
+    if (a[2].checked) {
+        document.getElementById("a35").innerHTML =
+        "✅ Correct! R = √(6² + 3²) = √45 = √(9×5) = 3√5 units.";
+    } else {
+        document.getElementById("a35").innerHTML =
+        "❌ Incorrect. R = √45 = 3√5 units.";
+    }
+}
