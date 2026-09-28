@@ -131,7 +131,34 @@ function Punit1(){
 <p>Silez &theta; nw minfelgewu</p>
 <p>&theta; = tan<sup>-1</sup>(A/B)</p>
 <h3>Silez Direction &theta; = tan<sup>-1</sup>(A/B)</h3>
-
+<p>Hule endatresa ke 90 degree fit lefit yalewu hypothnes nw mibalewu ena ke &theta; fit lefit yalewu demo opposite nw mibalewu</p>
+<p> 90 degree yemisera Triangle kehone kelay endalewu figure ye triangle sim Right angel triangle nw mibalewu</p>
+<p>sin&theta; = opp/hypo<br>cos&theta; = adj/hypo<br>tan&theta; = opp/adj or sin&theta;/cos&theta;</p>
+<p>Eshi kelay balewu image ye sin,ye cos ena ye tan enfelg</p>
+<p>sin&theta; = opp/hypo = B/R<br>cos&theta; = adj/hypo = A/R<br>tan&theta; = opp/adj = B/A </p>
+<p><b>Parallel Vector</b>:- two vectors A and B are said to be parallel when they have <b>same direction</b></p>
+<p>Hulet vector parallel vector nachewu minilewu temesasy direction sinorachewu nw</p>
+<p><b>Anti-parallel Vector</b>:- Two vectors A and B are said to be anti-parallel vector when they have <b>opposite direction</b></p>
+<p>Hulet vector anti-parallel nachew minilewu tekarani direction sinorachewu nw</p>
+<p>Wode lay North nw wode tach South wode qegn East wode gira West nw</p>
+<p><b>Substraction of Vectors</b></p>
+<p>Example:- Two vectors have magnitudes of 6 unit and 3 unit.What is the magnitude of the resultant vector when the two vectors are in the <b>same direction</b> , in <b>opposite directions</b> and <b>perpendicular to each other</b></p>
+<p>Solution Eshi ahun hulet vector tesetonal 6 unit and 3 unit ena beteleyaye direction sihonu resultant vector sint nw </p>
+<p>Eshi the same direction sihonu Huletun medemer haa 6 unit + 3 unit = 9 unit</p>
+<p>Silez the same direction sinorachewu resultant vector = 9 unit</p>
+<p>Eshi ahun opposite direction sinorachewu demo andu negative yehonal haa silezih 6 unit - 3 unit = 3 unit <b>Ezi gaa endatisasat ke tiliku nw tinishun minkenisewu</b></p>
+<p>Silez opposite direction sinorachewu resultant vector = 3 unit nw</p>
+<p>Eshi ahun Perpendicular sihonu demo phytagores formula enitekemalen</p>
+<p>Lemisale resultant vector R binil</p>
+<p>R<sup>2</sup> = (6 unit)<sup>2</sup> + (3 unit)<sup>2</sup></p>
+<p>R<sup>2</sup> = 36 unit<sup>2</sup> + 9 unit<sup>2</sup></p>
+<p>R<sup>2</sup> = 45 unit<sup>2</sup></p>
+<p>keza huletunim square root wust sinasgeba</p>
+<p>&radic;R<sup>2</sup> =&radic;45unit<sup>2</sup></p>
+<p>R = &radic;9x5unit<sup>2</sup></p>
+<p>R = 3&radic;5 unit </p>
+<button onclick="pg10u1q1()">Next lesson</button>
+<button onclick="P10()">Back</button>
 
   
   
