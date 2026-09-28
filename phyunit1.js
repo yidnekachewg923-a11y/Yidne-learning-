@@ -979,3 +979,36 @@ function vq35() {
         "❌ Incorrect. R = √45 = 3√5 units.";
     }
 }
+function pg10u1p2(){
+  document.body.innerHTML=`
+  <h3>Graphical Method of Vector Addition</h3>
+  <p>There are Three types of vector graphical addition</p>
+  <p><b>Triangle Method of Vector Addition</b></p>
+  <p><b>Parallelogram Method of Vector Addition</b></p>
+  <p><b>Polygon Method of Vector Addition</b></p>
+  <p>1.Triangle Method</p>
+  <p>This method is used to add two vectors when the first vector head is Joined to the tail of the second vector and then joining the tail of the first vector to the head of the second vector to form triangle</p>
+  <p>Yeh method miserawu hulet vectoroch kehonu bicha nw yhin method yeminitekemewu</p>
+  <p>Ena endet meselek hulet vector teseton be triangle method sira ketebalk mn taregalek meselek yemejemeryawu head(ጫፍ) lay huletegnawun vector tiketilalek mnm akitacha sitkeyr keza resultant mihonewu ke mejemerya vector tail wode huletagna head yetesemere line nw</p>
+  <img src="Tri.jpg">
+  <p><b>R = A + B</b></p>
+  <h4>Triangle law hule (Head to Tail) <--- Yichin kal yaz nw</h4>
+  <p>Ayek B amitito A lay ketele B ቅርጹ Aykeyerim keza ke A menesha eske B medresha line asemere keza resultant vector yala line nw ena bezi menged nw Be triangle method add minaregewu Ayek haa mecheresha lay mimetawu triangle nw </p>
+  <p>2.Parallelograme method of vector addition</p>
+  <p>Parallelogram demo tail (Menesha) to(ከ) tail(Menesha) nw ayke ke triangle  ga endet endemileyal triangle head(Mediresha) to(ke) tail(Menesha)</p>
+  <img src="Para.png">
+  <p>Ayek B amitito ke A menesha ga agenagnewu keza ye A ena ye B kelay ena ke goni parallel line abeje keza resultant mihonewu diagonal(r) nw</p>
+  <p>Parallelogram Miserawum le hulet vector bicha nw</p>
+  <p>3.Polygon Method of Vector Addition</p>
+  <p>Yhin method minitekemewu ke hulet bilay yehonu vectoroch sisiten nw </p>
+  <p>Yhinim hulunm vectroch Head to tail enagenagnalen keza kemejemeryawu tail wode mechereshawu vector head enasemiralen</p>
+  <img src="Poly.png">
+  <h3>Hasabun keteredak Beka yemejemeryawun vector ena yemechereshawun vector yaz</h3>
+  <h3>Vector Resolution</h3>
+  
+  
+  
+  
+  
+  `;
+}
