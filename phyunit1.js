@@ -169,3 +169,634 @@ function Punit1(){
 function backHome(){
     start();
 }
+function pg10u1q1(){
+  document.body.innerHTML=`
+<h1>Vector Quantity — Quiz</h1>
+
+<!-- Question 1 -->
+<p><b>1. Which of the following is a vector quantity?</b></p>
+<input type="radio" name="q1"> Time<br>
+<input type="radio" name="q1"> Distance<br>
+<input type="radio" name="q1"> Velocity<br>
+<input type="radio" name="q1"> Temperature<br>
+<button onclick="vq1()">Answer</button>
+<p id="a1"></p>
+
+
+<!-- Question 2 -->
+<p><b>2. A scalar quantity has:</b></p>
+<input type="radio" name="q2"> Magnitude and direction<br>
+<input type="radio" name="q2"> Magnitude only<br>
+<input type="radio" name="q2"> Direction only<br>
+<input type="radio" name="q2"> Neither magnitude nor direction<br>
+<button onclick="vq2()">Answer</button>
+<p id="a2"></p>
+
+
+<!-- Question 3 -->
+<p><b>3. A vector quantity has:</b></p>
+<input type="radio" name="q3"> Magnitude only<br>
+<input type="radio" name="q3"> Direction only<br>
+<input type="radio" name="q3"> Magnitude and direction<br>
+<input type="radio" name="q3"> Mass only<br>
+<button onclick="vq3()">Answer</button>
+<p id="a3"></p>
+
+
+<!-- Question 4 -->
+<p><b>4. Which one is a scalar quantity?</b></p>
+<input type="radio" name="q4"> Displacement<br>
+<input type="radio" name="q4"> Acceleration<br>
+<input type="radio" name="q4"> Speed<br>
+<input type="radio" name="q4"> Velocity<br>
+<button onclick="vq4()">Answer</button>
+<p id="a4"></p>
+
+
+<!-- Question 5 -->
+<p><b>5. Which one is NOT a scalar quantity?</b></p>
+<input type="radio" name="q5"> Energy<br>
+<input type="radio" name="q5"> Power<br>
+<input type="radio" name="q5"> Volume<br>
+<input type="radio" name="q5"> Momentum<br>
+<button onclick="vq5()">Answer</button>
+<p id="a5"></p>
+
+
+<!-- Question 6 -->
+<p><b>6. A vector whose magnitude is zero is called:</b></p>
+<input type="radio" name="q6"> Unit vector<br>
+<input type="radio" name="q6"> Zero vector<br>
+<input type="radio" name="q6"> Equal vector<br>
+<input type="radio" name="q6"> Negative vector<br>
+<button onclick="vq6()">Answer</button>
+<p id="a6"></p>
+
+
+<!-- Question 7 -->
+<p><b>7. A vector whose magnitude is one is called:</b></p>
+<input type="radio" name="q7"> Zero vector<br>
+<input type="radio" name="q7"> Unit vector<br>
+<input type="radio" name="q7"> Parallel vector<br>
+<input type="radio" name="q7"> Position vector<br>
+<button onclick="vq7()">Answer</button>
+<p id="a7"></p>
+
+
+<!-- Question 8 -->
+<p><b>8. Equal vectors have:</b></p>
+<input type="radio" name="q8"> Same magnitude only<br>
+<input type="radio" name="q8"> Same direction only<br>
+<input type="radio" name="q8"> Same magnitude and same direction<br>
+<input type="radio" name="q8"> Opposite directions<br>
+<button onclick="vq8()">Answer</button>
+<p id="a8"></p>
+
+
+<!-- Question 9 -->
+<p><b>9. A negative vector has:</b></p>
+<input type="radio" name="q9"> Different magnitude and same direction<br>
+<input type="radio" name="q9"> Same magnitude and opposite direction<br>
+<input type="radio" name="q9"> Zero magnitude<br>
+<input type="radio" name="q9"> No direction<br>
+<button onclick="vq9()">Answer</button>
+<p id="a9"></p>
+
+
+<!-- Question 10 -->
+<p><b>10. Two vectors pointing in the same direction are called:</b></p>
+<input type="radio" name="q10"> Anti-parallel vectors<br>
+<input type="radio" name="q10"> Parallel vectors<br>
+<input type="radio" name="q10"> Zero vectors<br>
+<input type="radio" name="q10"> Negative vectors<br>
+<button onclick="vq10()">Answer</button>
+<p id="a10"></p>
+
+
+<!-- Question 11 -->
+<p><b>11. Two vectors pointing in opposite directions but parallel are:</b></p>
+<input type="radio" name="q11"> Equal vectors<br>
+<input type="radio" name="q11"> Unit vectors<br>
+<input type="radio" name="q11"> Anti-parallel vectors<br>
+<input type="radio" name="q11"> Zero vectors<br>
+<button onclick="vq11()">Answer</button>
+<p id="a11"></p>
+
+
+<!-- Question 12 -->
+<p><b>12. Vectors lying along the same straight line are called:</b></p>
+<input type="radio" name="q12"> Coplanar vectors<br>
+<input type="radio" name="q12"> Collinear vectors<br>
+<input type="radio" name="q12"> Unit vectors<br>
+<input type="radio" name="q12"> Position vectors<br>
+<button onclick="vq12()">Answer</button>
+<p id="a12"></p>
+
+
+<!-- Question 13 -->
+<p><b>13. Vectors that lie in the same plane are called:</b></p>
+<input type="radio" name="q13"> Collinear vectors<br>
+<input type="radio" name="q13"> Coplanar vectors<br>
+<input type="radio" name="q13"> Zero vectors<br>
+<input type="radio" name="q13"> Negative vectors<br>
+<button onclick="vq13()">Answer</button>
+<p id="a13"></p>
+
+
+<!-- Question 14 -->
+<p><b>14. A vector describing the position of a point from the origin is called:</b></p>
+<input type="radio" name="q14"> Displacement vector<br>
+<input type="radio" name="q14"> Position vector<br>
+<input type="radio" name="q14"> Zero vector<br>
+<input type="radio" name="q14"> Unit vector<br>
+<button onclick="vq14()">Answer</button>
+<p id="a14"></p>
+
+
+<!-- Question 15 -->
+<p><b>15. The change in position of an object is represented by:</b></p>
+<input type="radio" name="q15"> Distance<br>
+<input type="radio" name="q15"> Speed<br>
+<input type="radio" name="q15"> Displacement vector<br>
+<input type="radio" name="q15"> Time<br>
+<button onclick="vq15()">Answer</button>
+<p id="a15"></p>
+
+
+<!-- Question 16 -->
+<p><b>16. Geometrically, a vector is represented by:</b></p>
+<input type="radio" name="q16"> A circle only<br>
+<input type="radio" name="q16"> An arrow<br>
+<input type="radio" name="q16"> A square<br>
+<input type="radio" name="q16"> A dot only<br>
+<button onclick="vq16()">Answer</button>
+<p id="a16"></p>
+
+
+<!-- Question 17 -->
+<p><b>17. In a geometrical vector representation, the length of the arrow represents:</b></p>
+<input type="radio" name="q17"> Direction<br>
+<input type="radio" name="q17"> Magnitude<br>
+<input type="radio" name="q17"> Time<br>
+<input type="radio" name="q17"> Mass<br>
+<button onclick="vq17()">Answer</button>
+<p id="a17"></p>
+
+
+<!-- Question 18 -->
+<p><b>18. In a vector arrow, the arrowhead represents:</b></p>
+<input type="radio" name="q18"> Magnitude<br>
+<input type="radio" name="q18"> Mass<br>
+<input type="radio" name="q18"> Direction<br>
+<input type="radio" name="q18"> Time<br>
+<button onclick="vq18()">Answer</button>
+<p id="a18"></p>
+
+
+<!-- Question 19 -->
+<p><b>19. Two vectors can be directly added when they have:</b></p>
+<input type="radio" name="q19"> Different physical units<br>
+<input type="radio" name="q19"> The same physical unit<br>
+<input type="radio" name="q19"> No units<br>
+<input type="radio" name="q19"> Different dimensions<br>
+<button onclick="vq19()">Answer</button>
+<p id="a19"></p>
+
+
+<!-- Question 20 -->
+<p><b>20. A = 5 m/s east and B = 7 m/s east. What is A + B?</b></p>
+<input type="radio" name="q20"> 2 m/s east<br>
+<input type="radio" name="q20"> 12 m/s east<br>
+<input type="radio" name="q20"> 12 m/s west<br>
+<input type="radio" name="q20"> 35 m/s east<br>
+<button onclick="vq20()">Answer</button>
+<p id="a20"></p>
+
+
+<!-- Question 21 -->
+<p><b>21. A = 4 m/s north and B = 3 m/s south. What is the resultant?</b></p>
+<input type="radio" name="q21"> 7 m/s north<br>
+<input type="radio" name="q21"> 1 m/s north<br>
+<input type="radio" name="q21"> 1 m/s south<br>
+<input type="radio" name="q21"> 12 m/s north<br>
+<button onclick="vq21()">Answer</button>
+<p id="a21"></p>
+
+
+<!-- Question 22 -->
+<p><b>22. When two vectors act in opposite directions, we find the resultant by:</b></p>
+<input type="radio" name="q22"> Adding their magnitudes<br>
+<input type="radio" name="q22"> Subtracting their magnitudes<br>
+<input type="radio" name="q22"> Multiplying them<br>
+<input type="radio" name="q22"> Dividing them<br>
+<button onclick="vq22()">Answer</button>
+<p id="a22"></p>
+
+
+<!-- Question 23 -->
+<p><b>23. Two perpendicular vectors have magnitudes 3 N and 4 N. What is their resultant?</b></p>
+<input type="radio" name="q23"> 1 N<br>
+<input type="radio" name="q23"> 5 N<br>
+<input type="radio" name="q23"> 7 N<br>
+<input type="radio" name="q23"> 12 N<br>
+<button onclick="vq23()">Answer</button>
+<p id="a23"></p>
+
+
+<!-- Question 24 -->
+<p><b>24. Which formula is used to find the magnitude of the resultant of two perpendicular vectors?</b></p>
+<input type="radio" name="q24"> R = A + B<br>
+<input type="radio" name="q24"> R = A - B<br>
+<input type="radio" name="q24"> R² = A² + B²<br>
+<input type="radio" name="q24"> R = A/B<br>
+<button onclick="vq24()">Answer</button>
+<p id="a24"></p>
+
+
+<!-- Question 25 -->
+<p><b>25. A vector is 6 m/s east and another is 8 m/s north. What is the resultant magnitude?</b></p>
+<input type="radio" name="q25"> 2 m/s<br>
+<input type="radio" name="q25"> 10 m/s<br>
+<input type="radio" name="q25"> 14 m/s<br>
+<input type="radio" name="q25"> 48 m/s<br>
+<button onclick="vq25()">Answer</button>
+<p id="a25"></p>
+
+
+<!-- Question 26 -->
+<p><b>26. For perpendicular vectors, tan θ is equal to:</b></p>
+<input type="radio" name="q26"> Adjacent / Opposite<br>
+<input type="radio" name="q26"> Opposite / Adjacent<br>
+<input type="radio" name="q26"> Hypotenuse / Opposite<br>
+<input type="radio" name="q26"> Opposite / Hypotenuse<br>
+<button onclick="vq26()">Answer</button>
+<p id="a26"></p>
+
+
+<!-- Question 27 -->
+<p><b>27. If opposite = 3 and adjacent = 4, tan θ is:</b></p>
+<input type="radio" name="q27"> 4/3<br>
+<input type="radio" name="q27"> 3/4<br>
+<input type="radio" name="q27"> 3/5<br>
+<input type="radio" name="q27"> 5/4<br>
+<button onclick="vq27()">Answer</button>
+<p id="a27"></p>
+
+
+<!-- Question 28 -->
+<p><b>28. Which expression is used to find θ from tan θ?</b></p>
+<input type="radio" name="q28"> θ = tan(A)<br>
+<input type="radio" name="q28"> θ = tan⁻¹(opposite/adjacent)<br>
+<input type="radio" name="q28"> θ = sin(A)<br>
+<input type="radio" name="q28"> θ = cos(A)<br>
+<button onclick="vq28()">Answer</button>
+<p id="a28"></p>
+
+
+<!-- Question 29 -->
+<p><b>29. In a right-angle triangle, the side opposite the 90° angle is called:</b></p>
+<input type="radio" name="q29"> Opposite<br>
+<input type="radio" name="q29"> Adjacent<br>
+<input type="radio" name="q29"> Hypotenuse<br>
+<input type="radio" name="q29"> Base only<br>
+<button onclick="vq29()">Answer</button>
+<p id="a29"></p>
+
+
+<!-- Question 30 -->
+<p><b>30. Which formula is correct?</b></p>
+<input type="radio" name="q30"> sin θ = opposite / hypotenuse<br>
+<input type="radio" name="q30"> sin θ = adjacent / opposite<br>
+<input type="radio" name="q30"> sin θ = hypotenuse / opposite<br>
+<input type="radio" name="q30"> sin θ = adjacent / hypotenuse<br>
+<button onclick="vq30()">Answer</button>
+<p id="a30"></p>
+
+
+<!-- Question 31 -->
+<p><b>31. Which formula is correct?</b></p>
+<input type="radio" name="q31"> cos θ = opposite / hypotenuse<br>
+<input type="radio" name="q31"> cos θ = adjacent / hypotenuse<br>
+<input type="radio" name="q31"> cos θ = hypotenuse / adjacent<br>
+<input type="radio" name="q31"> cos θ = opposite / adjacent<br>
+<button onclick="vq31()">Answer</button>
+<p id="a31"></p>
+
+
+<!-- Question 32 -->
+<p><b>32. A = 5 m/s east and B = 12 m/s north. What is the resultant magnitude?</b></p>
+<input type="radio" name="q32"> 7 m/s<br>
+<input type="radio" name="q32"> 13 m/s<br>
+<input type="radio" name="q32"> 17 m/s<br>
+<input type="radio" name="q32"> 60 m/s<br>
+<button onclick="vq32()">Answer</button>
+<p id="a32"></p>
+
+
+<!-- Question 33 -->
+<p><b>33. Two vectors of 6 units and 3 units act in the same direction. What is the resultant?</b></p>
+<input type="radio" name="q33"> 3 units<br>
+<input type="radio" name="q33"> 9 units<br>
+<input type="radio" name="q33"> 18 units<br>
+<input type="radio" name="q33"> 2 units<br>
+<button onclick="vq33()">Answer</button>
+<p id="a33"></p>
+
+
+<!-- Question 34 -->
+<p><b>34. Two vectors of 6 units and 3 units act in opposite directions. What is the resultant magnitude?</b></p>
+<input type="radio" name="q34"> 9 units<br>
+<input type="radio" name="q34"> 18 units<br>
+<input type="radio" name="q34"> 3 units<br>
+<input type="radio" name="q34"> 2 units<br>
+<button onclick="vq34()">Answer</button>
+<p id="a34"></p>
+
+
+<!-- Question 35 -->
+<p><b>35. Two perpendicular vectors have magnitudes 6 units and 3 units. What is the resultant?</b></p>
+<input type="radio" name="q35"> 9 units<br>
+<input type="radio" name="q35"> 3 units<br>
+<input type="radio" name="q35"> 3√5 units<br>
+<input type="radio" name="q35"> 18 units<br>
+<button onclick="vq35()">Answer</button>
+<p id="a35"></p>
+
+
+<script src="vectorquiz.js"></script>
+<button onclick="pg10u1p2()">Next lesson</button>
+<button onclick="Punit1()">Back</button>
+`;
+}
+function vq1() {
+    let a = document.getElementsByName("q1");
+
+    if (a[2].checked) {
+        document.getElementById("a1").innerHTML =
+        "✅ Correct! Velocity is a vector quantity because it has magnitude and direction.";
+    } else {
+        document.getElementById("a1").innerHTML =
+        "❌ Incorrect. The correct answer is Velocity.";
+    }
+}
+
+
+function vq2() {
+    let a = document.getElementsByName("q2");
+
+    if (a[1].checked) {
+        document.getElementById("a2").innerHTML =
+        "✅ Correct! A scalar has magnitude only.";
+    } else {
+        document.getElementById("a2").innerHTML =
+        "❌ Incorrect. A scalar quantity has magnitude only.";
+    }
+}
+
+
+function vq3() {
+    let a = document.getElementsByName("q3");
+
+    if (a[2].checked) {
+        document.getElementById("a3").innerHTML =
+        "✅ Correct! A vector has both magnitude and direction.";
+    } else {
+        document.getElementById("a3").innerHTML =
+        "❌ Incorrect. The correct answer is magnitude and direction.";
+    }
+}
+
+
+function vq4() {
+    let a = document.getElementsByName("q4");
+
+    if (a[2].checked) {
+        document.getElementById("a4").innerHTML =
+        "✅ Correct! Speed is a scalar quantity.";
+    } else {
+        document.getElementById("a4").innerHTML =
+        "❌ Incorrect. Speed is the correct answer.";
+    }
+}
+
+
+function vq5() {
+    let a = document.getElementsByName("q5");
+
+    if (a[3].checked) {
+        document.getElementById("a5").innerHTML =
+        "✅ Correct! Momentum is a vector quantity.";
+    } else {
+        document.getElementById("a5").innerHTML =
+        "❌ Incorrect. Momentum is a vector quantity.";
+    }
+}
+
+
+function vq6() {
+    let a = document.getElementsByName("q6");
+
+    if (a[1].checked) {
+        document.getElementById("a6").innerHTML =
+        "✅ Correct! A zero vector has zero magnitude.";
+    } else {
+        document.getElementById("a6").innerHTML =
+        "❌ Incorrect. The answer is Zero vector.";
+    }
+}
+
+
+function vq7() {
+    let a = document.getElementsByName("q7");
+
+    if (a[1].checked) {
+        document.getElementById("a7").innerHTML =
+        "✅ Correct! A unit vector has magnitude one.";
+    } else {
+        document.getElementById("a7").innerHTML =
+        "❌ Incorrect. The answer is Unit vector.";
+    }
+}
+
+
+function vq8() {
+    let a = document.getElementsByName("q8");
+
+    if (a[2].checked) {
+        document.getElementById("a8").innerHTML =
+        "✅ Correct! Equal vectors have the same magnitude and direction.";
+    } else {
+        document.getElementById("a8").innerHTML =
+        "❌ Incorrect. Equal vectors have the same magnitude and direction.";
+    }
+}
+
+
+function vq9() {
+    let a = document.getElementsByName("q9");
+
+    if (a[1].checked) {
+        document.getElementById("a9").innerHTML =
+        "✅ Correct! A negative vector has the same magnitude but opposite direction.";
+    } else {
+        document.getElementById("a9").innerHTML =
+        "❌ Incorrect. Same magnitude and opposite direction is correct.";
+    }
+}
+
+
+function vq10() {
+    let a = document.getElementsByName("q10");
+
+    if (a[1].checked) {
+        document.getElementById("a10").innerHTML =
+        "✅ Correct! Parallel vectors have the same or parallel direction.";
+    } else {
+        document.getElementById("a10").innerHTML =
+        "❌ Incorrect. The answer is Parallel vectors.";
+    }
+}
+
+
+function vq11() {
+    let a = document.getElementsByName("q11");
+
+    if (a[2].checked) {
+        document.getElementById("a11").innerHTML =
+        "✅ Correct! Anti-parallel vectors point in opposite directions.";
+    } else {
+        document.getElementById("a11").innerHTML =
+        "❌ Incorrect. The answer is Anti-parallel vectors.";
+    }
+}
+
+
+function vq12() {
+    let a = document.getElementsByName("q12");
+
+    if (a[1].checked) {
+        document.getElementById("a12").innerHTML =
+        "✅ Correct! Collinear vectors lie along the same straight line.";
+    } else {
+        document.getElementById("a12").innerHTML =
+        "❌ Incorrect. The answer is Collinear vectors.";
+    }
+}
+
+
+function vq13() {
+    let a = document.getElementsByName("q13");
+
+    if (a[1].checked) {
+        document.getElementById("a13").innerHTML =
+        "✅ Correct! Coplanar vectors lie in the same plane.";
+    } else {
+        document.getElementById("a13").innerHTML =
+        "❌ Incorrect. The answer is Coplanar vectors.";
+    }
+}
+
+
+function vq14() {
+    let a = document.getElementsByName("q14");
+
+    if (a[1].checked) {
+        document.getElementById("a14").innerHTML =
+        "✅ Correct! A position vector describes the position of a point relative to the origin.";
+    } else {
+        document.getElementById("a14").innerHTML =
+        "❌ Incorrect. The answer is Position vector.";
+    }
+}
+
+
+function vq15() {
+    let a = document.getElementsByName("q15");
+
+    if (a[2].checked) {
+        document.getElementById("a15").innerHTML =
+        "✅ Correct! Displacement represents the change in position.";
+    } else {
+        document.getElementById("a15").innerHTML =
+        "❌ Incorrect. The answer is Displacement vector.";
+    }
+}
+
+
+function vq16() {
+    let a = document.getElementsByName("q16");
+
+    if (a[1].checked) {
+        document.getElementById("a16").innerHTML =
+        "✅ Correct! A vector is geometrically represented by an arrow.";
+    } else {
+        document.getElementById("a16").innerHTML =
+        "❌ Incorrect. The answer is an arrow.";
+    }
+}
+
+
+function vq17() {
+    let a = document.getElementsByName("q17");
+
+    if (a[1].checked) {
+        document.getElementById("a17").innerHTML =
+        "✅ Correct! The length of the arrow represents magnitude.";
+    } else {
+        document.getElementById("a17").innerHTML =
+        "❌ Incorrect. The length represents magnitude.";
+    }
+}
+
+
+function vq18() {
+    let a = document.getElementsByName("q18");
+
+    if (a[2].checked) {
+        document.getElementById("a18").innerHTML =
+        "✅ Correct! The arrowhead shows the direction.";
+    } else {
+        document.getElementById("a18").innerHTML =
+        "❌ Incorrect. The arrowhead represents direction.";
+    }
+}
+
+
+function vq19() {
+    let a = document.getElementsByName("q19");
+
+    if (a[1].checked) {
+        document.getElementById("a19").innerHTML =
+        "✅ Correct! Quantities being added must have compatible units.";
+    } else {
+        document.getElementById("a19").innerHTML =
+        "❌ Incorrect. The vectors must have the same physical unit.";
+    }
+}
+
+
+function vq20() {
+    let a = document.getElementsByName("q20");
+
+    if (a[1].checked) {
+        document.getElementById("a20").innerHTML =
+        "✅ Correct! 5 + 7 = 12 m/s east.";
+    } else {
+        document.getElementById("a20").innerHTML =
+        "❌ Incorrect. 5 m/s + 7 m/s = 12 m/s east.";
+    }
+}
+
+
+function vq21() {
+    let a = document.getElementsByName("q21");
+
+    if (a[1].checked) {
+        document.getElementById("a21").innerHTML =
+        "✅ Correct! 4 m/s north − 3 m/s south = 1 m/s north.";
+    } else {
+        document.getElementById("a21").innerHTML =
+        "❌ Incorrect. The resultant is 1 m/s north.";
+    }
+}
+
