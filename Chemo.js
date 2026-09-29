@@ -824,5 +824,249 @@ function cg10u1q(){
 <button onclick="Cunit1()">Back</button>
 `;
 }
+function cg10u1q1(){
+  document.getElementById("q1ans").innerHTML =
+  document.getElementById("q1b").checked
+  ? "✅ Correct! Physical change does not form a new substance."
+  : "❌ Wrong. The correct answer is B.";
+}
+
+function cg10u1q2(){
+  document.getElementById("q2ans").innerHTML =
+  document.getElementById("q2c").checked
+  ? "✅ Correct! Melting ice is a physical change."
+  : "❌ Wrong. The correct answer is C.";
+}
+
+function cg10u1q3(){
+  document.getElementById("q3ans").innerHTML =
+  document.getElementById("q3d").checked
+  ? "✅ Correct! Burning wood forms new substances."
+  : "❌ Wrong. The correct answer is D.";
+}
+
+function cg10u1q4(){
+  document.getElementById("q4ans").innerHTML =
+  document.getElementById("q4a").checked
+  ? "✅ Correct! Change of color can indicate a chemical change."
+  : "❌ Wrong. The correct answer is A.";
+}
+
+function cg10u1q5(){
+  document.getElementById("q5ans").innerHTML =
+  document.getElementById("q5b").checked
+  ? "✅ Correct! Reactants are converted into products."
+  : "❌ Wrong. The correct answer is B.";
+}
+
+function cg10u1q6(){
+  document.getElementById("q6ans").innerHTML =
+  document.getElementById("q6c").checked
+  ? "✅ Correct! Stoichiometry studies the quantities of reactants and products."
+  : "❌ Wrong. The correct answer is C.";
+}
+
+function cg10u1q7(){
+  document.getElementById("q7ans").innerHTML =
+  document.getElementById("q7b").checked
+  ? "✅ Correct! Reactants are written before the arrow."
+  : "❌ Wrong. The correct answer is B.";
+}
+
+function cg10u1q8(){
+  document.getElementById("q8ans").innerHTML =
+  document.getElementById("q8b").checked
+  ? "✅ Correct! H₂ and O₂ are reactants."
+  : "❌ Wrong. The correct answer is B.";
+}
+
+function cg10u1q9(){
+  document.getElementById("q9ans").innerHTML =
+  document.getElementById("q9c").checked
+  ? "✅ Correct! H₂O is the product."
+  : "❌ Wrong. The correct answer is C.";
+}
+
+function cg10u1q10(){
+  document.getElementById("q10ans").innerHTML =
+  document.getElementById("q10b").checked
+  ? "✅ Correct! 2H₂ + O₂ → 2H₂O is balanced."
+  : "❌ Wrong. The correct answer is B.";
+}
+
+function cg10u1q11(){
+  document.getElementById("q11ans").innerHTML =
+  document.getElementById("q11b").checked
+  ? "✅ Correct! The coefficients are 2, 1, and 2."
+  : "❌ Wrong. The correct answer is B.";
+}
+
+function cg10u1q12(){
+  document.getElementById("q12ans").innerHTML =
+  document.getElementById("q12b").checked
+  ? "✅ Correct! N₂ + 3H₂ → 2NH₃."
+  : "❌ Wrong. The correct answer is B.";
+}
+
+function cg10u1q13(){
+  document.getElementById("q13ans").innerHTML =
+  document.getElementById("q13b").checked
+  ? "✅ Correct! LCM means Least Common Multiple."
+  : "❌ Wrong. The correct answer is B.";
+}
+
+function cg10u1q14(){
+  document.getElementById("q14ans").innerHTML =
+  document.getElementById("q14b").checked
+  ? "✅ Correct! 4Al + 3O₂ → 2Al₂O₃."
+  : "❌ Wrong. The correct answer is B.";
+}
+
+function cg10u1q15(){
+  document.getElementById("q15ans").innerHTML =
+  document.getElementById("q15c").checked
+  ? "✅ Correct! A + B → AB is combination."
+  : "❌ Wrong. The correct answer is C.";
+}
+
+function cg10u1q16(){
+  document.getElementById("q16ans").innerHTML =
+  document.getElementById("q16c").checked
+  ? "✅ Correct! A + B → AB."
+  : "❌ Wrong. The correct answer is C.";
+}
+
+function cg10u1q17(){
+  document.getElementById("q17ans").innerHTML =
+  document.getElementById("q17a").checked
+  ? "✅ Correct! Two elements combine to form one compound."
+  : "❌ Wrong. The correct answer is A.";
+}
+
+function cg10u1q18(){
+  document.getElementById("q18ans").innerHTML =
+  document.getElementById("q18b").checked
+  ? "✅ Correct! One compound breaks into two or more products."
+  : "❌ Wrong. The correct answer is B.";
+}
+
+function cg10u1q19(){
+  document.getElementById("q19ans").innerHTML =
+  document.getElementById("q19c").checked
+  ? "✅ Correct! AB → A + B."
+  : "❌ Wrong. The correct answer is C.";
+}
+
+function cg10u1q20(){
+  document.getElementById("q20ans").innerHTML =
+  document.getElementById("q20b").checked
+  ? "✅ Correct! CaCO₃ breaks into CaO and CO₂."
+  : "❌ Wrong. The correct answer is B.";
+}
+
+function cg10u1q21(){
+  document.getElementById("q21ans").innerHTML =
+  document.getElementById("q21c").checked
+  ? "✅ Correct! Δ indicates heat."
+  : "❌ Wrong. The correct answer is C.";
+}
+
+function cg10u1q22(){
+  document.getElementById("q22ans").innerHTML =
+  document.getElementById("q22c").checked
+  ? "✅ Correct! A + BC → B + AC."
+  : "❌ Wrong. The correct answer is C.";
+}
+
+function cg10u1q23(){
+  document.getElementById("q23ans").innerHTML =
+  document.getElementById("q23b").checked
+  ? "✅ Correct! A more reactive element can displace a less reactive element."
+  : "❌ Wrong. The correct answer is B.";
+}
+
+function cg10u1q24(){
+  document.getElementById("q24ans").innerHTML =
+  document.getElementById("q24a").checked
+  ? "✅ Correct! Zn replaces Cu."
+  : "❌ Wrong. The correct answer is A.";
+}
+
+function cg10u1q25(){
+  document.getElementById("q25ans").innerHTML =
+  document.getElementById("q25c").checked
+  ? "✅ Correct! Copper is displaced."
+  : "❌ Wrong. The correct answer is C.";
+}
+
+function cg10u1q26(){
+  document.getElementById("q26ans").innerHTML =
+  document.getElementById("q26c").checked
+  ? "✅ Correct! Two compounds exchange ions."
+  : "❌ Wrong. The correct answer is C.";
+}
+
+function cg10u1q27(){
+  document.getElementById("q27ans").innerHTML =
+  document.getElementById("q27d").checked
+  ? "✅ Correct! AB + CD → AD + CB."
+  : "❌ Wrong. The correct answer is D.";
+}
+
+function cg10u1q28(){
+  document.getElementById("q28ans").innerHTML =
+  document.getElementById("q28c").checked
+  ? "✅ Correct! AgNO₃ + NaCl → AgCl + NaNO₃ is double displacement."
+  : "❌ Wrong. The correct answer is C.";
+}
+
+function cg10u1q29(){
+  document.getElementById("q29ans").innerHTML =
+  document.getElementById("q29c").checked
+  ? "✅ Correct! The ions exchange partners."
+  : "❌ Wrong. The correct answer is C.";
+}
+
+function cg10u1q30(){
+  document.getElementById("q30ans").innerHTML =
+  document.getElementById("q30a").checked
+  ? "✅ Correct! A + B → AB is combination."
+  : "❌ Wrong. The correct answer is A.";
+}
+
+function cg10u1q31(){
+  document.getElementById("q31ans").innerHTML =
+  document.getElementById("q31b").checked
+  ? "✅ Correct! AB → A + B is decomposition."
+  : "❌ Wrong. The correct answer is B.";
+}
+
+function cg10u1q32(){
+  document.getElementById("q32ans").innerHTML =
+  document.getElementById("q32c").checked
+  ? "✅ Correct! Single displacement has an element + compound."
+  : "❌ Wrong. The correct answer is C.";
+}
+
+function cg10u1q33(){
+  document.getElementById("q33ans").innerHTML =
+  document.getElementById("q33d").checked
+  ? "✅ Correct! Double displacement involves two compounds."
+  : "❌ Wrong. The correct answer is D.";
+}
+
+function cg10u1q34(){
+  document.getElementById("q34ans").innerHTML =
+  document.getElementById("q34a").checked
+  ? "✅ Correct! CaO + CO₂ → CaCO₃ is combination."
+  : "❌ Wrong. The correct answer is A.";
+}
+
+function cg10u1q35(){
+  document.getElementById("q35ans").innerHTML =
+  document.getElementById("q35d").checked
+  ? "✅ Correct! AB + CD → AD + CB is double displacement."
+  : "❌ Wrong. The correct answer is D.";
+    }
 
 
