@@ -720,5 +720,109 @@ function cg10u1q(){
 <input type="radio" name="q25" id="q25d"> D. Oxygen<br>
 <button onclick="cg10u1q25()">Answer</button>
 <p id="q25ans"></p>
+<!-- Question 26 -->
+<p><b>26. A double displacement reaction involves:</b></p>
+<input type="radio" name="q26" id="q26a"> A. One element and one compound<br>
+<input type="radio" name="q26" id="q26b"> B. One compound breaking apart<br>
+<input type="radio" name="q26" id="q26c"> C. Two compounds exchanging ions<br>
+<input type="radio" name="q26" id="q26d"> D. Two elements forming one compound<br>
+<button onclick="cg10u1q26()">Answer</button>
+<p id="q26ans"></p>
+
+
+<!-- Question 27 -->
+<p><b>27. What is the general form of double displacement?</b></p>
+<input type="radio" name="q27" id="q27a"> A. A + B → AB<br>
+<input type="radio" name="q27" id="q27b"> B. AB → A + B<br>
+<input type="radio" name="q27" id="q27c"> C. A + BC → AC + B<br>
+<input type="radio" name="q27" id="q27d"> D. AB + CD → AD + CB<br>
+<button onclick="cg10u1q27()">Answer</button>
+<p id="q27ans"></p>
+
+
+<!-- Question 28 -->
+<p><b>28. Which equation is a double displacement reaction?</b></p>
+<input type="radio" name="q28" id="q28a"> A. Zn + CuSO₄ → ZnSO₄ + Cu<br>
+<input type="radio" name="q28" id="q28b"> B. CaCO₃ → CaO + CO₂<br>
+<input type="radio" name="q28" id="q28c"> C. AgNO₃ + NaCl → AgCl + NaNO₃<br>
+<input type="radio" name="q28" id="q28d"> D. 2Na + Cl₂ → 2NaCl<br>
+<button onclick="cg10u1q28()">Answer</button>
+<p id="q28ans"></p>
+
+
+<!-- Question 29 -->
+<p><b>29. In AgNO₃ + NaCl → AgCl + NaNO₃, which ions exchange partners?</b></p>
+<input type="radio" name="q29" id="q29a"> A. Ag⁺ and Na⁺ only<br>
+<input type="radio" name="q29" id="q29b"> B. NO₃⁻ and Cl⁻ only<br>
+<input type="radio" name="q29" id="q29c"> C. Positive and negative ions exchange partners<br>
+<input type="radio" name="q29" id="q29d"> D. Electrons only<br>
+<button onclick="cg10u1q29()">Answer</button>
+<p id="q29ans"></p>
+
+
+<!-- Question 30 -->
+<p><b>30. Which reaction type has the pattern A + B → AB?</b></p>
+<input type="radio" name="q30" id="q30a"> A. Combination<br>
+<input type="radio" name="q30" id="q30b"> B. Decomposition<br>
+<input type="radio" name="q30" id="q30c"> C. Single displacement<br>
+<input type="radio" name="q30" id="q30d"> D. Double displacement<br>
+<button onclick="cg10u1q30()">Answer</button>
+<p id="q30ans"></p>
+
+
+<!-- Question 31 -->
+<p><b>31. Which reaction type has one compound as a reactant and two or more products?</b></p>
+<input type="radio" name="q31" id="q31a"> A. Combination<br>
+<input type="radio" name="q31" id="q31b"> B. Decomposition<br>
+<input type="radio" name="q31" id="q31c"> C. Single displacement<br>
+<input type="radio" name="q31" id="q31d"> D. Double displacement<br>
+<button onclick="cg10u1q31()">Answer</button>
+<p id="q31ans"></p>
+
+
+<!-- Question 32 -->
+<p><b>32. Which reaction type has one element and one compound as reactants?</b></p>
+<input type="radio" name="q32" id="q32a"> A. Combination<br>
+<input type="radio" name="q32" id="q32b"> B. Decomposition<br>
+<input type="radio" name="q32" id="q32c"> C. Single displacement<br>
+<input type="radio" name="q32" id="q32d"> D. Double displacement<br>
+<button onclick="cg10u1q32()">Answer</button>
+<p id="q32ans"></p>
+
+
+<!-- Question 33 -->
+<p><b>33. Which reaction type has two compounds as reactants and two compounds as products?</b></p>
+<input type="radio" name="q33" id="q33a"> A. Combination<br>
+<input type="radio" name="q33" id="q33b"> B. Decomposition<br>
+<input type="radio" name="q33" id="q33c"> C. Single displacement<br>
+<input type="radio" name="q33" id="q33d"> D. Double displacement<br>
+<button onclick="cg10u1q33()">Answer</button>
+<p id="q33ans"></p>
+
+
+<!-- Question 34 -->
+<p><b>34. What type of reaction is CaO + CO₂ → CaCO₃?</b></p>
+<input type="radio" name="q34" id="q34a"> A. Combination<br>
+<input type="radio" name="q34" id="q34b"> B. Decomposition<br>
+<input type="radio" name="q34" id="q34c"> C. Single displacement<br>
+<input type="radio" name="q34" id="q34d"> D. Double displacement<br>
+<button onclick="cg10u1q34()">Answer</button>
+<p id="q34ans"></p>
+
+
+<!-- Question 35 -->
+<p><b>35. What type of reaction is AB + CD → AD + CB?</b></p>
+<input type="radio" name="q35" id="q35a"> A. Combination<br>
+<input type="radio" name="q35" id="q35b"> B. Decomposition<br>
+<input type="radio" name="q35" id="q35c"> C. Single displacement<br>
+<input type="radio" name="q35" id="q35d"> D. Double displacement<br>
+<button onclick="cg10u1q35()">Answer</button>
+<p id="q35ans"></p>
+
+<br>
+<button onclick="cg10u1p4()">Next lesson</button>
+<button onclick="Cunit1()">Back</button>
+`;
+}
 
 
