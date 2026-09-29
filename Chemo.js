@@ -273,13 +273,452 @@ function pt(){
 </tr>
 
 </table>
+</h1>Est Balance Chemical equation wuth LCM Method Eny</h1>
+<p>When Aluminum react with oxygen it formed Aluminum oxide</p>
+<p>Al + O<sub>2</sub> ---> Al<sub>2</sub>O<sub>3</sub></p>
+<p>Next step yeyandadun valance electron enfelgalen</p>
+<p>Ahun Examples lay yaalu elementoch Al ena O nachew silez yehuletun valance electron mawok bicha nw</p>
+<p>Al=3<br>O=2</p>
+<p>Next step Ahun bedenb teketatel</p>
+<p>Al be react bekul and bicha nw oxygen demo 2 nw eneza ketach mitsafu kutiroch subscript nw mibalut</p>
+<p>Al be product bekul 2 nw oxygen demo 3</p>
+<p>Ahun kezi bemeketel Valance electron be subscript enabazalen</p>
+<p>Reactant: Al=3*1, O=2*2 Al=3, O=4</p>
+<p>Product: Al=3*2 , O=2*3 Al=6 O=6</p>
+<p>Ahun Ye hulum LCM(tinshu ye gara akafay) enflgalen</p>
+<p>LCM(Al=3,O=4,Al=6,O=6) =12 Nw</p>
+<p>Keza yagegnenewun LCM lehulem Eyakafilen yagegnenewun kutir le original formula fitleft enasikemitalen</p>
+<p>Orginal formula</p>
+<p>Al + O<sub>2</sub> ---> Al<sub>2</sub>O<sub>3</sub></p>
+<p>Silez ahun ye reactant part ensira</p>
+<p>ye Al 12/3=4 ye O 12/4=3</p>
+<p>4Al + 3O ---> Al<sub>2</sub>O<sub>3</sub></p>
+<p>Ahun ye product part ensira</p>
+<p>Ye Al 12/6=2 ye O 12/6=2</p>
+<p>4Al + 3O ---> 2Al<sub>2</sub>O<sub>3</sub></p>
+<p>Est ahun demo be algebraic method enisira</p>
+<p><b>Example:Balance the following chemical equation , using the algebraic Method </b></p>
+<p><b>a.Na + H<sub>2</sub>O ---> NaOH + H<sub>2</sub></b></p>
+<p><b>b.KClO<sub>3</sub> ---> KCl + O<sub>2</sub></b></p>
+<p><b>c.H<sub>2</sub>O<sub>2</sub>  ---> H<sub>2</sub>O + O<sub>2</sub></b></p>
+<p><b>d.Al + H<sub>3</sub>PO<sub>4</sub> ---> AlPO<sub>2</sub> + H<sub>2</sub></b></p>
+<p>1.Solution</p>
+<p>Eshi a,b,c,d Enibel kelay ene silemaymechegn nw</p>
+<p>Na(a = c)<br>H(2b = c + 2d)<br>O(b = c)</p>
+<p>Let c = 1<br>a = 1<br> b = 1 Eshi ahun d bicha mikeren</p>
+<p>2b=c+2d<br>2(1)=1+2d<br>2-1=2d<br>1=2d<br>1/2=2d/2<br>1/2=d<br>d=1/2</p>
+<p>d Fraction silehone hulunm be 2 enabaza</p>
+<p>a=2<br>b=2<br>c=2<br>d=1</p>
+<p><b>a.2Na + 2H<sub>2</sub>O ---> 2NaOH + H<sub>2</sub>(balanced</b></p>
+<p>2.solution</p>
+<p>Ante a,b,c bilek seymi</p>
+<p>K(a=b)<br>Cl(a=b)<br>O(3a=2c)</p>
+<p>a=b<br>a=b<br>3a=2c</p>
+<p>let b=1<br>a=1</p>
+<p>Ahun c bicha nw mikeren</p>
+<p>3a=2c 3(1)=2c 3=2c 3/2=2c/2 c=3/2</p>
+<p>a=1 , b=1, c=3/2 silet c fraction silehone hulunm be 2 mabazat</p>
+<p>a=2, b=2, c=3</p>
+<p><b>2KClO<sub>3</sub> ---> 2KCl + 3O<sub>2</sub>(balanced)</b></p>
+<p>3.solution</p>
+<p>Eshi ante a,b,c bilek seyim</p>
+<p>H(2a=2b)<br>O(2a=b+2c)</p>
+<p>2a=2b<br>2a=b+2c</p>
+<p>let b=1<br>2a=2(1)<br>2a=2<br>2a/2=2/2<br>a=1</p>
+<p>Eshi ahun c bicha nw mikeren</p>
+<p>2a=b+2c<br>2(1)=1+2c<br>2=1+2c<br>2-1=2c<br>1=2c</br>1/2=2c/2<br>c=1/2</p>
+<p>a=1, b=1, c=1/2<p>
+<p>Eshi ahun c fraction silehone be 2 enabazalen</p>
+<p>a=2, b=2, c=1</p>
+<p><b>2H<sub>2</sub>O<sub>2</sub>  ---> 2H<sub>2</sub>O + O<sub>2</sub>(balanced)</b></p>
+<h4>d ante mokir Check lemareg ketach</h4>
+<button onclick="balance()">Answer</button>
+<p id="in"></p>
+<h2>Balance the following equations using the algebraic method.</h2>
+
+<p><b>a.</b> PCl<sub>5</sub> + H<sub>2</sub>O &rarr; H<sub>3</sub>PO<sub>4</sub> + HCl</p>
+
+<p><b>b.</b> Mg + H<sub>2</sub>O &rarr; Mg(OH)<sub>2</sub> + H<sub>2</sub></p>
+
+<p><b>c.</b> Zn(NO<sub>3</sub>)<sub>2</sub> &rarr; ZnO + NO<sub>2</sub> + O<sub>2</sub></p>
+
+<p><b>d.</b> H<sub>2</sub>SO<sub>4</sub> + NaOH &rarr; Na<sub>2</sub>SO<sub>4</sub> + H<sub>2</sub>O</p>
+
+<p><b>e.</b> NH<sub>3</sub> + O<sub>2</sub> &rarr; NO + H<sub>2</sub>O</p>
+
+<p><b>f.</b> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + O<sub>2</sub> &rarr; CO<sub>2</sub> + H<sub>2</sub>O</p>
+
+<p><b>g.</b> FeCl<sub>3</sub> + MgO &rarr; Fe<sub>2</sub>O<sub>3</sub> + MgCl<sub>2</sub></p>
+
+<p><b>h.</b> BaCl<sub>2</sub> + K<sub>3</sub>PO<sub>4</sub> &rarr; Ba<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> + KCl</p>
+
+<p><b>i.</b> P<sub>4</sub>O<sub>10</sub> + H<sub>2</sub>O &rarr; H<sub>3</sub>PO<sub>4</sub></p>
+<h3>☝️☝️ hulunm sira keza check arg balance endehonu</h3>
+<button onclick="cg10u1p3()">Next lesson</button>
+<button onclick="Cunit1()">Back</button>
+  `;
+}
+function balance(){
+  document.getElementById("in").innerHTML="a=2,b=2,c=2 and d=3 ---> 2Al + 2H₃PO₄ → 2AlPO₄ + 3H₂"
   
-  
-  
-  
-  
+}
+function cg10u1p3(){
+  document.body.innerHTML=`
+  <h3>Types of chemical reaction</h3>
+  <p><b>1.Direct combination</b></p>
+  <p><b>2.Decompostion</b></p>
+  <p><b>3.Displacement</b></p>
+  <p><b>4.Double displacement</b></p>
+  <p>A. Direct combination of reaction</p>
+  <p>Combination reaction is those reaction in which two types of pur substance react directly and form a single substance</p>
+  <p>In combination reaction ,two elements,two compounds or two element and a compound react to form single compound</p>
+  <p>A+B--->AB</p>
+  <p>Combination reaction ማለት ሁለት ወይም ከዚያ በላይ ንጥረ ነገሮች (substances) በቀጥታ ተዋህደው አንድ ነጠላ ንጥረ ነገር የሚፈጥሩበት የኬሚካል ምላሽ ነው።<br>
+በቀላሉ:
+👉 ብዙ ንጥረ ነገሮች → አንድ ምርት
+ሊሆን የሚችለው<br>
+1.ሁለት elements ሊዋሃዱ ይችላሉ።<br>
+2.ሁለት compounds ሊዋሃዱ ይችላሉ።<br>
+3.አንድ element + አንድ compound ሊዋሃዱ ይችላሉ።<br>
+አጠቃላይ ቀመር
+A + B → AB
+ማለትም A እና B ተዋህደው AB የተባለ አንድ ምርት ይፈጥራሉ።<br>
+ምሳሌ
+2H₂ + O₂ → 2H₂O
+እዚህ Hydrogen (H₂) እና Oxygen (O₂) ተዋህደው አንድ አይነት ምርት Water (H₂O) ፈጥረዋል።</p>
+<p>Example: </p>
+<p>2Na + Cl<sub>2</sub> ---> 2NaCl<br>
+Element + Element ---> Compound</p>
+<p>CaO + CO<sub>2</sub> ---> CaCO<sub>3</sub><br>
+Compound + Compound ---> Compound</p>
+<h3>Bekelalu direct combination mehonun mitakewu be product side minim lela midemer neger yelem and compound bicha nw mikemetewu</h3>
+<p>B. Decomposition reaction</p>
+<p>Decomposition reaction(woym belela simu analysis ybalali) is a reaction that involves the breaking down of single compound into two or more elements.</p>
+<p>A decomposition reaction can be  carried out using heat,light , electric city, or catalyst</p>
+<p>But Most decomposition reaction are carried out when heat is supplied and this heat energy is indicated by delta (∆) symbol above the arrow</p>
+<p>AB ---> A + B</p>
+<p> Decomposition reaction ማለት አንድ ውህድ (compound) ተሰባብሮ ሁለት ወይም ከዚያ በላይ products የሚፈጥርበት የኬሚካል ምላሽ ነው።<br>
+በቀላሉ፦
+አንድ compound → ሁለት ወይም ከዚያ በላይ products<br>
+ምላሹ ሊከናወን የሚችለው
+Decomposition reaction በተለያዩ ኃይሎች ሊከናወን ይችላል፦<br>
+1.🔥 Heat (ሙቀት)<br>
+2.💡 Light (ብርሃን)<br>
+3.⚡ Electricity (ኤሌክትሪክ)<br>
+4.Catalyst (ካታሊስት)<br>
+ነገር ግን ብዙ decomposition reactions ሙቀት በመስጠት ይከናወናሉ።<br>
+ሙቀት እንደሚሰጥ ለማሳየት ∆ (delta) ምልክት ከarrow በላይ ይጻፋል።<br>
+AB → A + B<br>
+ማለትም AB የተባለ አንድ compound ተበላሽቶ A እና B የተባሉ ምርቶችን ይፈጥራል።<br>
+ምሳሌ<br>
+CaCO₃ → CaO + CO₂<br>
+ይህ reaction ሙቀት በመስጠት ሲከናወን፦<br>
+CaCO₃ ──∆→ CaO + CO₂<br>
+እዚህ አንድ compound (CaCO₃) ተሰባብሮ CaO እና CO₂ ሁለት products ፈጥሯል። ስለዚህ decomposition reaction ነው። </p>
+<h4>Ahun kez meyaz yalebik neger combination malet hulet negerochin wode andi mekeyer nw neger gn decomposition malet demo anid negerin wode hulet neger mekeyer nw hulet opposite nachewu</h4>
+<p>C. single displacement</p>
+<p>A reaction in which one element displace another element from its compound is know as single displacement or replacement reaction </p>
+<p>A + BC ---> B + AC</p>
+<p>If A is metal, it will displace B to form AC , provided A is more active metal than B</p>
+<p>More reactive elements displace a less reactive elements from compound</p>
+<p>Single displacement reaction ወይም replacement reaction ማለት አንድ element ከአንድ compound ውስጥ ሌላ elementን በመተካት አዲስ compound የሚፈጥርበት የኬሚካል ምላሽ ነው።<br>
+በቀላሉ፦
+👉 አንድ element + አንድ compound → አዲስ element + አዲስ compound<br>
+A + BC → B + AC<br>
+እዚህ A የሚባለው element ከcompound BC ውስጥ B ን ያስወጣል። ከዚያ AC የሚባል አዲስ compound ይፈጠራል።<br>
+መቼ ነው የሚከሰተው?<br>
+A ብረት (metal) ከሆነ፣ Bን ለመተካት A ከB የበለጠ reactive (active) መሆን አለበት።<br>
+ስለዚህ፦<br>
+More reactive element → less reactive elementን ከcompound ውስጥ ያስወጣል።<br>
+ምሳሌ<br>
+Zn + CuSO₄ → ZnSO₄ + Cu<br>
+እዚህ፦<br>
+Zn = Zinc<br>
+CuSO₄ = Copper sulfate<br>
+Zn ከCu የበለጠ reactive ስለሆነ Cuን ከcompound ውስጥ ያስወጣል።<br>
+ስለዚህ ZnSO₄ እና Cu ይፈጠራሉ።<br>
+Zn + CuSO₄ → ZnSO₄ + Cu ስለዚህ Single Displacement Reaction ነው።</p>
+<p>D.Double displacement reaction</p>
+<p>A double displacement reaction(metathesis)is a reaction in which two compound react together to form two new compound by exchange of the positive and negative ions of each reactant</p>
+<p>AB + CD ---> AD + CB </p>
+<p>Double displacement reaction ወይም metathesis reaction ማለት ሁለት compounds እርስ በርሳቸው ሲነካኩ የእያንዳንዱ compound positive ion እና negative ion ቦታ በመቀያየር ሁለት አዲስ compounds የሚፈጥሩበት ምላሽ ነው።<br>
+በቀላሉ፦<br>
+👉 Compound + Compound → New compound + New compound<br>
+AB + CD → AD + CB<br>
+እዚህ፦<br>
+AB = የመጀመሪያ compound<br>
+CD = ሁለተኛ compound<br>
+A እና C = positive ions (cations)<br>
+B እና D = negative ions (anions)<br>
+በምላሹ ጊዜ B እና D ይቀያየራሉ።<br>
+ምሳሌ<br>
+AgNO₃ + NaCl → AgCl + NaNO₃<br>
+እዚህ፦<br>
+Ag⁺ ከ NO₃⁻ ተለይቶ Cl⁻ ጋር ይገናኛል።<br>
+Na⁺ ደግሞ NO₃⁻ ጋር ይገናኛል።<br>
+ስለዚህ፦<br>
+AgNO₃ + NaCl → AgCl + NaNO₃<br>
+ይህ Double Displacement Reaction ነው።</p>
+<p>Be kelalil amarigna aratun endet tileyalek meseleki bekelalu</p>
+<p>Composition kehone Be product side 1 compound bicha nw mimorewu lela + tedergo aydemerim</p>
+<p>Decomposition kehone demo be reactants side 1 compound tesebabiro be product side hulet sihonu be reactants bekul 1 compound bicha nw minorewu</p>
+<p>Single displacement kehone demo be reactants bekul and single element ena 1 compound ena be product bekulm 1 element ena 1 compound sinor nw</p>
+  <p>Double displacement kehone demo be reactants side 1 compound sidemr lela compound ena be product sidim temesasy 1 compound sidemer lela compound sinor nw kezi belaya mabrarati alchilim</p>
+  <button onclick="cg10u1q()">quiz</button>
+  <button onclick="Pt()">Back</button>
   
   
   `;
 }
+function cg10u1q(){
+  document.body.innerHTML=`
+<!-- Question 1 -->
+<p><b>1. What is a physical change?</b></p>
+<input type="radio" name="q1" id="q1a"> A. A change that forms a new substance<br>
+<input type="radio" name="q1" id="q1b"> B. A change that does not form a new substance<br>
+<input type="radio" name="q1" id="q1c"> C. A reaction between two compounds<br>
+<input type="radio" name="q1" id="q1d"> D. A reaction that produces gas<br>
+<button onclick="cg10u1q1()">Answer</button>
+<p id="q1ans"></p>
+
+
+<!-- Question 2 -->
+<p><b>2. Which of the following is a physical change?</b></p>
+<input type="radio" name="q2" id="q2a"> A. Burning wood<br>
+<input type="radio" name="q2" id="q2b"> B. Cooking food<br>
+<input type="radio" name="q2" id="q2c"> C. Melting ice<br>
+<input type="radio" name="q2" id="q2d"> D. Burning paper<br>
+<button onclick="cg10u1q2()">Answer</button>
+<p id="q2ans"></p>
+
+
+<!-- Question 3 -->
+<p><b>3. Which one is a chemical change?</b></p>
+<input type="radio" name="q3" id="q3a"> A. Cutting paper<br>
+<input type="radio" name="q3" id="q3b"> B. Melting ice<br>
+<input type="radio" name="q3" id="q3c"> C. Boiling water<br>
+<input type="radio" name="q3" id="q3d"> D. Burning wood<br>
+<button onclick="cg10u1q3()">Answer</button>
+<p id="q3ans"></p>
+
+
+<!-- Question 4 -->
+<p><b>4. Which is evidence of a chemical change?</b></p>
+<input type="radio" name="q4" id="q4a"> A. Change in color<br>
+<input type="radio" name="q4" id="q4b"> B. Change in shape only<br>
+<input type="radio" name="q4" id="q4c"> C. Cutting into smaller pieces<br>
+<input type="radio" name="q4" id="q4d"> D. Melting<br>
+<button onclick="cg10u1q4()">Answer</button>
+<p id="q4ans"></p>
+
+
+<!-- Question 5 -->
+<p><b>5. A chemical reaction is a process in which reactants are converted into:</b></p>
+<input type="radio" name="q5" id="q5a"> A. Atoms only<br>
+<input type="radio" name="q5" id="q5b"> B. Products<br>
+<input type="radio" name="q5" id="q5c"> C. Elements only<br>
+<input type="radio" name="q5" id="q5d"> D. Reactants<br>
+<button onclick="cg10u1q5()">Answer</button>
+<p id="q5ans"></p>
+
+
+<!-- Question 6 -->
+<p><b>6. What is stoichiometry?</b></p>
+<input type="radio" name="q6" id="q6a"> A. Study of colors<br>
+<input type="radio" name="q6" id="q6b"> B. Study of atoms only<br>
+<input type="radio" name="q6" id="q6c"> C. Quantitative study of reactants and products<br>
+<input type="radio" name="q6" id="q6d"> D. Study of temperature only<br>
+<button onclick="cg10u1q6()">Answer</button>
+<p id="q6ans"></p>
+
+
+<!-- Question 7 -->
+<p><b>7. In a chemical equation, substances before the arrow are called:</b></p>
+<input type="radio" name="q7" id="q7a"> A. Products<br>
+<input type="radio" name="q7" id="q7b"> B. Reactants<br>
+<input type="radio" name="q7" id="q7c"> C. Catalysts<br>
+<input type="radio" name="q7" id="q7d"> D. Ions<br>
+<button onclick="cg10u1q7()">Answer</button>
+<p id="q7ans"></p>
+
+
+<!-- Question 8 -->
+<p><b>8. In H₂ + O₂ → H₂O, H₂ and O₂ are:</b></p>
+<input type="radio" name="q8" id="q8a"> A. Products<br>
+<input type="radio" name="q8" id="q8b"> B. Reactants<br>
+<input type="radio" name="q8" id="q8c"> C. Catalysts<br>
+<input type="radio" name="q8" id="q8d"> D. Salts<br>
+<button onclick="cg10u1q8()">Answer</button>
+<p id="q8ans"></p>
+
+
+<!-- Question 9 -->
+<p><b>9. In H₂ + O₂ → H₂O, H₂O is the:</b></p>
+<input type="radio" name="q9" id="q9a"> A. Reactant<br>
+<input type="radio" name="q9" id="q9b"> B. Element<br>
+<input type="radio" name="q9" id="q9c"> C. Product<br>
+<input type="radio" name="q9" id="q9d"> D. Catalyst<br>
+<button onclick="cg10u1q9()">Answer</button>
+<p id="q9ans"></p>
+
+
+<!-- Question 10 -->
+<p><b>10. What is the balanced equation for hydrogen reacting with oxygen?</b></p>
+<input type="radio" name="q10" id="q10a"> A. H₂ + O₂ → H₂O<br>
+<input type="radio" name="q10" id="q10b"> B. 2H₂ + O₂ → 2H₂O<br>
+<input type="radio" name="q10" id="q10c"> C. H₂ + 2O₂ → H₂O<br>
+<input type="radio" name="q10" id="q10d"> D. 2H₂ + 2O₂ → H₂O<br>
+<button onclick="cg10u1q10()">Answer</button>
+<p id="q10ans"></p>
+
+
+<!-- Question 11 -->
+<p><b>11. Which coefficient balances H₂ + O₂ → H₂O?</b></p>
+<input type="radio" name="q11" id="q11a"> A. 1,1,1<br>
+<input type="radio" name="q11" id="q11b"> B. 2,1,2<br>
+<input type="radio" name="q11" id="q11c"> C. 1,2,2<br>
+<input type="radio" name="q11" id="q11d"> D. 2,2,1<br>
+<button onclick="cg10u1q11()">Answer</button>
+<p id="q11ans"></p>
+
+
+<!-- Question 12 -->
+<p><b>12. What is the balanced equation for nitrogen and hydrogen producing ammonia?</b></p>
+<input type="radio" name="q12" id="q12a"> A. N₂ + H₂ → NH₃<br>
+<input type="radio" name="q12" id="q12b"> B. N₂ + 3H₂ → 2NH₃<br>
+<input type="radio" name="q12" id="q12c"> C. 2N₂ + H₂ → 2NH₃<br>
+<input type="radio" name="q12" id="q12d"> D. N₂ + 2H₂ → NH₃<br>
+<button onclick="cg10u1q12()">Answer</button>
+<p id="q12ans"></p>
+
+
+<!-- Question 13 -->
+<p><b>13. Which method uses the least common multiple of atom numbers?</b></p>
+<input type="radio" name="q13" id="q13a"> A. Algebraic method<br>
+<input type="radio" name="q13" id="q13b"> B. LCM method<br>
+<input type="radio" name="q13" id="q13c"> C. Graph method<br>
+<input type="radio" name="q13" id="q13d"> D. Fraction method<br>
+<button onclick="cg10u1q13()">Answer</button>
+<p id="q13ans"></p>
+
+
+<!-- Question 14 -->
+<p><b>14. In the equation Al + O₂ → Al₂O₃, what is the balanced equation?</b></p>
+<input type="radio" name="q14" id="q14a"> A. 2Al + O₂ → Al₂O₃<br>
+<input type="radio" name="q14" id="q14b"> B. 4Al + 3O₂ → 2Al₂O₃<br>
+<input type="radio" name="q14" id="q14c"> C. Al + 2O₂ → Al₂O₃<br>
+<input type="radio" name="q14" id="q14d"> D. 3Al + 2O₂ → Al₂O₃<br>
+<button onclick="cg10u1q14()">Answer</button>
+<p id="q14ans"></p>
+
+
+<!-- Question 15 -->
+<p><b>15. Which of the following is a combination reaction?</b></p>
+<input type="radio" name="q15" id="q15a"> A. AB → A + B<br>
+<input type="radio" name="q15" id="q15b"> B. A + BC → AC + B<br>
+<input type="radio" name="q15" id="q15c"> C. A + B → AB<br>
+<input type="radio" name="q15" id="q15d"> D. AB + CD → AD + CB<br>
+<button onclick="cg10u1q15()">Answer</button>
+<p id="q15ans"></p>
+
+
+<!-- Question 16 -->
+<p><b>16. What is the general form of a combination reaction?</b></p>
+<input type="radio" name="q16" id="q16a"> A. AB → A + B<br>
+<input type="radio" name="q16" id="q16b"> B. A + BC → AC + B<br>
+<input type="radio" name="q16" id="q16c"> C. A + B → AB<br>
+<input type="radio" name="q16" id="q16d"> D. AB + CD → AD + CB<br>
+<button onclick="cg10u1q16()">Answer</button>
+<p id="q16ans"></p>
+
+
+<!-- Question 17 -->
+<p><b>17. Which equation is a combination reaction?</b></p>
+<input type="radio" name="q17" id="q17a"> A. 2Na + Cl₂ → 2NaCl<br>
+<input type="radio" name="q17" id="q17b"> B. CaCO₃ → CaO + CO₂<br>
+<input type="radio" name="q17" id="q17c"> C. Zn + CuSO₄ → ZnSO₄ + Cu<br>
+<input type="radio" name="q17" id="q17d"> D. AgNO₃ + NaCl → AgCl + NaNO₃<br>
+<button onclick="cg10u1q17()">Answer</button>
+<p id="q17ans"></p>
+
+
+<!-- Question 18 -->
+<p><b>18. A decomposition reaction involves:</b></p>
+<input type="radio" name="q18" id="q18a"> A. Many substances forming one product<br>
+<input type="radio" name="q18" id="q18b"> B. One compound breaking into two or more products<br>
+<input type="radio" name="q18" id="q18c"> C. Two compounds exchanging ions<br>
+<input type="radio" name="q18" id="q18d"> D. One element replacing another<br>
+<button onclick="cg10u1q18()">Answer</button>
+<p id="q18ans"></p>
+
+
+<!-- Question 19 -->
+<p><b>19. What is the general form of a decomposition reaction?</b></p>
+<input type="radio" name="q19" id="q19a"> A. A + B → AB<br>
+<input type="radio" name="q19" id="q19b"> B. A + BC → AC + B<br>
+<input type="radio" name="q19" id="q19c"> C. AB → A + B<br>
+<input type="radio" name="q19" id="q19d"> D. AB + CD → AD + CB<br>
+<button onclick="cg10u1q19()">Answer</button>
+<p id="q19ans"></p>
+
+
+<!-- Question 20 -->
+<p><b>20. Which equation is a decomposition reaction?</b></p>
+<input type="radio" name="q20" id="q20a"> A. 2Na + Cl₂ → 2NaCl<br>
+<input type="radio" name="q20" id="q20b"> B. CaCO₃ → CaO + CO₂<br>
+<input type="radio" name="q20" id="q20c"> C. Zn + CuSO₄ → ZnSO₄ + Cu<br>
+<input type="radio" name="q20" id="q20d"> D. H₂ + Cl₂ → 2HCl<br>
+<button onclick="cg10u1q20()">Answer</button>
+<p id="q20ans"></p>
+
+
+<!-- Question 21 -->
+<p><b>21. Which symbol can indicate that heat is supplied to a decomposition reaction?</b></p>
+<input type="radio" name="q21" id="q21a"> A. α<br>
+<input type="radio" name="q21" id="q21b"> B. β<br>
+<input type="radio" name="q21" id="q21c"> C. Δ<br>
+<input type="radio" name="q21" id="q21d"> D. θ<br>
+<button onclick="cg10u1q21()">Answer</button>
+<p id="q21ans"></p>
+
+
+<!-- Question 22 -->
+<p><b>22. Single displacement reaction has the general form:</b></p>
+<input type="radio" name="q22" id="q22a"> A. A + B → AB<br>
+<input type="radio" name="q22" id="q22b"> B. AB → A + B<br>
+<input type="radio" name="q22" id="q22c"> C. A + BC → B + AC<br>
+<input type="radio" name="q22" id="q22d"> D. AB + CD → AD + CB<br>
+<button onclick="cg10u1q22()">Answer</button>
+<p id="q22ans"></p>
+
+
+<!-- Question 23 -->
+<p><b>23. In a single displacement reaction, a more reactive element:</b></p>
+<input type="radio" name="q23" id="q23a"> A. Cannot react<br>
+<input type="radio" name="q23" id="q23b"> B. Displaces a less reactive element<br>
+<input type="radio" name="q23" id="q23c"> C. Always forms water<br>
+<input type="radio" name="q23" id="q23d"> D. Becomes a catalyst<br>
+<button onclick="cg10u1q23()">Answer</button>
+<p id="q23ans"></p>
+
+
+<!-- Question 24 -->
+<p><b>24. Which is a single displacement reaction?</b></p>
+<input type="radio" name="q24" id="q24a"> A. Zn + CuSO₄ → ZnSO₄ + Cu<br>
+<input type="radio" name="q24" id="q24b"> B. CaCO₃ → CaO + CO₂<br>
+<input type="radio" name="q24" id="q24c"> C. 2Na + Cl₂ → 2NaCl<br>
+<input type="radio" name="q24" id="q24d"> D. AgNO₃ + NaCl → AgCl + NaNO₃<br>
+<button onclick="cg10u1q24()">Answer</button>
+<p id="q24ans"></p>
+
+
+<!-- Question 25 -->
+<p><b>25. In Zn + CuSO₄ → ZnSO₄ + Cu, which element is displaced?</b></p>
+<input type="radio" name="q25" id="q25a"> A. Zinc<br>
+<input type="radio" name="q25" id="q25b"> B. Sulfur<br>
+<input type="radio" name="q25" id="q25c"> C. Copper<br>
+<input type="radio" name="q25" id="q25d"> D. Oxygen<br>
+<button onclick="cg10u1q25()">Answer</button>
+<p id="q25ans"></p>
+
 
