@@ -39,7 +39,7 @@ function M10unit1(){
   <h4>Cartesian coordinate system in two dimensions</h4>
   <img id="per" src="qua.png"><br>
   <audio id="qdr" controls>
-  <source src="qd.aac"></audio>
+  <source src="qd.aac.txt"></audio>
   <style>
   #qdr{
     width: 500px;
@@ -50,7 +50,7 @@ function M10unit1(){
   <p>a.A(2,4),B(0,-3),C(-2,1),D(-5,-3)</p>
   <p>b.A(-3,-5),Q(-4,3),R(0,2),S(-2,0)</p>
   <audio id="q" controls>
-  <source src="qd1.aac"></audio>
+  <source src="qd1.aac.txt"></audio>
   <style>
   #q{
     width: 500px;
@@ -59,7 +59,7 @@ function M10unit1(){
   </style><br>
   <img id="s" src="qdq.png"><br>
   <audio id="s" controls>
-  <source src="qs.aac"></audio>
+  <source src="qs.aac.txt"></audio>
   <style>
   #s{
     width: 500px;
@@ -72,7 +72,7 @@ function M10unit1(){
 <p>Solution</p>
 <p>(2,4),(1.1,1.11),(-5,-3),(0.45,0.46)</p>
   <audio id="b" controls>
-  <source src="1.aac"></audio>
+  <source src="1.aac.txt"></audio>
   <style>
   #b{
     width: 500px;
@@ -83,7 +83,7 @@ function M10unit1(){
   <p>a. which of the following ordered pairs belongs to the realtion</p>
   <p>(2,1),(-4,3),(-2,0),(0.2,0.21),(-0.2,-0.21),(7,7),(-2,-3),(0,-5)</p><br>
 <audio id="c" controls>
-  <source src="2.aac"></audio>
+  <source src="2.aac.txt"></audio>
 <style>
    #c{
      width: 500 px;
@@ -98,7 +98,7 @@ function M10unit1(){
   <p>Solution</p>
   <p>(2,4),(3,9),(7,7),(3,12),(6,18),(30,5)</p>
   <audio id="d" controls>
-  <source src="3.aac"></audio>
+  <source src="3.aac.txt"></audio>
 <style>
    #d{
      width: 500 px;
@@ -154,7 +154,7 @@ function M10unit1(){
 <p>(4,10)</p>
 <p>(0,-2),(1,1),(2,4),(3,7),(4,10)</p>
 <audio id="e" controls>
-  <source src="4.aac"></audio>
+  <source src="4.aac.txt"></audio>
 <style>
    #e{
      width: 500 px;
@@ -184,7 +184,7 @@ function mg10u1p2(){
   <p>Domain= (5,-2,5,-2)</p>
   <p>Range= (3,4,2,3)</p>
   <audio id="f" controls>
-  <source src="5.aac"></audio>
+  <source src="5.aac.txt"></audio>
 <style>
    #f{
      width: 500 px;
