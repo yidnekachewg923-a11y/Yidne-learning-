@@ -219,7 +219,7 @@ function mg10u1p2(){
  <img id="per" src="ske.png"><br>
  <p>The graph of y=x</p>
   <audio id="g" controls>
-  <source src="6.aac"></audio>
+  <source src="6.aac.txt"></audio>
 <style>
    #g{
      width: 500 px;
@@ -250,7 +250,7 @@ function mg10u1p2(){
  <img id="per" src="yg.png"><br>
  <p>The graph of y>x</p>
  <audio id="h" controls>
-  <source src="7.aac"></audio>
+  <source src="7.aac.txt"></audio>
 <style>
    #h{
      width: 500 px;
