@@ -198,6 +198,93 @@ function mg10u1p2(){
  <h4>Graph of Relation</h4>
  <p>Example: Sketch the graph of the relation R if R is the set of ordered pairs  (x,y) of real numbers x and y such that y=x</p>
  <p>Solution</p>
+ <table border="1">
+ <tr>
+ <th>x</th>
+ <th>-2</th>
+ <th>-1</th>
+ <th>0</th>
+ <th>1</th>
+ <th>2</th>
+ <tr>
+ <tr>
+ <th>y</th>
+ <th>-2</th>
+ <th>-1</th>
+ <th>0</th>
+ <th>1</th>
+ <th>2</th>
+ <tr>
+ </table><br>
+ <img id="per" src="ske.png"><br>
+ <p>The graph of y=x</p>
+  <audio id="g" controls>
+  <source src="6.aac"></audio>
+<style>
+   #g{
+     width: 500 px;
+     max - width: 500 px:
+   }
+ </style><br>
+ <p>Sketch the graph of the relation R if R be the set of ordered pairs (x,y) of real numbers x and y such that y>x</p>
+  <p>Solution</p>
+ <p> y>x changed in to y=x</p>
+ <table border="1">
+ <tr>
+ <th>x</th>
+ <th>-2</th>
+ <th>-1</th>
+ <th>0</th>
+ <th>1</th>
+ <th>2</th>
+ <tr>
+ <tr>
+ <th>y</th>
+ <th>-2</th>
+ <th>-1</th>
+ <th>0</th>
+ <th>1</th>
+ <th>2</th>
+ <tr>
+ </table><br>
+ <img id="per" src="yg.png"><br>
+ <p>The graph of y>x</p>
+ <audio id="h" controls>
+  <source src="7.aac"></audio>
+<style>
+   #h{
+     width: 500 px;
+     max - width: 500 px:
+   }
+ </style><br>
+ <p>Example: Sketch the graph of the relation R if R be the set of ordered pairs (x,y) of real number x and y such that y≤x+2</p>
+ <p>y≤x+2 changed in to y=x+2</p>
+  <table border="1">
+ <tr>
+ <th>x</th>
+ <th>-3</th>
+ <th>-2</th>
+ <th>-1</th>
+ <th>0</th>
+ <th>1</th>
+ <th>2</th>
+ <th>3</th>
+ <tr>
+ <tr>
+ <th>y</th>
+ <th>-1</th>
+ <th>0</th>
+ <th>1</th>
+ <th>2</th>
+ <th>3</th>
+ <th>4</th>
+ <th>5</th>
+ <tr>
+ </table><br>
+ <img id="per" src="jj.png"><br>
+ <img id="per" src="after.png">
+ 
+ 
   
   
   
