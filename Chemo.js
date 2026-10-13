@@ -1068,5 +1068,57 @@ function cg10u1q35(){
   ? "✅ Correct! AB + CD → AD + CB is double displacement."
   : "❌ Wrong. The correct answer is D.";
     }
+function cg10u1p4(){
+  document.body.innerHTML=`
+  <h2>Oxidation and Reduction</h2>
+  <p>Oxidation is defined as the loss of one or more electrons by an atom </p>
+  <p><b>Oxidation (ኦክሲዴሽን)</b>:- አንድ አቶም አንድ ወይም ከዚያ በላይ ኤሌክትሮኖችን ማጣት ማለት ነው።</p>
+  <p>Reduction is the gain of one or more electrons </p>
+  <p><b>Reduction (ሪዳክሽን)</b> አንድ አቶም አንድ ወይም ከዚያ በላይ ኤሌክትሮኖችን መቀበል ማለት ነው።</p>
+  <p>Oxidation and reduction occurs simultaneously</p>
+  <p><b>Oxidation እና Reduction</b> በተመሳሳይ ጊዜ ይከሰታሉ።</p>
+  <p>Yhi malet oxidation kaale hule reduction ale</p>
+  <p>Reduction kaalem hule oxidation ale</p>
+<p>ኦክሲዴሽን እና ሪዳክሽን</p>
+<p>Oxidation እና Reduction በኬሚካላዊ reaction ውስጥ አብረው የሚከሰቱ ሂደቶች ናቸው።<br>
+ሁለቱም አብረው የሚከሰቱበት reaction Redox reaction ይባላል።<br>
+1. ኦክሲዴሽን (Oxidation) ምንድነው?
+ኦክሲዴሽን ማለት አንድ አቶም፣ ion ወይም molecule አንድ ወይም ከዚያ በላይ electrons ማጣት ነው።<br>
+ስለዚህ፦
+Oxidation = Electron ማጣት (Loss)
+ምሳሌ፦<br>
+e(electron nat)<br>
+Na ---> Na<sup>+1</sup> + e<sup>-1</sup>
+Sodium አንድ electron አጥቷል።<br>
+ስለዚህ Na(oxidized)።</p>
+<p>2.ሪዳክሽን (Reduction) ምንድነው?</p>
+<p>Reduction ማለት አንድ አቶም፣ ion ወይም molecule አንድ ወይም ከዚያ በላይ electrons ማግኘት ነው።<br>
+Reduction = Electron ማግኘት (Gain)
+ምሳሌ፦<br>
+Cl + e<sup>-1</sup> ---> Cl<sup>-1</sup><br>
+Chlorine electron አግኝቷል።<br>
+ስለዚህ Cl ተቀንሷል (reduced)።</p>
+<p>በቀላሉ ለማስታወስ<br>
+OIL RIG<br>
+OIL = Oxidation Is Loss<br>
+ማለት፦<br>
+Oxidation → Electron ማጣት<br>
+RIG = Reduction Is Gain<br>
+ማለት፦<br>
+Reduction → Electron ማግኘት</p>
+<p>Oxidation እና Reduction ለምን አብረው ይከሰታሉ?<br>
+Electron በራሱ አይጠፋም። አንድ ንጥረ ነገር electron ካጣ፣ ሌላ ንጥረ ነገር ያን electron መቀበል አለበት።<br>
+ምሳሌ፦<br>
+Na + Cl --->Na<sup>+1</sup> + Cl<sup>-1</sup><br>
+Sodium:<br>
+Na ---> Na<sup>+1</sup> + e<sup>-1</sup><br>
+Sodium electron አጥቷል።<br>
+ስለዚህ Sodium oxidized ሆኗል።<br>
+Chlorine:<br>
+Cl + e<sup>-1</sup> ---> Cl<sup>-1</sup><br>
+Chlorine electron አግኝቷል።<br>
+ስለዚህ Chlorine reduced ሆኗል።</p>
+`;
+}
 
 
