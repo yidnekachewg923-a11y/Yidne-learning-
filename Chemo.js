@@ -1165,5 +1165,13 @@ Chlorine electron አግኝቷል።<br>
 
 `;
 }
+function showyes(){
+  document.getElementById("ye").innerHTML="🤝🤝";
+  document.getElementById("n").innerHTML="";
+}
+function showno(){
+  document.getElementById("n").innerHTML="🤔🤔";
+   document.getElementById("ye").innerHTML="";
+}
 
 
