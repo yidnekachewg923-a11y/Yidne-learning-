@@ -1118,6 +1118,51 @@ Chlorine:<br>
 Cl + e<sup>-1</sup> ---> Cl<sup>-1</sup><br>
 Chlorine electron አግኝቷል።<br>
 ስለዚህ Chlorine reduced ሆኗል።</p>
+<h3>Oxidation Number or Oxidation State</h3>
+<p>Rules for Assigning oxidation number</p>
+<p>እንዴት ነው oxidation number ምንሰይመው?</p>
+<p><b>Rule 1</b>: The oxidation number of uncombined elements is <b>Zero</b><p>
+<p>የሆነ element ከለላ element ጋ ካልመጣ ማለት አንድ element ብቻውን ከሆነ oxidation numberu <b>Zero,0</b> ነው</p>
+<p>For example Be=0, Cu=0, Br<sub>2</sub>=0, P<sub>4</sub>=0</p>
+<p>ነገር ግን CO<sub>2</sub>, NO<sub>2</sub>, Al<sub>2</sub>O<sub>3</sub> ከሆኑ oxidation number Zero ነው ልንል አንችልም ምክንያቱም እነዚህ element ሳይሆኑ Compound ናችው</p>
+<p><b>Rule 2</b>: The oxidation number of a monoatomic ion is equal to the charge on the ion</p>
+<p>አሁን እዚህ ጋ ሁለት ነገር አለ: Monoatomic እና ion ምባል ነገር</p>
+<p><b>Monoatomic</b> ማለት አንድ atom አንድ atom ብቻ ስይዚ ነው</p>
+<p>Examples:Al, C, Mg, Cu እንዚህ አንድ አንድ atom ብቻ ነው የያዙት</p>
+<p>Examples: O<sub>2</sub>, N<sub>2</sub>, Br<sub>2</sub> ,Cl<sub>2</sub> አሁን እነዚህን ካየክ ሁለት ሁለት atom ነው ስለዚህ እነዚህ Monoatomic ሳይሆን <b>Diatomic</b> ነው ምባሉት</p>
+<p>Eshi Ahun demo ion mn malet endehone Eniy</p>
+<p>When atom  gain or loss electrons it form <b>Ion</b></p>
+<p>And atom electro gain(siyagegn) or loss(siyaxa) ion mibal neger yfexeral.</p>
+<p>Examples Na mibal atom 1 electro loss siyareg Na<sup>+1</sup> Nw mihonewu</p>
+<p>Ena ion hule kelay charge alewu +1,+2,+3,-4,-1,-2 Eyetebale ke atom belay bekul</p>
+<p>Ca<sup>+2</sup>, Al<sup>+3</sup>, Cl<sup>-1</sup>, Br<sup>-1</sup> Enez hulu ion nachewu</p>
+<p>Ena ion behulet yikefelal <b>Positive ion</b> ena <b>Negative ion</b></p>
+<p>Ena and atom electro <b>gain(መቀበለ)</b> siyareg negative ion yhonal Example Cl<sup>-1</sup> Kewosedn Chlorine 1 electro tekebiloal malet nw ena sikebelu be negative sign nw minigeltsewu</p>
+<p>Ena and atom electro <b>loss(መስጠት)</b> Siyareg positive ion yhonal Example Al<sup>+3</sup> kewosedn Aluminum 3 electro setoal malet nw ena sisetu be positive sigh nw minigeltsewu</p>
+<p><b>Ena ion mn endehone gebak👇👇(Yes or No)</b></p>
+<input type="radio" id="yes" name="answer" onclick="showyes()"> Yes
+<p id="ye"></p>
+<input type="radio" id="no" name="answer" onclick="showno()"> No
+<p id="n"></p>
+<p>Eshi ahun monoatomic and ion keteredak wode lay enimelesi</p>
+<p>Ena <b>Rule 2</b> endemilewu kehone monoatomic ion kehone oxidation number ke charge gaa woym kelemitsafewu ቁጥር gaa ekul nw milewu</p>
+<p>Example Mg<sup>+2</sup> Ahun eniy magnesium Monoatomic nw Ena +2 charge alewu silezh oxidation number=+2</p>
+<p>Gebak 😂</p>
+<p>Eshi ye Cu<sup>+2</sup> oxidation number sint nw +2 aydel awo +2 nw</p>
+<p>Al<sup>+3</sup> oxidation number=+3</p>
+<p>O<sup>-2</sup> oxidation number=-2</p>
+<p>Na<sup>+</sup> oxidation number=+1 ayek haa + ketebale bewustu 1 nw miyzewu 1 aytsafim -1 kehone - bicha nw mitsafewu bizu gize</p>
+<p><b>Rule 3</b>: Oxidation number of oxygen in a compound usually -2 except the following cases:-</p>
+<p>A.peroxide is -1 Example: Na<sub>2</sub>O<sub>2</sub>, Al<sub>2</sub>O<sub>2</sub></p>
+<p>B.Superoxide is -1/2 Example:KO<sub>2</sub></p>
+<p>C.Oxygen difluoride is +2 Example:OF<sub>2</sub></p>
+<p>Oxygen bizu compound ga sihone oxidation number -2 nw gn kelay peroxide, superoxide,ena ke flourin ga react siyareg yleyayali</p>
+<p><b>Rule 4</b> The oxidation number of hydrogen in the compound is +1 except when hydrogen react with metals oxidation number is -1</p>
+<p>Ye hydrogen oxidation number hule +1 gn ke metal ga react siyareg oxidation number -1 nw</p>
+<p>Example NaH, CaH<sub>2</sub>, AlH<sub>2</sub></p> 
+<p>Ezih ga kayek Hulum ke hydrogen ga react yaregut Metaloch nachewu Na- metal , Cu - metal, Al- metal</p>
+
+
 `;
 }
 
